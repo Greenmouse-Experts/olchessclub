@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="Chess Club Paystack">
+      <title>Payment Gateway</title>
+      <link rel="stylesheet" href="assetss/css/style.css">
+        <link rel="stylesheet" href="assetss/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-color: #FFE2E2;">
+<div class="paystack-color-bar"></div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-5 offset-md-4">
+            <div class="header">
+              <div class="page-info">
+                 <h3 id="page-name" id="page-description">Payment Gateway</h3>
+              </div>
+              <div class="page-description">
+                 <span id="page-description">Payment page for services rendered by chess_club</span>
+              </div>
+            </div>
+            <form  id="paymentForm" class="payment-form">
+               <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="element-label"><span>First Name</span></div>
+                            <input type="text" id="first-name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="element-label"><span>Last Name</span></div>
+                            <input type="text" id="last-name" class="form-control">
+                        </div>
+                    </div>
+               </div>
+               <div class="form-group">
+                  <div class="element-label"><span>Email</span></div>
+                  <input type="text" id="email-address" class="form-control">
+               </div>
+               <div class="form-group">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="element-label"><span>Currency</span></div>
+                        <select class="form-control" disabled="true">
+                            <option value="NGN">NGN</option>
+                        </select>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="element-label"><span>Amount to charge</span></div>
+                        <input type="text"  id="amountv"  onkeypress="return isNumber(event)" class="form-control">
+                        <input type="hidden" id="amount" class="form-control">
+                     </div>
+                 </div>
+              </div>
+              <div class="form-group">
+                  <button class="btn btn-primary" type="submit">Pay Now</button>
+                  <div class="float-right">
+                      <h6>Total</h6>
+                      <h3 id='total'></h3>
+                  </div>
+             </div>
+          </form>
+          <div id="paystack-footer" class="paystack-footer animated fadeIn">
+              <a target="_blank" href="https://paystack.com/what-is-paystack">
+              <img alt="Paystack secured badge" src="https://paystack.com/assetss/payment/img/paystack-badge-cards.png">
+               </a>
+           </div>
+        </div>
+      </div>
+   </div>
+<script src="https://js.paystack.co/v2/popup.js"></script>
+<script>
+var amountv = document.getElementById('amountv');
+amountv.addEventListener("input",updateValue);
+function updateValue(e) {
+var am = Math.round(((parseInt(e.srcElement.value)+100) / (1 - 0.039)), 2);
+document.getElementById("amount").value = am ? am : '';
+document.getElementById("total").innerHTML = am ? am : '';
+}
+function isNumber(evt) {
+evt = (evt) ? evt : window.event;
+var charCode = (evt.which) ? evt.which : evt.keyCode;
+if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+return false;
+}
+return true;
+}
+var paymentForm = document.getElementById('paymentForm');
+paymentForm.addEventListener("submit", payWithPaystack, false);
+function payWithPaystack(e) {
+e.preventDefault();
+var email = document.getElementById("email-address").value;
+var amount = document.getElementById("amount").value;
+var firstname = document.getElementById("first-name").value;
+var lastname = document.getElementById("last-name").value;
+if(email && amount && firstname && lastname){
+var handler = PaystackPop.setup({
+key: 'pk_test_e70dd8d884e77ece55cd721591fe3e223698691e', // Replace with your public key
+email: email,
+amount: amount*100,
+firstname: firstname,
+lastname: lastname,
+ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+// label: "Optional string that replaces customer email"
+onClose: function(){
+alert('Window closed.');
+},
+callback: function(response){
+var message = 'Payment complete! Reference: ' + response.reference;
+alert(message);
+}
+});
+handler.openIframe();
+}
+else{
+alert('all fields are required')
+}
+}
+</script>
+ </body>
+</html>
