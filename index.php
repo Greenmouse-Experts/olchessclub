@@ -179,17 +179,19 @@
         color: #b6393b;
         font-weight: 600;
         font-size: 20px;
-        }
+    }
 
     .home-news .card .card-text {
         font-size: 17px;
-        line-height:2;
+        line-height: 2;
     }
+
     @media (max-width:1300px) {
         .home-news .card .card-text {
-        font-size: 16px;
-        line-height: 1.7;
+            font-size: 16px;
+            line-height: 1.7;
         }
+
         .home-news .card .btn-div a {
             padding: 13px 25px !important;
             background-color: #b6393b !important;
@@ -348,8 +350,9 @@
             margin-top: -20px !important;
         }
     }
+
     .desk-menu-cont ul {
-    padding-left: 100px !important;
+        padding-left: 100px !important;
     }
 
     /* CLICK ENDS */
@@ -991,20 +994,20 @@
                         </div>
                     </div>
                     <div class=" col-lg-3">
-                        <div class="sub-cont">
-                            <h5>SUBSCRIBE</h5>
-                            <div class="input-email-cont">
-                                <label>Enter Your Email Here</label>
-                                <input type="email" name="email" id="">
-                            </div>
-                            <div class="sub-now-btn">
-                                <button>SUBSCRIBE NOW</button>
-                            </div>
-                        </div>
+                                    <div class="sub-cont">
+                                        <h5>SUBSCRIBE</h5>
+                                        <div class="input-email-cont">
+                                            <label>Enter Your Email Here</label>
+                                            <input type="email" name="email" id="">
+                                        </div>
+                                        <div class="sub-now-btn">
+                                            <button>SUBSCRIBE NOW</button>
+                                        </div>
+                                    </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <p>© 2022 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+                            <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
