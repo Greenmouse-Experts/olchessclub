@@ -989,7 +989,7 @@
                             <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="http://www.orchidhotelsgroup-ng.com/" target="_blank">Orchid Hotel</a></li>
                             <li><a href="vacancy.php">Openings</a></li>
-                            <li><a href="contact-us.php"">Contact</a></li>
+                            <li><a href="contact-us.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
