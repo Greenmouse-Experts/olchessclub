@@ -150,10 +150,6 @@
                 display: none;
             }
         }
-
-        /* Heading */
-        .
-        /* Heading ENDS */
     </style>
 </head>
 

@@ -153,7 +153,7 @@
     }
 
     .home-news {
-        margin-top: 25px
+        margin-top: 30px
     }
 
     .home-news .card {
@@ -162,7 +162,7 @@
 
     .home-news .card img {
         border-radius: 10px 0 0 10px;
-        width: 710px
+        width: 100%;
     }
 
     .home-news .card .card-section {
@@ -178,7 +178,9 @@
     .home-news .card .card-title {
         color: #b6393b;
         font-weight: 600;
-        font-size: 20px;
+        text-transform: uppercase;
+        font-size: 25px;
+        line-height: 33px;
     }
 
     .home-news .card .card-text {
@@ -210,6 +212,7 @@
         padding: 13px 35px;
         background-color: #b6393b;
         border-radius: 5px;
+        font-size: 15px;
         color: #fff;
         transition: .6s
     }
@@ -241,17 +244,6 @@
         font-weight: 600
     }
 
-    @media(max-width:1495px) {
-        .home-news .card img {
-            width: 600px
-        }
-    }
-
-    @media(max-width:1338px) {
-        .home-news .card img {
-            width: 650px
-        }
-    }
 
     @media(max-width:1182px) {
         .home-news .card img {
@@ -351,6 +343,10 @@
         }
     }
 
+    .amin {
+        width: 750px !important;
+    }
+
     .desk-menu-cont ul {
         padding-left: 100px !important;
     }
@@ -391,44 +387,91 @@
             </div>
         </section> -->
 <!-- CLICK ENDS -->
-<!--
-    <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-interval="2900" data-pause="false">
-        <div class="carousel-inner">
-            <div class="carousel-item active caro1">
-            </div>
-            <div class="carousel-item caro2">
-            </div>
-            <div class="carousel-item caro3">
-            </div>
+
+<!-- <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-interval="2900" data-pause="false">
+    <div class="carousel-inner">
+        <div class="carousel-item active caro1">
+        </div>
+        <div class="carousel-item caro2">
+        </div>
+        <div class="carousel-item caro3">
         </div>
     </div>
-    <div class="container-fluid banner-cont">
-        <h1>Orchid-Lekki Chess Club (OLCC)</h1>
-        <p>Nigeria's leading Chess club</p>
-        <div class="ban-bec-btn">
-            <a href="register.php"><button>BECOME A MEMBER</button></a>
-        </div>
+</div>
+<div class="container-fluid banner-cont">
+    <h1>Orchid-Lekki Chess Club (OLCC)</h1>
+    <p>Nigeria's leading Chess club</p>
+    <div class="ban-bec-btn">
+        <a href="register.php"><button>BECOME A MEMBER</button></a>
     </div>
-    -->
+</div> -->
+
 <section class="home-news">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
                 <div class="card">
-                    <div class="row no-gutters">
-                        <div class="col-lg-5">
-                            <img src="left.jpeg" alt="img">
-                        </div>
-                        <div class="col-lg-7 card-section">
-                            <div class="card-body">
-                                <h5 class="card-title">Adegboyega & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</h5>
-                                <p class="card-text">A brilliant show of chess organisation, awe-inspiring performances, and an exclusive finale, separated the 2022 Nigeria National Chess Championships from every other tournament in the country.
-                                    It was a grueling 9-round battle in the Open (Invitational) section of the Championship, and Fide Master Adebayo Adegboyega stood tall above all the other invited players by scoring 8 out of 9 points to become the new National Chess Champion of Nigeria thereby dethroning International Master Femi Balogun who put up a good fight and ended up in the second position.
-                                </p>
-
-                                <div class="btn-div">
-                                    <a href="blog0001.php">Read More</a>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-interval="2900" data-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-5">
+                                        <img src="oll.jpeg" alt="img">
+                                    </div>
+                                    <div class="col-lg-7 card-section">
+                                        <div class="card-body">
+                                            <h5 class="card-title">NIGERIA NATIONAL CHESS CHAMPIONSHIPS MODEL SPORTING EVENT 2023</h5>
+                                            <p class="card-text">According to former world chess champion, Grandmaster Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
+                                                To understand this statement, is to understand what guides the hosts of the Nigeria National Chess Championships, Orchid-Lekki Chess Club (OLCC).
+                                                OLCC was founded in 2019, by a team of like-minds seeking to change the landscape of the Nigeria Chess Industry. Chaired by the extremely devout and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made a bid to host the National Chess Championships in the aftermath of COVID-19.
+                                            </p>
+                                            <div class="btn-div mb-4">
+                                                <a href="article.php">Read Our Articles</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-5">
+                                        <img src="lent.jpeg" alt="img">
+                                    </div>
+                                    <div class="col-lg-7 card-section">
+                                        <div class="card-body">
+                                            <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, PERPETUAL OGBIYOYO</h5>
+                                            <p class="card-text">Perpetual Ogbiyoyo is Nigeria’s National Women Chess Champion. That’s a title she has
+                                                won back-to-back in the last two years after brilliant performances at the 2021 and 2022
+                                                National Chess Championships of Nigeria. In this interview with Kunle Kasumu, President of
+                                                Orchid-Lekki Chess Club (OLCC), the usually private FIDE Master, offers glimpses into her
+                                                personal life, her love for chess, her journey to becoming Nigeria’s best female player, her
+                                                thoughts on the development of chess in Nigeria and the impact of the National Chess
+                                                Championship of Nigeria.
+                                            </p>
+                                            <div class="btn-div mb-4">
+                                                <a href="article0003.php">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-5">
+                                        <img src="left.jpeg" class="amin" alt="img">
+                                    </div>
+                                    <div class="col-lg-7 card-section">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Adegboyeg & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</h5>
+                                            <p class="card-text">A brilliant show of chess organisation, awe-inspiring performances, and an exclusive finale, separated the 2022 Nigeria National Chess Championships from every other tournament in the country.
+                                                It was a grueling 9-round battle in the Open (Invitational) section of the Championship, and Fide Master Adebayo Adegboyega stood tall above all the other invited players by scoring 8 out of 9 points to become the new National Chess Champion of Nigeria thereby dethroning International Master Femi Balogun who put up a good fight and ended up in the second position.
+                                            </p>
+                                            <div class="btn-div mb-4">
+                                                <a href="blog0001.php">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -482,6 +525,26 @@
                 <a href="gallery.php">
                     <img src="news-thumbnails5.jpg" alt="image">
                     <p>National Chess Champion 2021 - Explore Pictures</p>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 py-2">
+                <a href="article.php">
+                    <img src="oll.jpeg" alt="image">
+                    <p>The National Chess Championship of Nigeria: Model Sporting Event</p>
+                </a>
+            </div>
+            <div class="col-md-2 py-2">
+                <a href="article.php">
+                    <img src="lent.jpeg" alt="image">
+                    <p> Conversation with Nigeria's Chess Queen, Perpetual Ogbiyoyo</p>
+                </a>
+            </div>
+            <div class="col-md-2 py-2">
+                <a href="sponsor.php">
+                    <img src="chess22.jpg" alt="image">
+                    <p>National Chess Champion 2022 - Explore Pictures</p>
                 </a>
             </div>
             <div class="col-md-1"></div>
@@ -926,8 +989,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
@@ -976,6 +1037,7 @@
                             <li><a href="team.php">Our Team</a></li>
                             <li><a href="vacancy.php">Openings</a></li>
                             <li><a href="https://twitter.com/orchidchessclub?t=eAihKuFSH8q5rdKoGy3lwQ&s=08"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="https://m.facebook.com/story.php?story_fbid=689848363151739&id=100063797450513&sfnsn=scwspwa&mibextid=6aamW6"><i class="fab fa-facebook"></i> Facebook</a></li>
                             <li><a href="https://www.instagram.com/invites/contact/?i=fz6kyiomfsk0&utm_content=msr3cra"><i class="fab fa-instagram"></i> Instagram</a></li>
                         </ul>
                     </div>
@@ -990,39 +1052,39 @@
                             <li><a href="http://www.orchidhotelsgroup-ng.com/" target="_blank">Orchid Hotel</a></li>
                             <li><a href="vacancy.php">Openings</a></li>
                             <li><a href="contact-us.php">Contact</a></li>
-                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-lg-3">
+                    <div class="sub-cont">
+                        <h5>SUBSCRIBE</h5>
+                        <div class="input-email-cont">
+                            <label>Enter Your Email Here</label>
+                            <input type="email" name="email" id="">
+                        </div>
+                        <div class="sub-now-btn">
+                            <button>SUBSCRIBE NOW</button>
                         </div>
                     </div>
-                    <div class=" col-lg-3">
-                                    <div class="sub-cont">
-                                        <h5>SUBSCRIBE</h5>
-                                        <div class="input-email-cont">
-                                            <label>Enter Your Email Here</label>
-                                            <input type="email" name="email" id="">
-                                        </div>
-                                        <div class="sub-now-btn">
-                                            <button>SUBSCRIBE NOW</button>
-                                        </div>
-                                    </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
-                        </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 100, // offset (in px) from the original trigger point
-            duration: 1500,
-            once: true
-        });
-    </script>
-    <script src="js/index.js"></script>
-    </body>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 100, // offset (in px) from the original trigger point
+        duration: 1500,
+        once: true
+    });
+</script>
+<script src="js/index.js"></script>
+</body>
 
-    </html>
+</html>

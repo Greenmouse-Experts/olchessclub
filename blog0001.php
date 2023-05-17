@@ -135,7 +135,7 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <p>© 2022 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+                            <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>

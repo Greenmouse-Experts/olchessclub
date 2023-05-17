@@ -31,11 +31,9 @@ include "../includes/count.php";
                             </ul>
                         </div>
                     </header>
-
-
                     <div class="row mt-2">
                         <!-- table -->
-                        <div class="col-md-12 mb-2 ">
+                        <div class="col-md-12 mb-2">
                             <div class="card">
                                 <div class="card-header bg-dark">
                                     <h4 class="text-white">Create Notification<i class="fa fa-bell kpi--icons kpi--icons-light"></i></h4>
@@ -61,18 +59,13 @@ include "../includes/count.php";
 
                                     </form>
                                 </div>
-
-
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- popup modal for create member -->
     <!-- Modal -->
