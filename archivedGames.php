@@ -1,14 +1,78 @@
-<?php 
+<?php
 include "includes/dbconnection.php";
 ?>
-<?php include "header.php"?>
+<?php include "header.php" ?>
 <title>Archived Games | Orchid-Lekki Chess Club</title>
 <style>
-        .price-row{padding:50px 30px;border-radius:20px;background-image:url(price-bg.png);background-size:cover;background-position:center center;background-repeat:no-repeat}.container-download{padding-top:70px;padding-left:20px;padding-bottom:70px;background-image:url(download-bg.jpg);background-size:cover;background-position:center center;background-repeat:no-repeat}.container-download h2{color:#f9e9d5;font-weight:700}.book{margin-top:-120px}.btn-download{padding:10px 25px 10px 25px!important;background-color:#fff!important;color:#560e12!important;margin-top:20px!important;border-radius:10px}.btn-download:hover{background-color:#f9e9d5!important;transition:.5s!important;text-decoration:none}@media (max-width:766px){.book{margin-top:10px!important}}.square-holder{padding:30px;align-items:center;display:flex;align-items:center;justify-content:center;margin-bottom:20px;background-color:#ffffff73;min-height:50px;box-shadow:0 0 15px rgba(54,54,54,.26);border-radius:10px}.square-holder img{max-width:100%;transition:all .3s}
-    </style>
-    <div class="container-fluid mem-banner">
-        <h1 style="font-size: 45px;">Archived Games</h1>
-    </div>
+    .price-row {
+        padding: 50px 30px;
+        border-radius: 20px;
+        background-image: url(price-bg.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat
+    }
+
+    .container-download {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-bottom: 70px;
+        background-image: url(download-bg.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat
+    }
+
+    .container-download h2 {
+        color: #f9e9d5;
+        font-weight: 700
+    }
+
+    .book {
+        margin-top: -120px
+    }
+
+    .btn-download {
+        padding: 10px 25px 10px 25px !important;
+        background-color: #fff !important;
+        color: #560e12 !important;
+        margin-top: 20px !important;
+        border-radius: 10px
+    }
+
+    .btn-download:hover {
+        background-color: #f9e9d5 !important;
+        transition: .5s !important;
+        text-decoration: none
+    }
+
+    @media (max-width:766px) {
+        .book {
+            margin-top: 10px !important
+        }
+    }
+
+    .square-holder {
+        padding: 30px;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        background-color: #ffffff73;
+        min-height: 50px;
+        box-shadow: 0 0 15px rgba(54, 54, 54, .26);
+        border-radius: 10px
+    }
+
+    .square-holder img {
+        max-width: 100%;
+        transition: all .3s
+    }
+</style>
+<div class="container-fluid mem-banner">
+    <h1 style="font-size: 45px;">Archived Games</h1>
+</div>
 
 <!--
 <div class="container-fluid container-download">
@@ -82,14 +146,14 @@ include "includes/dbconnection.php";
         </div>
     </div>
     -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 100, // offset (in px) from the original trigger point
-            duration: 1500
-        });
-    </script>
-    <script src="js/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 100, // offset (in px) from the original trigger point
+        duration: 1500
+    });
+</script>
+<script src="js/index.js"></script>
 </body>
 
 </html>

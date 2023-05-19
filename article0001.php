@@ -47,7 +47,7 @@
                 <p>According to former world chess champion, Grandmaster Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
                     To understand this statement, is to understand what guides the hosts of the Nigeria National Chess Championships, Orchid-Lekki Chess Club (OLCC).
                     OLCC was founded in 2019, by a team of like-minds seeking to change the landscape of the Nigeria Chess Industry. Chaired by the extremely devout and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made a bid to host the National Chess Championships in the aftermath of COVID-19.
-                    The two-year hosting right bid was successful, and the first edition of the championship was held at Orchid Hotels, Orchid Road, Lekki-Ajah Expressway in October 2021. It was an unforgettable chess festival with about fifteen-million-naira (N15,000,000) in prizes, close to five hundred (500) participants, and over two thousand (2,000+) visitors at the event. 
+                    The two-year hosting right bid was successful, and the first edition of the championship was held at Orchid Hotels, Orchid Road, Lekki-Ajah Expressway in October 2021. It was an unforgettable chess festival with about fifteen-million-naira (N15,000,000) in prizes, close to five hundred (500) participants, and over two thousand (2,000+) visitors at the event.
                 </p>
             </div>
             <div class="col-md-5 py-2 mb-4">
@@ -61,26 +61,26 @@
                 <p><b>The 2023 National Chess Championships</b></p>
                 <p>Taking lessons from the first two (2) editions, the organizing team has decided to make the 2023 edition of the National Chess Championships one to remember. </p>
 
-                <p>New qualification criteria have been proposed and approved (by the Nigeria Chess Federation) to make the championship more competitive and inclusive.  Rather than just following the pattern of selecting players based on their rating at a certain time of the year, those who will be invited must now play a minimum required number of FIDE rated games. The purpose is to keep the players fresh and active for the championships.  </p>
+                <p>New qualification criteria have been proposed and approved (by the Nigeria Chess Federation) to make the championship more competitive and inclusive. Rather than just following the pattern of selecting players based on their rating at a certain time of the year, those who will be invited must now play a minimum required number of FIDE rated games. The purpose is to keep the players fresh and active for the championships. </p>
                 <p>A ‘Qualifying Tournament’ has been introduced, so that furtherance to playing a specified number of rated games, those who are not in the upper echelon (Top 5) of the sport, who otherwise are victorious at zonal championships (among a variety of events and specifications) will participate in the qualifying tournament. Those who qualify from this event will then join the top-rated players to battle for the 2023-2024 crown of the Nigeria National Chess Champion and the Nigeria National Women’s Chess Champion.</p>
                 <p>More than ever, the Orchid-Lekki Chess club is ensuring that the 2023 National Chess Championships will focus on the education and social impact potential of chess. Partnerships are being established with organizations, such as: Chess in Slums Africa, Promoting Queens and Education Ministries, etc, to ensure that Chess in Slums kids, women /girls in less privileged circumstances and public-school students will receive sponsorships to participate at the National Chess Championships in 2023.</p>
                 <p>These initiatives are being worked on, to leverage on chess as a social and education impact tool, and consequently, aid national development, as well as citizen re-orientation. </p>
                 <p>Considering the fact that the partnership between the Nigeria Chess Federation and Orchid-Lekki Chess Club in organizing the National Chess Championships has been extended till 2025; this signifies an immediate future with bright prospects for chess and its development in the country. This also provides an opportunity for the OLCC to continually improve the quality of organization. This also allows them to explore the many social and developmental benefits of the globally loved sport called Chess. </p>
             </div>
             <div class="col-md-6 py-2">
-                    <img src="allll.jpeg"  height="90%" alt="news img">
-                </div>
-                <div class="col-md-6 py-2">
-                    <img src="alllll.jpeg" height="90%" alt="news img">
-                </div>
+                <img src="allll.jpeg" height="90%" alt="news img">
             </div>
-            <div class="col-md-8 py-3">
-                <p><b><i>Olakunle Kasumu <br> President, <br> Orchid-Lekki Chess Club (OLCC)</i></b></p>
-            </div>
-            <div class="col-md-12 text-right py-4">
-                <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
+            <div class="col-md-6 py-2">
+                <img src="alllll.jpeg" height="90%" alt="news img">
             </div>
         </div>
+        <div class="col-md-8 py-3">
+            <p><b><i>Olakunle Kasumu <br> President, <br> Orchid-Lekki Chess Club (OLCC)</i></b></p>
+        </div>
+        <div class="col-md-12 text-right py-4">
+            <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
+        </div>
+    </div>
     </div>
 </section>
 
