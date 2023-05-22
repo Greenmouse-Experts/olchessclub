@@ -41,7 +41,7 @@
                 <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
             </div>
             <div class="col-md-12 py-3">
-                <h3><b>THE NATIONAL CHESS CHAMPIONSHIP OF NIGERIA: A MODEL SPORTING EVENT!</b></h3>
+                <h3><b>THE 2023 NIGERIA NATIONAL CHESS CHAMPIONSHIPS: A PURPOSE DRIVEN EVENT!</b></h3>
             </div>
             <div class="col-md-7 py-2">
                 <p>According to former world chess champion, Grandmaster Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
@@ -51,7 +51,7 @@
                 </p>
             </div>
             <div class="col-md-5 py-2 mb-4">
-                <img src="lent.jpeg" alt="article img">
+                <img src="all.jpeg" alt="article img">
             </div>
             <div class="col-md-12">
                 <p>A remarkable and transformative development was the unprecedented media exposure and the involvement of corporate sponsors. Orchid Hotels, Sterling Bank, Kellogg’s, Channels Television, Triumph Power and Gas Systems, Lagos State Advertising Agency (LASAA), were amongst a host of others who keyed into the purpose driven national chess event, as sponsors. This indicated that corporate Nigeria was perhaps beginning to realize and acknowledge the education, social and sporting values of chess as well as the vast potential of the artistic and intellectual sport, in terms of impacting human and societal development.</p>
@@ -60,22 +60,39 @@
                 <p>Big kudos to the Nigeria Chess Federation for observing this, and empowering OLCC to actualize the stated objectives. The Public-Private partnership (PPP) arrangement between the Nigeria Chess Federation and the visionary private chess club, is having momentous impact on the overall development of chess in Nigeria, attracting forward looking sponsors and offering a model for sporting events organization in the country.</p>
                 <p><b>The 2023 National Chess Championships</b></p>
                 <p>Taking lessons from the first two (2) editions, the organizing team has decided to make the 2023 edition of the National Chess Championships one to remember. </p>
-
-                <p>New qualification criteria have been proposed and approved (by the Nigeria Chess Federation) to make the championship more competitive and inclusive. Rather than just following the pattern of selecting players based on their rating at a certain time of the year, those who will be invited must now play a minimum required number of FIDE rated games. The purpose is to keep the players fresh and active for the championships. </p>
+            </div>
+            <div class="col-md-6 py-2">
+                <img src="what.jpeg" alt="news img">
+                <p>
+                    <b><i>L-R: FIDE Vice President, Adeyemi Olalekan; NCF President, DIG (Rtd.) Sani Mohammed mni.; Chairman of OLCC, Engineer Odega Jonathan, and NCF Vice President, Prince Adewole Adeyinka</i></b>
+                </p>
+            </div>
+            <div class="col-md-6 py-2">
+            <p>New qualification criteria have been proposed and approved (by the Nigeria Chess Federation) to make the championship more competitive and inclusive. Rather than just following the pattern of selecting players based on their rating at a certain time of the year, those who will be invited must now play a minimum required number of FIDE rated games. The purpose is to keep the players fresh and active for the championships. </p>
                 <p>A ‘Qualifying Tournament’ has been introduced, so that furtherance to playing a specified number of rated games, those who are not in the upper echelon (Top 5) of the sport, who otherwise are victorious at zonal championships (among a variety of events and specifications) will participate in the qualifying tournament. Those who qualify from this event will then join the top-rated players to battle for the 2023-2024 crown of the Nigeria National Chess Champion and the Nigeria National Women’s Chess Champion.</p>
-                <p>More than ever, the Orchid-Lekki Chess club is ensuring that the 2023 National Chess Championships will focus on the education and social impact potential of chess. Partnerships are being established with organizations, such as: Chess in Slums Africa, Promoting Queens and Education Ministries, etc, to ensure that Chess in Slums kids, women /girls in less privileged circumstances and public-school students will receive sponsorships to participate at the National Chess Championships in 2023.</p>
-                <p>These initiatives are being worked on, to leverage on chess as a social and education impact tool, and consequently, aid national development, as well as citizen re-orientation. </p>
-                <p>Considering the fact that the partnership between the Nigeria Chess Federation and Orchid-Lekki Chess Club in organizing the National Chess Championships has been extended till 2025; this signifies an immediate future with bright prospects for chess and its development in the country. This also provides an opportunity for the OLCC to continually improve the quality of organization. This also allows them to explore the many social and developmental benefits of the globally loved sport called Chess. </p>
             </div>
-            <div class="col-md-6 py-2">
-                <img src="allll.jpeg" height="90%" alt="news img">
-            </div>
-            <div class="col-md-6 py-2">
-                <img src="alllll.jpeg" height="90%" alt="news img">
-            </div>
+
         </div>
-        <div class="col-md-8 py-3">
-            <p><b><i>Olakunle Kasumu <br> President, <br> Orchid-Lekki Chess Club (OLCC)</i></b></p>
+       
+       <div class="row">
+       <div class="col-md-6">
+            <p>More than ever, the Orchid-Lekki Chess club is ensuring that the 2023 National Chess Championships will focus on the education and social impact potential of chess. Partnerships are being established with organizations, such as: Chess in Slums Africa, Promoting Queens and Education Ministries, etc, to ensure that Chess in Slums kids, women /girls in less privileged circumstances and public-school students will receive sponsorships to participate at the National Chess Championships in 2023.</p>
+       </div>
+       <div class="col-md-6">
+            <div class="images">
+                <img src="image.png" draggable="false" alt="">
+            </div>
+       </div>
+       </div>
+        <div class="col-md-12">
+        <p>These initiatives are being worked on, to leverage on chess as a social and education impact tool, and consequently, aid national development, as well as citizen re-orientation. </p>
+                <p>Considering the fact that the partnership between the Nigeria Chess Federation and Orchid-Lekki Chess Club in organizing the National Chess Championships has been extended till 2025; this signifies an immediate future with bright prospects for chess and its development in the country. This also provides an opportunity for the OLCC to continually improve the quality of organization. This also allows them to explore the many social and developmental benefits of the globally loved sport called Chess. </p>
+        </div>
+        <div class="col-md-10 py-3">
+            <p><b><i>Babatunde Ogunsiku is the leading reporter on African chess news and the CEO of Africa Chess Media.</i></b></p>
+            <p>
+           <b> <i> This article was originally published on</i></b> <a href="https://africachessmedia.com/">https://africachessmedia.com/</a>
+            </p>
         </div>
         <div class="col-md-12 text-right py-4">
             <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>

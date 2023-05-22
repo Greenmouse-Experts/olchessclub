@@ -41,11 +41,11 @@
                 <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
             </div>
             <div class="col-md-12 py-3">
-                <h3><b>THEA CONVERSATION WITH NIGERIA’S CHESS QUEEN,
-                        PERPETUAL OGBIYOYO</b></h3>
+                <h3><b>A CONVERSATION WITH NIGERIA’S CHESS QUEEN,
+                        WFM PERPETUAL OGBIYOYO</b></h3>
             </div>
             <div class="col-md-7 py-2">
-                <p>Perpetual Ogbiyoyo is Nigeria’s National Women Chess Champion. That’s a title she has
+                <p> Perpetual Ogbiyoyo is Nigeria’s National Women Chess Champion. That’s a title she has
                     won back-to-back in the last two years after brilliant performances at the 2021 and 2022
                     National Chess Championships of Nigeria. In this interview with Kunle Kasumu, President of
                     Orchid-Lekki Chess Club (OLCC), the usually private FIDE Master, offers glimpses into her
@@ -66,7 +66,7 @@
                 </p>
             </div>
             <div class="col-md-5 py-2 mb-4">
-                <img src="alll.jpeg" alt="article img">
+                <img src="lent.jpeg" alt="article img">
             </div>
             <div class="col-md-12">
                 <p>
@@ -131,20 +131,25 @@
                     Nigeria and show people the many opportunities in chess.
                 </p>
                 <p><b>This is inspiring, well-done! What was schooling like for you?</b></p>
-                <p>I studied biomedical technology at the University of Port-Harcourt from 2013 to 2019. I was
-                    meant to finish in 2018 but the World Chess Olympiads happened. Because I was so
-                    passionate about chess, I travelled to Batumi, Georgia, to represent Nigeria at the World
-                    Chess Olympiad. As a result, I lost some time in school and had to return in 2019 to
-                    complete my defense. Chess has been very inspiring for me. It all got serious for me in my
-                    third year in school. That was when I started playing chess competitively and it when I
-                    represented University of Port Harcourt at NUGA. I went on to also play at the West African
-                    University Games in 2018.
-                    Combining chess with my academics was challenging and having to fend for myself did not
-                    make things easier at all. </p>
+                <div class="row">
+                    <div class="col-md-6 py-2">
+                        <img src="IMGG.jpg" height="100%" alt="news img">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>I studied biomedical technology at the University of Port-Harcourt from 2013 to 2019. I was
+                            meant to finish in 2018 but the World Chess Olympiads happened. Because I was so
+                            passionate about chess, I travelled to Batumi, Georgia, to represent Nigeria at the World
+                            Chess Olympiad. As a result, I lost some time in school and had to return in 2019 to
+                            complete my defense. Chess has been very inspiring for me. It all got serious for me in my
+                            third year in school. That was when I started playing chess competitively and it when I
+                            represented University of Port Harcourt at NUGA. I went on to also play at the West African
+                            University Games in 2018.
+                            Combining chess with my academics was challenging and having to fend for myself did not
+                            make things easier at all. </p>
 
-                <p>
-                    <b>Tell us a bit about your love for guitar. How good are you?
-                    </b>
+                        <p>
+                        <b>Tell us a bit about your love for guitar. How good are you?
+                </b>
                 </p>
                 <p>
                     I wouldn’t say I’m good at it. I slowed down on playing the guitar when I began to fall in love
@@ -152,6 +157,9 @@
                     learn. In my first year in school, a lady in my compound taught me how to play a few tunes.
                     Unfortunately, I haven’t really taken the time to master the instrument.
                 </p>
+                    </div>
+                </div>
+               
                 <p>
                     <b>Which do you love more, Chess or Guitar?</b>
                 </p>
@@ -298,17 +306,17 @@
                     It has been a pleasure.
                 </p>
             </div>
-            <div class="col-md-6 py-2">
-                    <img src="allll.jpeg"  height="90%" alt="news img">
-                </div>
-                <div class="col-md-6 py-2">
-                    <img src="alllll.jpeg" height="90%" alt="news img">
-                </div>
+            <div class="col-md-4 py-2">
+                <img src="alllll.jpeg" height="100%" alt="news img">
             </div>
-            <div class="col-md-12 text-right py-4">
-                <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
+            <div class="col-md-8 py-2">
+                <img src="DSC.jpg" height="100%" alt="news img">
             </div>
         </div>
+        <div class="col-md-12 text-right py-4">
+            <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
+        </div>
+    </div>
     </div>
 </section>
 

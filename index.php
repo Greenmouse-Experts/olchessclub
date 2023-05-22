@@ -351,6 +351,12 @@
         padding-left: 100px !important;
     }
 
+    .moving {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     /* CLICK ENDS */
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
@@ -412,22 +418,22 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
                 <div class="card">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-interval="2900" data-pause="false">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-pause="true">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row no-gutters">
                                     <div class="col-lg-5">
-                                        <img src="oll.jpeg" alt="img">
+                                        <img src="all.jpeg" height="100%" alt="img">
                                     </div>
                                     <div class="col-lg-7 card-section">
                                         <div class="card-body">
-                                            <h5 class="card-title">NIGERIA NATIONAL CHESS CHAMPIONSHIPS MODEL SPORTING EVENT 2023</h5>
+                                            <h5 class="card-title">THE 2023 NIGERIA NATIONAL CHESS CHAMPIONSHIPS: A PURPOSE DRIVEN EVENT!</h5>
                                             <p class="card-text">According to former world chess champion, Grandmaster Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
                                                 To understand this statement, is to understand what guides the hosts of the Nigeria National Chess Championships, Orchid-Lekki Chess Club (OLCC).
                                                 OLCC was founded in 2019, by a team of like-minds seeking to change the landscape of the Nigeria Chess Industry. Chaired by the extremely devout and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made a bid to host the National Chess Championships in the aftermath of COVID-19.
                                             </p>
                                             <div class="btn-div mb-4">
-                                                <a href="article.php">Read Our Articles</a>
+                                                <a href="article.php">Read</a>
                                             </div>
                                         </div>
                                     </div>
@@ -435,12 +441,36 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="row no-gutters">
+                                    <div class="col-lg-12">
+                                        <img src="oll.jpg" class="moving" height="70%" alt="img">
+                                    </div>
+
+                                    <!-- <div class="col-lg-7 card-section">
+                                        <div class="card-body">
+                                            <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, PERPETUAL OGBIYOYO</h5>
+                                            <p class="card-text">Perpetual Ogbiyoyo is Nigeria’s National Women Chess Champion. That’s a title she has
+                                                won back-to-back in the last two years after brilliant performances at the 2021 and 2022
+                                                National Chess Championships of Nigeria. In this interview with Kunle Kasumu, President of
+                                                Orchid-Lekki Chess Club (OLCC), the usually private FIDE Master, offers glimpses into her
+                                                personal life, her love for chess, her journey to becoming Nigeria’s best female player, her
+                                                thoughts on the development of chess in Nigeria and the impact of the National Chess
+                                                Championship of Nigeria.
+                                            </p>
+                                            <div class="btn-div mb-4">
+                                                <a href="article0003.php">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row no-gutters">
                                     <div class="col-lg-5">
-                                        <img src="lent.jpeg" alt="img">
+                                        <img src="lent.jpeg" height="100%" alt="img">
                                     </div>
                                     <div class="col-lg-7 card-section">
                                         <div class="card-body">
-                                            <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, PERPETUAL OGBIYOYO</h5>
+                                            <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO</h5>
                                             <p class="card-text">Perpetual Ogbiyoyo is Nigeria’s National Women Chess Champion. That’s a title she has
                                                 won back-to-back in the last two years after brilliant performances at the 2021 and 2022
                                                 National Chess Championships of Nigeria. In this interview with Kunle Kasumu, President of
@@ -456,32 +486,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row no-gutters">
-                                    <div class="col-lg-5">
-                                        <img src="left.jpeg" class="amin" alt="img">
-                                    </div>
-                                    <div class="col-lg-7 card-section">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Adegboyeg & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</h5>
-                                            <p class="card-text">A brilliant show of chess organisation, awe-inspiring performances, and an exclusive finale, separated the 2022 Nigeria National Chess Championships from every other tournament in the country.
-                                                It was a grueling 9-round battle in the Open (Invitational) section of the Championship, and Fide Master Adebayo Adegboyega stood tall above all the other invited players by scoring 8 out of 9 points to become the new National Chess Champion of Nigeria thereby dethroning International Master Femi Balogun who put up a good fight and ended up in the second position.
-                                            </p>
-                                            <div class="btn-div mb-4">
-                                                <a href="blog0001.php">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
-                <!-- <div class="card">
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <!-- <div class="card">
                         <div class="row no-gutters">
                           <div class="col-lg-12">
                             <div class="home-btn">
@@ -492,63 +505,69 @@
                           </div>
                         </div>
                     </div> -->
-            </div>
-            <div class="col-lg-1"></div>
         </div>
-        <div class="row other-news-below">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 py-2">
-                <a href="blog0002.php">
-                    <img src="news-thumbnails1.jpg" alt="image">
-                    <p>Balogun and Ogbiyoyo are National Chess Champions of Nigeria</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="article.php">
-                    <img src="news-thumbnails2.jpg" alt="image">
-                    <p>The National Chess Championship of Nigeria: History In The Making</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="about-us.php">
-                    <img src="news-thumbnails3.jpg" alt="image">
-                    <p>About Orchid-Lekki Chess Club (OLCC)</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="membership.php">
-                    <img src="news-thumbnails4.jpg" alt="image">
-                    <p>Become A Member of Orchid-Lekki Chess Club (OLCC)</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="gallery.php">
-                    <img src="news-thumbnails5.jpg" alt="image">
-                    <p>National Chess Champion 2021 - Explore Pictures</p>
-                </a>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-2 py-2">
-                <a href="article.php">
-                    <img src="oll.jpeg" alt="image">
-                    <p>The National Chess Championship of Nigeria: Model Sporting Event</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="article.php">
-                    <img src="lent.jpeg" alt="image">
-                    <p> Conversation with Nigeria's Chess Queen, Perpetual Ogbiyoyo</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="sponsor.php">
-                    <img src="chess22.jpg" alt="image">
-                    <p>National Chess Champion 2022 - Explore Pictures</p>
-                </a>
-            </div>
-            <div class="col-md-1"></div>
+        <div class="col-lg-1"></div>
+    </div>
+    <div class="row other-news-below">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 py-2">
+            <a href="blog0001.php">
+                <img src="left.jpeg" alt="image">
+                <p>Adegboyega & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</p>
+            </a>
         </div>
+        <div class="col-md-2 py-2">
+            <a href="blog0002.php">
+                <img src="news-thumbnails1.jpg" alt="image">
+                <p>Balogun and Ogbiyoyo are National Chess Champions of Nigeria</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="article.php">
+                <img src="news-thumbnails2.jpg" alt="image">
+                <p>The National Chess Championship of Nigeria: History In The Making</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="about-us.php">
+                <img src="news-thumbnails3.jpg" alt="image">
+                <p>About Orchid-Lekki Chess Club (OLCC)</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="membership.php">
+                <img src="news-thumbnails4.jpg" alt="image">
+                <p>Become A Member of Orchid-Lekki Chess Club (OLCC)</p>
+            </a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2 py-2">
+            <a href="gallery.php">
+                <img src="news-thumbnails5.jpg" alt="image">
+                <p>National Chess Champion 2021 - Explore Pictures</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="article.php">
+                <img src="oll.jpeg" alt="image">
+                <p>The National Chess Championship of Nigeria: Model Sporting Event</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="article.php">
+                <img src="lent.jpeg" alt="image">
+                <p> Conversation with Nigeria's Chess Queen, Perpetual Ogbiyoyo</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="sponsor.php">
+                <img src="chess22.jpg" alt="image">
+                <p>National Chess Champion 2022 - Explore Pictures</p>
+            </a>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
     </div>
 </section>
 
