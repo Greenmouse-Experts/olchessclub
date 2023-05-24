@@ -1,6 +1,25 @@
+
 <?php include "header.php" ?>
 <title>THE NATIONAL CHESS CHAMPIONSHIP OF NIGERIA: HISTORY IN THE MAKING | olchessclub.com</title>
-<style>
+<head>
+    <meta charset="UTF-8">
+<?php
+        $metaTags = array(
+            'description' => 'A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO',
+            'keywords' => 'A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO',
+            'author' => 'by Ogunsiku Babatunde',
+            'image' => 'https://olchessclub.com/lent.jpeg' // URL of the image
+        );
+
+        foreach ($metaTags as $name => $content) {
+            if ($name === 'image') {
+                echo "<meta property=\"og:image\" content=\"$content\">\n";
+            } else {
+                echo "<meta name=\"$name\" content=\"$content\">\n";
+            }
+        }
+    ?>
+</head>
     .inner-blog {
         padding-top: 40px;
         padding-bottom: 30px;
@@ -318,7 +337,7 @@
                         <input type="checkbox" id="toggle" />
                         <div class="btn">
                             <div style="float:right">
-                                Share 
+                                Share
                             </div>
                             <i class="fas fa-share-alt"></i>
                             <i class="fas fa-times"></i>
@@ -503,7 +522,7 @@
     }
 
     .fa-youtube:hover {
-        color:red;
+        color: red;
     }
 
     .fa-instagram-square:hover {
