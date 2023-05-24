@@ -148,18 +148,18 @@
                             make things easier at all. </p>
 
                         <p>
-                        <b>Tell us a bit about your love for guitar. How good are you?
-                </b>
-                </p>
-                <p>
-                    I wouldn’t say I’m good at it. I slowed down on playing the guitar when I began to fall in love
-                    with chess. I bought a guitar in 2013, and while I wasn't very good at it, I was curious to
-                    learn. In my first year in school, a lady in my compound taught me how to play a few tunes.
-                    Unfortunately, I haven’t really taken the time to master the instrument.
-                </p>
+                            <b>Tell us a bit about your love for guitar. How good are you?
+                            </b>
+                        </p>
+                        <p>
+                            I wouldn’t say I’m good at it. I slowed down on playing the guitar when I began to fall in love
+                            with chess. I bought a guitar in 2013, and while I wasn't very good at it, I was curious to
+                            learn. In my first year in school, a lady in my compound taught me how to play a few tunes.
+                            Unfortunately, I haven’t really taken the time to master the instrument.
+                        </p>
                     </div>
                 </div>
-               
+
                 <p>
                     <b>Which do you love more, Chess or Guitar?</b>
                 </p>
@@ -312,12 +312,35 @@
             <div class="col-md-8 py-2">
                 <img src="DSC.jpg" height="100%" alt="news img">
             </div>
-        </div>
-        <div class="col-md-12 text-right py-4">
-            <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
+            <div class="col-md-6">
+                <div class="social-share" style="margin-top: 50px;">
+                    <label class="toggle" for="toggle">
+                        <input type="checkbox" id="toggle" />
+                        <div class="btn">
+                            <div style="float:right">
+                                Share 
+                            </div>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-times"></i>
+                            <div class="social">
+                                <a title="Follow Us On Facebook" href="https://www.facebook.com/share.php?u=https://www.olchessclub.com/olchessclub/article0003.php"><i class="fab fa-facebook"></i></a>
+                                <a title="Follow Us On Twitter" href="https://twitter.com/intent/tweet?text=Share+title&url=https://www.olchessclub.com/olchessclub/article0003.php"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/share.php?u=https://www.olchessclub.com/olchessclub/article0003.php"><i class="fab fa-youtube"></i></a>
+                                <a href="whatsapp://send?text=https://www.olchessclub.com/olchessclub/article0003.php"><i class="fab fa-whatsapp-square"></i></a>
+                                <a href="https://www.instagram.com/=https://www.olchessclub.com/olchessclub/article0003.php"><i class="fab fa-instagram-square"></i></i></a>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-6 text-right py-4" style="margin-top: 50px;">
+                <a href="article.php" class="btn-go-back"><i class="fas fa-long-arrow-alt-left"></i> Go back to Article Section</a>
+            </div>
         </div>
     </div>
-    </div>
+    <!-- <div>
+        <a target="_blank" rel="noreferrer" href='https://www.facebook.com/share.php?u=https://www.olchessclub.com/olchessclub/article0003.php' id="" title="Share this robot"><i class="fab fa-facebook"></i></a>
+    </div> -->
 </section>
 
 
@@ -399,3 +422,134 @@
 </body>
 
 </html>
+<style>
+    .social-share {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        height: 50px;
+        width: auto;
+        box-shadow: 4px 2px 10px 1px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        color: #999;
+        cursor: pointer;
+        position: relative;
+        background: #fff;
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+
+    .btn .fa-share-alt {
+        margin-right: 2px;
+    }
+
+    .btn>i:hover {
+        color: #405de6;
+    }
+
+    .btn:active:not(:focus-within) {
+        box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2) inset;
+    }
+
+    .btn:active:not(:focus-within)>i {
+        transform: translate(0.8px, 0.8px);
+    }
+
+    .social {
+        box-shadow: 4px 2px 10px 1px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: -90px;
+        display: none;
+        justify-content: space-between;
+        background-color: white;
+        padding: 17px 10px;
+        border-radius: 7px;
+    }
+
+    .toggle input[type="checkbox"]:checked+.btn .social {
+        animation: fadeIn 1s;
+        display: flex;
+    }
+
+    .toggle input[type="checkbox"]:not(:checked)+.btn .social {
+        animation: fadeOut 1s;
+    }
+
+    .toggle input[type="checkbox"]:checked+.btn .fa-share-alt {
+        display: none;
+    }
+
+    .toggle input[type="checkbox"]:not(:checked)+.btn .fa-times {
+        display: none;
+    }
+
+    .social a {
+        margin: 0 15px;
+        font-size: 32px;
+        color: #999;
+    }
+
+    .fa-twitter:hover {
+        color: rgb(29, 161, 242);
+    }
+
+    .fa-facebook:hover {
+        color: #365899;
+    }
+
+    .fa-youtube:hover {
+        color:red;
+    }
+
+    .fa-instagram-square:hover {
+        background: -webkit-linear-gradient(#405de6,
+                #5851db,
+                #833ab4,
+                #c13584,
+                #e1306c,
+                #fd1d1d,
+                #f56040,
+                #f77737,
+                #fcaf45,
+                #ffdc80);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .fa-vk:hover {
+        color: #4c75a3;
+    }
+
+    .fa-behance-square:hover {
+        color: black;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+</style>
