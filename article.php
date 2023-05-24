@@ -44,7 +44,6 @@
 <div class="container-fluid cont-banner">
     <h1>Articles</h1>
 </div>
-
 <section class="article-section">
     <div class="container">
         <div class="row">
