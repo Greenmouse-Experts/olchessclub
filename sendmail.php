@@ -1,10 +1,10 @@
 <?php
 
-function sendResetEmail($userEmail,$encrypted)
+function sendResetEmail($userEmail, $encrypted)
 {
 
-    $subject = 'Reset Email';
-    $body = '<!DOCTYPE html>
+  $subject = 'Reset Email';
+  $body = '<!DOCTYPE html>
     <html lang="en">
 
     <head>
@@ -29,28 +29,27 @@ function sendResetEmail($userEmail,$encrypted)
     <body>
       <div class="wrapper">
         <p>Thank you for signing up on our site. Please click on the link below to verify your account</p>
-        <a href=http://chess.greenmouseonline.com/member/reset.php?token='.$encrypted.'>Reset Email!</a>
+        <a href=http://chess.greenmouseonline.com/member/reset.php?token=' . $encrypted . '>Reset Email!</a>
       </div>
     </body>
 
     </html>';
 
-    
-    $headers  = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    $to  = $userEmail;
-    // // Mail it
-    mail($to, $subject, $body, $headers);
-    
+
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+  $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  $to  = $userEmail;
+  // // Mail it
+  mail($to, $subject, $body, $headers);
 }
 
 
 
 
-function sendContactEmail($senderemail,$sendername,$senderphone,$sendermessage,$subject)
+function sendContactEmail($senderemail, $sendername, $senderphone, $sendermessage, $subject)
 {
-  
-    $body = '<!DOCTYPE html>
+
+  $body = '<!DOCTYPE html>
     <html lang="en">
     <head>
       <meta charset="UTF-8">
@@ -77,37 +76,37 @@ function sendContactEmail($senderemail,$sendername,$senderphone,$sendermessage,$
     <body>
       <div class="wrapper">
       
-        <p> Message received from '. $senderemail.' </p>
-        <p>Senders Name '. $sendername.' </p>
-        <p>Senders Phone '. $senderphone.' </p>
+        <p> Message received from ' . $senderemail . ' </p>
+        <p>Senders Name ' . $sendername . ' </p>
+        <p>Senders Phone ' . $senderphone . ' </p>
         <h2 style="font-weight:bolder;">Message</h2>
-        <p>'. $sendermessage.' </p>
+        <p>' . $sendermessage . ' </p>
       </div>
     </body>
     </html>';
 
-    $headers  = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    $to  = "";
-    // // Mail it
-    $result =mail($to, $subject, $body, $headers);
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+  $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  $to  = "";
+  // // Mail it
+  $result = mail($to, $subject, $body, $headers);
 
-    if ($result > 0) {
-      $_SESSION['message'] = " your message was sent  ";
-      header('Location:../contact.php');
-      die();
-    } else {
-      $_SESSION['error'] = " Your message  was not sent  ";
-      header('Location:../contact.php');
-      die();
-    }
+  if ($result > 0) {
+    $_SESSION['message'] = " your message was sent  ";
+    header('Location:../contact.php');
+    die();
+  } else {
+    $_SESSION['error'] = " Your message  was not sent  ";
+    header('Location:../contact.php');
+    die();
+  }
 }
 
 
 function sendNotificationEmail($receipients)
 {
-    $subject =  "OLCC Admin Notification";
-    $body = '<!DOCTYPE html>
+  $subject =  "OLCC Admin Notification";
+  $body = '<!DOCTYPE html>
     <html lang="en">
     <head>
       <meta charset="UTF-8">
@@ -139,20 +138,21 @@ function sendNotificationEmail($receipients)
     </body>
     </html>';
 
-    // Create a message
-    $headers  = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    $to  = $receipients;
-    // // Mail it
-    $result =mail($to, $subject, $body, $headers);
+  // Create a message
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+  $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  $to  = $receipients;
+  // // Mail it
+  $result = mail($to, $subject, $body, $headers);
 }
 
 
 
 
-function emailMembershipCreation($email,$pass) {
-    $subject =  "Membership Account created";
-    $body = '<!DOCTYPE html>
+function emailMembershipCreation($email, $pass)
+{
+  $subject =  "Membership Account created";
+  $body = '<!DOCTYPE html>
     <html lang="en">
     <head>
       <meta charset="UTF-8">
@@ -180,20 +180,19 @@ function emailMembershipCreation($email,$pass) {
       <div class="wrapper">
         <h2 style="font-weight:bolder;">Notification</h2>
         <p> Admin has created your account you can login using the following details</p>
-        <p>Password:'.$pass.'<p>
-        <p>Email:'.$email.'<p>
+        <p>Password:' . $pass . '<p>
+        <p>Email:' . $email . '<p>
         <p>You can use this link to acess your acount</p>
         <a href=http://chess.greenmouseonline.com/member>Access</a>
   
       </div>
     </body>
     </html>';
-  
-   // Create a message
-   $headers  = 'MIME-Version: 1.0' . "\r\n";
-   $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-   $to  = $email;
-   // // Mail it
-   $result =mail($to, $subject, $body, $headers);
-  }
-  
+
+  // Create a message
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+  $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  $to  = $email;
+  // // Mail it
+  $result = mail($to, $subject, $body, $headers);
+}
