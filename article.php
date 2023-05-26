@@ -62,7 +62,7 @@
                             OLCC was founded in 2019, by a team of like-minds seeking to change the landscape of the Nigeria Chess Industry. Chaired by the extremely devout and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made a bid to host the National Chess Championships in the aftermath of COVID-19.
                         </p>
                         <div class="btn-div">
-                            <a href="article0001.php">Read More</a>
+                            <a href="A-Purpose-Driven-Event.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                             Championship of Nigeria.
                         </p>
                         <div class="btn-div" style="float: left;">
-                            <a href="article0003.php">Read More</a>
+                            <a href="Conversation-with-WFM-Ogbiyoyo.php">Read More</a>
                         </div>
                     </div>
                 </div>
