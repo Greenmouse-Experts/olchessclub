@@ -1,54 +1,54 @@
-
 <?php include "header.php" ?>
 <title>THE NATIONAL CHESS CHAMPIONSHIP OF NIGERIA: HISTORY IN THE MAKING | olchessclub.com</title>
+
 <head>
     <meta charset="UTF-8">
-<?php
-        $metaTags = array(
-            'description' => 'A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO',
-            'keywords' => 'A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO',
-            'author' => 'by Ogunsiku Babatunde',
-            'image' => 'https://olchessclub.com/lent.jpeg' // URL of the image
-        );
+    <?php
+    $metaTags = array(
+        'description' => 'A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO',
+        'keywords' => 'A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO',
+        'author' => 'by Ogunsiku Babatunde',
+        'image' => 'https://olchessclub.com/lent.jpeg' // URL of the image
+    );
 
-        foreach ($metaTags as $name => $content) {
-            if ($name === 'image') {
-                echo "<meta property=\"og:image\" content=\"$content\">\n";
-            } else {
-                echo "<meta name=\"$name\" content=\"$content\">\n";
-            }
+    foreach ($metaTags as $name => $content) {
+        if ($name === 'image') {
+            echo "<meta property=\"og:image\" content=\"$content\">\n";
+        } else {
+            echo "<meta name=\"$name\" content=\"$content\">\n";
         }
+    }
     ?>
 </head>
-    .inner-blog {
-        padding-top: 40px;
-        padding-bottom: 30px;
-    }
+.inner-blog {
+padding-top: 40px;
+padding-bottom: 30px;
+}
 
-    .inner-blog .btn-go-back {
-        padding: 10px 20px;
-        border-radius: 5px;
-        background-color: #b6393b;
-        color: #fff
-    }
+.inner-blog .btn-go-back {
+padding: 10px 20px;
+border-radius: 5px;
+background-color: #b6393b;
+color: #fff
+}
 
-    .inner-blog .btn-go-back i {
-        padding-right: 5px
-    }
+.inner-blog .btn-go-back i {
+padding-right: 5px
+}
 
-    .inner-blog h3 {
-        color: #b6393b
-    }
+.inner-blog h3 {
+color: #b6393b
+}
 
-    .inner-blog img {
-        border-radius: 10px;
-        width: 100%
-    }
+.inner-blog img {
+border-radius: 10px;
+width: 100%
+}
 
-    .inner-blog p {
-        font-size: 15px;
-        line-height: 2;
-    }
+.inner-blog p {
+font-size: 15px;
+line-height: 2;
+}
 </style>
 <script src="https://kit.fontawesome.com/997b229808.js" crossorigin="anonymous"></script>
 
