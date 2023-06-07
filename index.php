@@ -486,7 +486,9 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
-                                            <img src="KK.jpeg" alt="img">
+                                           <a href="all.php">
+                                                <img src="KK.jpeg" alt="img">
+                                           </a>
                                         </div>
                                     </div>
 
