@@ -356,7 +356,28 @@
         height: 100%;
         object-fit: cover;
     }
-
+    .size{
+        width: 300px !important;
+        display: block;
+        margin: auto;
+    }
+    /* .calling{
+        background-image: url(./KK.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 500px 0px;
+        width: 100%;
+        object-fit: cover;
+    } */
+    /* .calling{
+        height: 350px;
+        width: 100%;
+    } */
+    .calling img{
+        width:100%;
+        height: auto;
+        object-fit: cover;
+    }
     /* CLICK ENDS */
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
@@ -393,7 +414,29 @@
             </div>
         </section> -->
 <!-- CLICK ENDS -->
+<!-- .caro1 {
+    background-image: url('./');
+    background-size: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.caro2 {
+    background: url('../images/banner-images/2.png');
+    background-size: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.caro3 {
+    background: url('../images/banner-images/3.png');
+    background-size: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+} -->
 <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-interval="2900" data-pause="false">
     <div class="carousel-inner">
         <div class="carousel-item active caro1">
@@ -420,7 +463,7 @@
                 <div class="card">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-pause="true">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
+                            <div class="carousel-item">
                                 <div class="row no-gutters">
                                     <div class="col-lg-5">
                                         <img src="all.jpeg" height="100%" alt="img">
@@ -439,10 +482,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item active">
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
-                                        <img src="oll.jpg" class="moving" height="70%" alt="img">
+                                        <div class="calling">
+                                            <img src="KK.jpeg" alt="img">
+                                        </div>
                                     </div>
 
                                     <!-- <div class="col-lg-7 card-section">
@@ -564,6 +609,12 @@
             <a href="sponsor.php">
                 <img src="chess22.jpg" alt="image">
                 <p>National Chess Champion 2022 - Explore Pictures</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="sponsor.php">
+                <img src="KK.jpeg" alt="image">
+                <p>OLCC Junior Tournament (June Edition)</p>
             </a>
         </div>
         <div class="col-md-1"></div>

@@ -263,30 +263,6 @@ h6 {
     z-index: 0;
 }
 
-.caro1 {
-    background: url('../images/banner-images/1.jpg');
-    background-size: 100%;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.caro2 {
-    background: url('../images/banner-images/2.png');
-    background-size: 100%;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.caro3 {
-    background: url('../images/banner-images/3.png');
-    background-size: 100%;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .banner-cont {
     text-align: center;
     position: absolute;
