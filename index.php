@@ -356,11 +356,13 @@
         height: 100%;
         object-fit: cover;
     }
-    .size{
+
+    .size {
         width: 300px !important;
         display: block;
         margin: auto;
     }
+
     /* .calling{
         background-image: url(./KK.jpeg);
         background-repeat: no-repeat;
@@ -373,11 +375,12 @@
         height: 350px;
         width: 100%;
     } */
-    .calling img{
-        width:100%;
+    .calling img {
+        width: 100%;
         height: auto;
         object-fit: cover;
     }
+
     /* CLICK ENDS */
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
@@ -467,9 +470,9 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
-                                           <a href="all.php">
+                                            <a href="all.php">
                                                 <img src="KK.jpeg" alt="img">
-                                           </a>
+                                            </a>
                                         </div>
                                     </div>
 
@@ -495,9 +498,9 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
-                                           <a href="octo.php">
+                                            <a href="octo.php">
                                                 <img src="mmm.jpeg" alt="img">
-                                           </a>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
