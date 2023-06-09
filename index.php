@@ -463,25 +463,6 @@
                 <div class="card">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-pause="true">
                         <div class="carousel-inner">
-                            <div class="carousel-item">
-                                <div class="row no-gutters">
-                                    <div class="col-lg-5">
-                                        <img src="all.jpeg" height="100%" alt="img">
-                                    </div>
-                                    <div class="col-lg-7 card-section">
-                                        <div class="card-body">
-                                            <h5 class="card-title">THE 2023 NIGERIA NATIONAL CHESS CHAMPIONSHIPS: A PURPOSE DRIVEN EVENT!</h5>
-                                            <p class="card-text">According to former world chess champion, Grandmaster Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
-                                                To understand this statement, is to understand what guides the hosts of the Nigeria National Chess Championships, Orchid-Lekki Chess Club (OLCC).
-                                                OLCC was founded in 2019, by a team of like-minds seeking to change the landscape of the Nigeria Chess Industry. Chaired by the extremely devout and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made a bid to host the National Chess Championships in the aftermath of COVID-19.
-                                            </p>
-                                            <div class="btn-div mb-4">
-                                                <a href="article.php">Read</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="carousel-item active">
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
@@ -508,6 +489,36 @@
                                             </div>
                                         </div>
                                     </div> -->
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-12">
+                                        <div class="calling">
+                                           <a href="octo.php">
+                                                <img src="mmm.jpeg" alt="img">
+                                           </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-5">
+                                        <img src="all.jpeg" height="100%" alt="img">
+                                    </div>
+                                    <div class="col-lg-7 card-section">
+                                        <div class="card-body">
+                                            <h5 class="card-title">THE 2023 NIGERIA NATIONAL CHESS CHAMPIONSHIPS: A PURPOSE DRIVEN EVENT!</h5>
+                                            <p class="card-text">According to former world chess champion, Grandmaster Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
+                                                To understand this statement, is to understand what guides the hosts of the Nigeria National Chess Championships, Orchid-Lekki Chess Club (OLCC).
+                                                OLCC was founded in 2019, by a team of like-minds seeking to change the landscape of the Nigeria Chess Industry. Chaired by the extremely devout and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made a bid to host the National Chess Championships in the aftermath of COVID-19.
+                                            </p>
+                                            <div class="btn-div mb-4">
+                                                <a href="article.php">Read</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -589,12 +600,12 @@
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-1"></div>
-        <div class="col-md-2 py-2">
+        <!-- <div class="col-md-2 py-2">
             <a href="gallery.php">
                 <img src="news-thumbnails5.jpg" alt="image">
                 <p>National Chess Champion 2021 - Explore Pictures</p>
             </a>
-        </div>
+        </div> -->
         <div class="col-md-2 py-2">
             <a href="article.php">
                 <img src="oll.jpeg" alt="image">
@@ -616,7 +627,13 @@
         <div class="col-md-2 py-2">
             <a href="sponsor.php">
                 <img src="KK.jpeg" alt="image">
-                <p>OLCC Junior Tournament (June Edition)</p>
+                <p>OLCC Junior Tournament (June Edition 2023)</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="sponsor.php">
+                <img src="mmm.jpeg" alt="image">
+                <p>Nigeria National Chess Championship (October Edition 2023)</p>
             </a>
         </div>
         <div class="col-md-1"></div>
