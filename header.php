@@ -267,8 +267,9 @@
                             <a href="liveGames.php">Watch Live Games</a>
                             <a href="results.php">Results</a>
                             <a href="archivedGames.php">Archived Games</a> -->
-                        <a href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a>
+                        <!-- <a href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a> -->
                         <a href="sponsor.php">National Chess Championship 2022</a>
+                        <a href="sponsor23.php">National Chess Championship 2023</a>
                     </div>
                 </li>
             </ul>

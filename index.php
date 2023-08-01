@@ -1101,73 +1101,68 @@
 </div>
 <!-- News Section Ends -->
 
-<div class="foot-banner" style="height: 412px !important;">
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="contact-cont">
-                        <h5>CONTACT US</h5>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Orchid Hotels, Plot 3 DreamWorld <br>
-                            Africana Way, Ikota-Lekki.
-                            Lagos</p>
-                        <i class="fas fa-phone-alt"></i>
-                        <p>
-                            08113936417, 08033106208, 08096602599
-                        </p>
-                        <i class="fas fa-envelope"></i>
-                        <p>info@chessclub.com</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="info-cont">
-                        <h5>INFORMATION</h5>
-                        <ul>
-                            <li><a href="store.php">Store</a></li>
-                            <li><a href="register.php">Register Now</a></li>
-                            <li><a href="team.php">Our Team</a></li>
-                            <li><a href="vacancy.php">Openings</a></li>
-                            <li><a href="https://twitter.com/orchidchessclub?t=eAihKuFSH8q5rdKoGy3lwQ&s=08"><i class="fab fa-twitter"></i> Twitter</a></li>
-                            <li><a href="https://m.facebook.com/story.php?story_fbid=689848363151739&id=100063797450513&sfnsn=scwspwa&mibextid=6aamW6"><i class="fab fa-facebook"></i> Facebook</a></li>
-                            <li><a href="https://www.instagram.com/invites/contact/?i=fz6kyiomfsk0&utm_content=msr3cra"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="quick-cont">
-                        <h5>QUICK LINKS</h5>
-                        <ul>
-                            <li><a href="about-us.php">About OLCC</a></li>
-                            <li><a href="membership.php">OLCC Membership</a></li>
-                            <li><a href="gallery.php">Gallery</a></li>
-                            <li><a href="http://www.orchidhotelsgroup-ng.com/" target="_blank">Orchid Hotel</a></li>
-                            <li><a href="vacancy.php">Openings</a></li>
-                            <li><a href="contact-us.php">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class=" col-lg-3">
-                    <div class="sub-cont">
-                        <h5>SUBSCRIBE</h5>
-                        <div class="input-email-cont">
-                            <label>Enter Your Email Here</label>
-                            <input type="email" name="email" id="">
-                        </div>
-                        <div class="sub-now-btn">
-                            <button>SUBSCRIBE NOW</button>
+<div class="foot-banner">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contact-cont">
+                            <h5>CONTACT US</h5>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Orchid Hotels, Plot 3 DreamWorld <br>
+                                Africana Way, Ikota-Lekki.
+                                Lagos</p>
+                            <i class="fas fa-phone-alt"></i>
+                            <p>
+                                08113936417, 08033106208, 08096602599
+                            </p>
+                            <i class="fas fa-envelope"></i>
+                            <p>info@chessclub.com</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+                    <div class="col-lg-3">
+                        <div class="info-cont">
+                            <h5>INFORMATION</h5>
+                            <ul>
+                                <li><a href="store.php">Store</a></li>
+                                <li><a href="register.php">Register Now</a></li>
+                                <li><a href="team.php">Our Team</a></li>
+                                <li><a href="vacancy.php">Openings</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="quick-cont">
+                            <h5>QUICK LINKS</h5>
+                            <ul>
+                                <li><a href="about-us.php">About OLCC</a></li>
+                                <li><a href="membership.php">OLCC Membership</a></li>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <li><a href="http://www.orchidhotelsgroup-ng.com/" target="_blank">Orchid Hotel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="sub-cont">
+                            <h5>SUBSCRIBE</h5>
+                            <div class="input-email-cont">
+                                <label>Enter Your Email Here</label>
+                                <input type="email" name="email" id="">
+                            </div>
+                            <div class="sub-now-btn">
+                                <button>SUBSCRIBE NOW</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <hr>
+        <div class="copy-right">
+            <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+        </div>
     </div>
-</div>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init({

@@ -858,7 +858,7 @@ include "includes/dbconnection.php";
         </div>
         <hr>
         <div class="copy-right">
-            <p>© 2022 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+            <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
         </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
