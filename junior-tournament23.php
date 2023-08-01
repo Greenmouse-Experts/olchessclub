@@ -189,25 +189,25 @@ include "includes/dbconnection.php";
             <div class="the">
                 <h4>
                     <b>
-                    TOURNAMENT OVERVIEW
+                        TOURNAMENT OVERVIEW
                     </b>
                 </h4>
             </div>
             <p>
-            Apart from the National Chess Championship (NCC) Invitational, NCC 2023 will also have an Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories in order to enable more players participate.
+                Apart from the National Chess Championship (NCC) Invitational, NCC 2023 will also have an Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories in order to enable more players participate.
             </p>
             <p>
-            While the objective of the NCC is primarily to determine the Nigeria National Chess Champion, and the Nigeria Women Chess Champion, the inclusion of the Open Section (Blitz, Masters, Opens & Juniors) is to expand participation and have a truly special national chess festival.
+                While the objective of the NCC is primarily to determine the Nigeria National Chess Champion, and the Nigeria Women Chess Champion, the inclusion of the Open Section (Blitz, Masters, Opens & Juniors) is to expand participation and have a truly special national chess festival.
             </p>
             <p>
-            The following are the regulations for the junior tournaments.
+                The following are the regulations for the junior tournaments.
             </p>
         </div>
         <div class="col-md-12">
             <div class="the schedule">
                 <h4>
                     <b>
-                    REGULATIONS (JUNIOR CATEGORY)
+                        REGULATIONS (JUNIOR CATEGORY)
                     </b>
                 </h4>
             </div>
@@ -225,7 +225,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                        3 rd – 4 th of October, 2023
+                            3 rd – 4 th of October, 2023
                         </td>
                     </tr>
                     <tr>
@@ -245,7 +245,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                        Swiss System (Dutch); 6 Rounds (Rated)
+                            Swiss System (Dutch); 6 Rounds (Rated)
                         </td>
                     </tr>
                     <!-- <tr>
@@ -265,9 +265,9 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                        (G/45 +15): 45 minutes for the game with an addition of 15 seconds
-(increment) per move starting from move one.
-<b>
+                            (G/45 +15): 45 minutes for the game with an addition of 15 seconds
+                            (increment) per move starting from move one.
+                            <b>
                                 <u>Tie-break Criteria</u> <br>
                             </b>
 
@@ -281,7 +281,7 @@ include "includes/dbconnection.php";
                                 </b>
                             </p>
                         </td>
-                        
+
                     </tr>
                     <tr>
                         <td>
@@ -290,19 +290,19 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                        U20: ₦6,000.00 | U14: ₦6,000.00 | U10: ₦6,000.00
+                            U20: ₦6,000.00 | U14: ₦6,000.00 | U10: ₦6,000.00
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <b>
-                            Prize Categories
+                                Prize Categories
                             </b>
                         </td>
                         <td>
-                        U20 1 st – 5 th <br>
-U14 1 st – 5 th <br>
-U10 1 st – 5 th
+                            U20 1 st – 5 th <br>
+                            U14 1 st – 5 th <br>
+                            U10 1 st – 5 th
                         </td>
                     </tr>
                     <tr>
@@ -320,7 +320,7 @@ U10 1 st – 5 th
             <div class="the schedule">
                 <h4>
                     <b>
-                    PLAYING SCHEDULE (MASTERS &AMP; OPENS)
+                        PLAYING SCHEDULE (MASTERS &AMP; OPENS)
                     </b>
                 </h4>
             </div>
@@ -362,14 +362,14 @@ U10 1 st – 5 th
                         <td>Round 6</td>
                     </tr>
                     <tr>
-                    <td style="border-bottom: 1px solid #fff;">9rd October</td>
+                        <td style="border-bottom: 1px solid #fff;">9rd October</td>
                         <td>6pm</td>
                         <td>Closing Ceremony</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-    
+
         <div class="col-md-12 py-4">
             <div class="the schedule">
                 <h4>
@@ -387,7 +387,7 @@ U10 1 st – 5 th
             <div class="the schedule">
                 <h4>
                     <b>
-                    PRIZE SCHEDULE (UNDER-14)
+                        PRIZE SCHEDULE (UNDER-14)
                     </b>
                 </h4>
             </div>
@@ -400,7 +400,7 @@ U10 1 st – 5 th
             <div class="the schedule">
                 <h4>
                     <b>
-                    PRIZE SCHEDULE (UNDER-10)
+                        PRIZE SCHEDULE (UNDER-10)
                     </b>
                 </h4>
             </div>
