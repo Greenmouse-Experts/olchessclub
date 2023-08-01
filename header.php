@@ -204,12 +204,15 @@
                         NCC
                     </a>
                     <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ncc.php">NCC</a>
+                        <!-- <a class="dropdown-item" href="ncc.php">NCC</a>
                         <a class="dropdown-item" href="NCCMain.php">NCC Main Event</a>
                         <a class="dropdown-item" href="NCCOpen.php">NCC Open Section</a>
                         <a class="dropdown-item" href="liveGames.php">Watch Live Games</a>
                         <a class="dropdown-item" href="archivedGames.php">Archived Games</a>
-                        <a class="dropdown-item" href="results.php">Results</a>
+                        <a class="dropdown-item" href="results.php">Results</a> -->
+                        <a class="dropdown-item" href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a>
+                        <a class="dropdown-item" href="sponsor.php">National Chess Championship 2022</a>
+                        <a class="dropdown-item" href="sponsor23.php">National Chess Championship 2023</a>
                     </div>
                 </li>
                 <a href="member/login.php" class="mob-link">SIGN IN</a>
@@ -267,7 +270,7 @@
                             <a href="liveGames.php">Watch Live Games</a>
                             <a href="results.php">Results</a>
                             <a href="archivedGames.php">Archived Games</a> -->
-                        <!-- <a href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a> -->
+                        <a href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a>
                         <a href="sponsor.php">National Chess Championship 2022</a>
                         <a href="sponsor23.php">National Chess Championship 2023</a>
                     </div>
