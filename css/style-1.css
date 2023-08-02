@@ -2296,10 +2296,10 @@ h6 {
 }
 
 .reg-form-cont {
-    width: 40%;
+    /* width: 40%; */
     margin: auto;
-    background: linear-gradient(to left, #222222 0%, #bd4c4e 100%);
-    padding: 30px 40px;
+    /* background: linear-gradient(to left, #222222 0%, #bd4c4e 100%); */
+    padding: 20px 40px;
     border-radius: 7px;
 }
 

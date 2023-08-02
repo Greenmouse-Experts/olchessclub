@@ -245,7 +245,8 @@
                 </li>
                 <li class="desk-li"><a href="membership.php">
                         MEMBERSHIP
-                    </a></li>
+                    </a>
+                </li>
                 <li class="desk-li"><a href="events.php">
                         EVENTS
                     </a></li>
