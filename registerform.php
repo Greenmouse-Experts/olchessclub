@@ -153,20 +153,20 @@
                     </div>
                     <!--Full Name-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
-                            <div class="col-lg-12">
-                                <label>First Name
-                                    <span>*</span></label> <br>
-                                <input type="text" class="input-one" placeholder="Your answer" name="full_name" required>
-                            </div>
+                        <div class="col-lg-12">
+                            <label>First Name
+                                <span>*</span></label> <br>
+                            <input type="text" class="input-one" placeholder="Your answer" name="full_name" required>
                         </div>
-                        <!--Email Here-->
-                        <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
-                            <div class="col-lg-12">
-                                <label>Last Name
-                                    <span>*</span></label> <br>
-                                <input type="text" class="input-one" placeholder="Your answer" name="email" required>
-                            </div>
+                    </div>
+                    <!--Email Here-->
+                    <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
+                        <div class="col-lg-12">
+                            <label>Last Name
+                                <span>*</span></label> <br>
+                            <input type="text" class="input-one" placeholder="Your answer" name="email" required>
                         </div>
+                    </div>
                     <!--Gender-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
@@ -191,11 +191,11 @@
                         </div>
                     </div>
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
-                            <div class="col-lg-12">
-                                <label>FIDE ID (IF ANY YES OR NO)<span> *</span></label> <br>
-                                <input type="text" class="input-one" placeholder="Your answer" name="telephone_number" required>
-                            </div>
+                        <div class="col-lg-12">
+                            <label>FIDE ID (IF ANY YES OR NO)<span> *</span></label> <br>
+                            <input type="text" class="input-one" placeholder="Your answer" name="telephone_number" required>
                         </div>
+                    </div>
                     <!--Which Chess Club Do You Belong?-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
