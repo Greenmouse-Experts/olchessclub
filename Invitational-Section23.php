@@ -122,6 +122,22 @@ include "includes/dbconnection.php";
         color: #000;
     }
 
+    .btn-div {
+    margin-top: 40px;
+    margin-bottom: 30px
+  }
+
+  .btn-div .btn-register {
+    padding: 10px 30px;
+    background-color: #b6393b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px
+  }
+  .btn-div .btn-register:hover{
+    background-color: #000;
+  }
+
     /* .table tbody tr:nth-child(even) {
     
 } */

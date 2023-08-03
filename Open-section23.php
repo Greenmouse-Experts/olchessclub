@@ -122,6 +122,22 @@ include "includes/dbconnection.php";
         color: #000;
     }
 
+    .btn-div {
+    margin-top: 40px;
+    margin-bottom: 30px
+  }
+
+  .btn-div .btn-register {
+    padding: 10px 30px;
+    background-color: #b6393b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px
+  }
+  .btn-div .btn-register:hover{
+    background-color: #000;
+  }
+
     /* .table tbody tr:nth-child(even) {
     
 } */
@@ -334,6 +350,9 @@ include "includes/dbconnection.php";
                     </tr>
                 </tbody>
             </table>
+            <div class="btn-div">
+                <a href="registerform.php" class="btn-register">To Register</a>
+            </div>
         </div>
         <div class="col-md-12">
             <div class="the schedule">
@@ -408,17 +427,17 @@ include "includes/dbconnection.php";
                     <tr>
                         <td>
                             <b>
-                            Registration Fees
+                                Registration Fees
                             </b>
                         </td>
                         <td>
-                        Masters Category- ₦11,000.00 <br>
+                            Masters Category- ₦11,000.00 <br>
                             <b> Late registration ₦16,000.00 <br>
-                                </b> <br>
+                            </b> <br>
 
-                                Opens category - ₦8,000.00 <br>
+                            Opens category - ₦8,000.00 <br>
                             <b> Late registration ₦13,000.00 <br>
-                                </b>
+                            </b>
                         </td>
                     </tr>
                     <tr>
@@ -445,7 +464,7 @@ include "includes/dbconnection.php";
                                 <u>Tie-break Criteria</u> <br>
                             </b>
                             The following tie-breaks will be used for the purposes of the cross
-table and any special prizes or trophies: <br>
+                            table and any special prizes or trophies: <br>
                             1. Direct Encounter <br>
                             2. Most Blacks <br>
                             3. Koya System <br>
@@ -468,12 +487,15 @@ table and any special prizes or trophies: <br>
                     </tr>
                 </tbody>
             </table>
+            <div class="btn-div">
+                <a href="registerform.php" class="btn-register">To Register</a>
+            </div>
         </div>
         <div class="col-md-12 py-4">
             <div class="the schedule">
                 <h4>
                     <b>
-                    PLAYING SCHEDULE (MASTERS &AMP; OPENS)
+                        PLAYING SCHEDULE (MASTERS &AMP; OPENS)
                     </b>
                 </h4>
             </div>
@@ -536,6 +558,9 @@ table and any special prizes or trophies: <br>
                     </tr>
                 </tbody>
             </table>
+            <div class="btn-div">
+                <a href="registerform.php" class="btn-register">To Register</a>
+            </div>
         </div>
         <!-- <div class="col-md-12 py-4">
             <div class="the schedule">
@@ -640,38 +665,47 @@ table and any special prizes or trophies: <br>
             <div class="the schedule">
                 <h4>
                     <b>
-                    PRIZE SCHEDULE MASTERS
+                        PRIZE SCHEDULE MASTERS
                     </b>
                 </h4>
             </div>
             <div class="graph">
                 <img src="Picture5.png" draggable="false">
             </div>
+            <div class="btn-div">
+                <a href="registerform.php" class="btn-register">To Register</a>
+            </div>
         </div>
 
         <div class="col-md-12 py-4">
             <div class="the schedule">
                 <h4>
                     <b>
-                    OPENS (ONLY FOR PLAYERS WITH FIDE RATINGS LESS THAN 2000)
+                        OPENS (ONLY FOR PLAYERS WITH FIDE RATINGS LESS THAN 2000)
                     </b>
                 </h4>
             </div>
             <div class="graph">
                 <img src="Picture6.png" draggable="false">
             </div>
+            <div class="btn-div">
+                <a href="registerform.php" class="btn-register">To Register</a>
+            </div>
         </div>
 
         <div class="col-md-12 py-4">
             <div class="the schedule">
                 <h4>
                     <b>
-                    FEMALE PRIZES
+                        FEMALE PRIZES
                     </b>
                 </h4>
             </div>
             <div class="graph">
                 <img src="Picture7.png" draggable="false">
+            </div>
+            <div class="btn-div">
+                <a href="registerform.php" class="btn-register">To Register</a>
             </div>
         </div>
         <!-- <div class="col-md-12">

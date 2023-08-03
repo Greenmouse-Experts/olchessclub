@@ -46,30 +46,16 @@
                     <div class="col-md-12">
                        <div class="text-btn">
                             <h2>
-                                NATIONAL CHESS CHAMPIONSHIP (NCC) 2023 : OVERVIEW AND REGULATIONS
+                                THE 2023 NIGERIA NATIONAL CHESS CHAMPIONSHIP (NCC)
                             </h2>
                             <p>
-                            The 2023 Nigeria National Chess Championship (NCC) Invitational is an elite national
-                            championship event, featuring some of the strongest chess players in Nigeria. Over the course
-                            of eleven rounds, these competitors will battle for the coveted title of <b>Nigeria Chess Champion </b>,
-                            and <b> Nigeria Women Chess Champion</b> . The emerging champions will represent Nigeria at the
-                            African Individual Chess Championship (AICC) 2024. The NCC is organized by Nigeria’s leading
-                            chess club, Orchid-Lekki Chess Club (OLCC), on behalf of the Nigeria Chess Federation (NCF)
-                            which granted the chess club hosting rights till 2025. The 2023 National Chess Championship
-                            will be the 3 rd edition of an epic event as it is the continuation of the Nigeria Chess Federation
-                            partnership with Orchid-Lekki Chess Club.
+                                The 2023 Nigeria National Chess Championship (NCC) is the biggest chess event in Nigeria. This elite national championship is the determinant of the <b>Nigeria Chess Champion and the Nigeria Women Chess Champion.</b> The NCC is organized by Nigeria’s leading chess club, Orchid-Lekki Chess Club (OLCC), on behalf of the Nigeria Chess Federation (NCF) which granted the chess club hosting rights till 2025. The 2023 National Chess Championship will be the 3rd edition of an epic event as it is the continuation of the Nigeria Chess Federation partnership with Orchid-Lekki Chess Club.
                             </p>
                             <p>
-                            This year, the number of players for the NCC Invitational which consists of the Open and
-                            Women divisions) have been increased to 12 participants in each of the two divisions. As it was
-                            held in previous editions, apart from the National Chess Championship (NCC) Invitational, NCC
-                            2023 will also have an Open Section which will include: FIDE rated  <b> Blitz, Masters, Opens, and
-                            Junior categories</b> in order to enable more players participate.
+                            The championship has two main sections: The Invitational Section and the Opens Section. The Invitational Section is a closed section that will feature some of the top-rated Nigerian chess players who will battle for the coveted national titles. The Opens Section is where players of different categories, playing strengths and ages can compete. It includes masters, open, blitz and junior categories. 
                             </p>
                             <p>
-                            While the objective of the NCC is primarily to determine the Nigeria National Chess Champion,
-                            and the Nigeria Women Chess Champion, the inclusion of the Open Section (Blitz, Masters,
-                            Opens &amp; Juniors) is to expand participation and have a truly special national chess festival.
+                            The championship has two main sections: The Invitational Section and the Opens Section. The Invitational Section is a closed section that will feature some of the top-rated Nigerian chess players who will battle for the coveted national titles. The Opens Section is where players of different categories, playing strengths and ages can compete. It includes masters, open, blitz and junior categories. 
                             </p>
                             <p>
                                 The total prize money for NCC 2023 is about <b>
@@ -77,13 +63,11 @@
                                 </b>
                             </p>
                             <p>
-                            The organizers intend that the event meets international standards in its planning and
-                            execution and hope that the event will attract publicity for chess and for the sponsors; and that
-                            the participants have an overall pleasant experience.
+                            The organizers intend that the event meets international standards in its planning and execution and hope that the event will attract publicity for chess and for the sponsors; and that the participants have an overall pleasant experience.
                             </p>
                             <p>
                                 <b>
-                                    The regulations for the NCC is contained in the following pages. 
+                                The regulations for the NCC is contained in the following pages.
                                 </b>
                             </p>
                        </div>
