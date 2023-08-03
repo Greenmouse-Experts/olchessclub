@@ -272,16 +272,6 @@ include "includes/dbconnection.php";
   </div>
 </section>
 
-<!--
-  <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <iframe src="https://live.followchess.com/#!danhypro-u20-tour-lagos-2021" width="100%" height="800" frameborder=0></iframe>
-            </div>
-        </div>
-    </div>    
-    -->
-
 <div class="container-fluid container-download">
   <div class="row">
     <div class="col-md-12 text-center">
