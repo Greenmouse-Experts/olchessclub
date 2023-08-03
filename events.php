@@ -33,9 +33,7 @@ include "includes/dbconnection.php";
                                 $event_details = $row['event_details'];
                                 $event_venue = $row['event_venue'];
                                 $attendee = $row['event_attendee'];
-
                     ?>
-
                                 <tr>
                                     <td><?php echo $n; ?></td>
                                     <td><?php echo  $event_name; ?></td>
@@ -44,9 +42,7 @@ include "includes/dbconnection.php";
                                     <td><?php echo  $event_venue; ?></td>
                                     <td><?php echo  $event_date; ?></td>
                                     <td><?php echo  $event_time; ?></td>
-
                                 </tr>
-
                     <?php
                                 $n++;
                             }
@@ -54,8 +50,6 @@ include "includes/dbconnection.php";
                     } else {
                         echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
                     }
-
-
                     ?>
 
                 </tbody>
