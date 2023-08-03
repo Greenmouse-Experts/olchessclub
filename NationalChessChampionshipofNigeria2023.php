@@ -238,7 +238,6 @@
     </div>
 </section>
 <!-- CHANGE OPTION ENDS -->
-
 <!-- <div class="container-fluid container-download">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -247,7 +246,6 @@
             </div>
         </div>
     </div> -->
-
 <div class="foot-banner">
     <div class="footer">
         <div class="container">
