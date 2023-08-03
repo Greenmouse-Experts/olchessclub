@@ -5,7 +5,6 @@
 $jobid = $_GET['job'];
 ?>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +18,6 @@ $jobid = $_GET['job'];
     <link rel="icon" href="../img/logo.png" type="image/png" sizes="16x16">
     <title> Chessclub | apply </title>
 </head>
-
 <body class="bg-brand">
     <div class="container-fluid">
         <div class="row mb-5">
