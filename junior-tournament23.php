@@ -80,6 +80,22 @@ include "includes/dbconnection.php";
         border-radius: 10px;
     }
 
+    .btn-div {
+    margin-top: 40px;
+    margin-bottom: 30px
+  }
+
+  .btn-div .btn-register {
+    padding: 10px 30px;
+    background-color: #b6393b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px
+  }
+  .btn-div .btn-register:hover{
+    background-color: #000;
+  }
+
     .table-lent td,
     .table-lent th {
         padding: 10px 20px 10px 20px;
@@ -315,6 +331,9 @@ include "includes/dbconnection.php";
                     </tr>
                 </tbody>
             </table>
+            <div class="btn-div">
+                <a href="juniorform.php" class="btn-register">To Register</a>
+            </div>
         </div>
         <div class="col-md-12 py-4">
             <div class="the schedule">
@@ -368,6 +387,9 @@ include "includes/dbconnection.php";
                     </tr>
                 </tbody>
             </table>
+            <div class="btn-div">
+                <a href="juniorform.php" class="btn-register">To Register</a>
+            </div>
         </div>
 
         <div class="col-md-12 py-4">
@@ -380,6 +402,9 @@ include "includes/dbconnection.php";
             </div>
             <div class="graph">
                 <img src="Picture8.png" draggable="false">
+            </div>
+            <div class="btn-div">
+                <a href="juniorform.php" class="btn-register">To Register</a>
             </div>
         </div>
 
@@ -394,6 +419,9 @@ include "includes/dbconnection.php";
             <div class="graph">
                 <img src="Picture9.png" draggable="false">
             </div>
+            <div class="btn-div">
+                <a href="juniorform.php" class="btn-register">To Register</a>
+            </div>
         </div>
 
         <div class="col-md-12 py-4">
@@ -406,6 +434,9 @@ include "includes/dbconnection.php";
             </div>
             <div class="graph">
                 <img src="Picture10.png" draggable="false">
+            </div>
+            <div class="btn-div">
+                <a href="juniorform.php" class="btn-register">To Register</a>
             </div>
         </div>
         <!-- <div class="col-md-12">
@@ -452,7 +483,7 @@ include "includes/dbconnection.php";
             </p>
         </div> -->
         <div class="col-md-6 text-left py-4 schedule">
-            <a href="junior-tournament23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW JUNIOR CATEGORY</a>
+            <a href="Open-Section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW OPEN SECTION</a>
         </div>
         <div class="col-md-6 text-right py-4 schedule">
             <a href="Invitational-Section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW INVITATIONAL SECTION</a>

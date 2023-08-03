@@ -152,12 +152,21 @@
                         </div>
                     </div>
                     <!--Full Name-->
-                    <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
-                        <div class="col-lg-12">
-                            <label>Full Name (surname, first name, other names) <span>*</span></label> <br>
-                            <input type="text" class="input-two" placeholder="Your answer" name="full_name" required>
+                    <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
+                            <div class="col-lg-12">
+                                <label>First Name
+                                    <span>*</span></label> <br>
+                                <input type="text" class="input-one" placeholder="Your answer" name="full_name" required>
+                            </div>
                         </div>
-                    </div>
+                        <!--Email Here-->
+                        <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
+                            <div class="col-lg-12">
+                                <label>Last Name
+                                    <span>*</span></label> <br>
+                                <input type="text" class="input-one" placeholder="Your answer" name="email" required>
+                            </div>
+                        </div>
                     <!--Gender-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
@@ -181,22 +190,12 @@
                             <input type="tel" class="input-one" placeholder="Your answer" name="telephone_number" required>
                         </div>
                     </div>
-                    <!--Dou you have FIDE ID-->
-                    <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
-                        <div class="col-lg-12">
-                            <label>Do You Have FIDE ID?</label> <br>
-                            <input type="radio" value="Yes" class="input-radio" name="fide" required> Yes
-                            <br>
-                            <input type="radio" value="No" class="input-radio" name="fide" required> No
+                    <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
+                            <div class="col-lg-12">
+                                <label>FIDE ID (IF ANY YES OR NO)<span> *</span></label> <br>
+                                <input type="text" class="input-one" placeholder="Your answer" name="telephone_number" required>
+                            </div>
                         </div>
-                    </div>
-                    <!--What Is Your FIDE ID?-->
-                    <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
-                        <div class="col-lg-12">
-                            <label>What Is Your FIDE ID?</label> <br>
-                            <input type="text" class="input-one" name="fi_de" placeholder="Your answer">
-                        </div>
-                    </div>
                     <!--Which Chess Club Do You Belong?-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
@@ -208,10 +207,10 @@
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
                             <label>Tournament Category</label> <br>
-                            <input type="radio" class="input-radio" value="Master (FIDE rating above 2000)" name="tournament_category" required> Masters (U2000) **<b>₦11,000.00 Note</b>
+                            <input type="radio" class="input-radio" value="Master (FIDE rating above 2000)" name="tournament_category" required> Masters (2000) **<b>₦11,000.00 Note</b>
                             <br>
                             <input type="radio" class="input-radio" value="Open (FIDE rating below 2000)" name="tournament_category" required> Open (Under 20, Under 14, Under 10) ** <b>
-                                U20: ₦5,000 | U-14: ₦5,000 |U-10: ₦5,000 Note
+                                U20: ₦8,000 | U-14: ₦8,000 |U-10: ₦8,000 Note
                             </b>
                         </div>
                     </div>
