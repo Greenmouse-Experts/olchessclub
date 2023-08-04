@@ -5,13 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body,
 input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
-
 .content {
   position: relative;
   width: 100%;
@@ -168,7 +166,7 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color:  #272736;
+  background-color: #272736;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -200,7 +198,7 @@ textarea.input {
 }
 
 .contact-info .title {
-  color:  #272736;
+  color: #272736;
 }
 
 .text {
@@ -238,7 +236,7 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #7241cc,  #272736);
+  background: linear-gradient(45deg, #7241cc, #272736);
   color: #fff;
   text-align: center;
   line-height: 35px;
