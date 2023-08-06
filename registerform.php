@@ -120,6 +120,88 @@
 </head>
 
 <body>
+    <?php session_start();?>
+    <?php
+    // Set your Paystack public key here
+    $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
+
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+        if($_POST['tournament_category'] == 'Master (2000)') 
+        {
+            $amount_payable = 11000;
+        } 
+        elseif($_POST['tournament_category'] == 'Open (Under 20)') 
+        {
+            $amount_payable = 8000;
+        } 
+        elseif($_POST['tournament_category'] == 'Open (Under 14)') 
+        {
+            $amount_payable = 8000;
+        } 
+        else 
+        {
+            $amount_payable = 8000;
+        } 
+
+        $dateTime = new DateTime();
+        $registration_id =  1;
+        $amount = $amount_payable * 100; // Paystack requires the amount in kobo (1 Naira = 100 kobo)
+        $email = $_POST['email'];
+        $first_name = $_POST['first_name']; 
+        $last_name = $_POST['last_name']; 
+        $gender = $_POST['gender']; 
+        $telephone_number = $_POST['telephone_number']; 
+        $date_of_birth = $_POST['date_of_birth']; 
+        $fide = $_POST['fide']; 
+        $chess_club = $_POST['chess_club']; 
+        $tournament_category = $_POST['tournament_category']; 
+        $I_agree = $_POST['I_agree']; 
+        $payment = 'Paid';
+        $paid_at = $dateTime->format('F j, Y g:i:s A');
+        $reference = "OLCC_" . uniqid(); // Generate a unique payment reference
+
+        // Save the payment details to your database or session for verification after payment
+
+        // Redirect to the payment page
+        echo '<script src="https://js.paystack.co/v1/inline.js"></script>';
+        echo '<script>
+                var handler = PaystackPop.setup({
+                    key: "' . $public_key . '",
+                    email: "' . $email . '",
+                    amount: ' . $amount . ',
+                    currency: "NGN",
+                    ref: "' . $reference . '",
+                    callback: function(response) {
+                        // This function executes after a successful payment
+                        // You can handle the payment verification here
+                        // For example, you can make an AJAX call to your server to verify the payment
+                        // and process the order if the payment is successful.
+                        
+                        // Send the payment reference to process_payment.php for verification
+                        var xhr = new XMLHttpRequest();
+                        xhr.open("POST", "process/open_section_2023.php", true);
+                        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                        xhr.onreadystatechange = function() {
+                            if (xhr.readyState === XMLHttpRequest.DONE) {
+                                var result = JSON.parse(xhr.responseText);
+                                if (result.status === "success") {
+                                    // Redirect the user to a success page
+                                    window.location.href = "success/open_section_success.php";
+                                } else {
+                                    alert("Payment verification failed. Please try again later.");
+                                }
+                            }
+                        };
+                        xhr.send("reference=" + encodeURIComponent(response.reference) + "&registration_id=" + "' . $registration_id . '" + "&first_name=" + "' . $first_name . '" + "&last_name=" +  "' . $last_name . '" + "&gender=" +  "' . $gender . '" + "&email=" +  "' . $email . '" + "&telephone_number=" +  "' . $telephone_number . '" + "&date_of_birth=" +  "' . $date_of_birth . '" + "&fide=" +  "' . $fide . '" + "&chess_club=" + "' . $chess_club . '" + "&tournament_category=" +  "' . $tournament_category . '" + "&I_agree=" +  "' . $I_agree . '" + "&payment=" +  "' . $payment . '" + "&paid_at=" +  "' . $paid_at . '");
+                    },
+                    onClose: function() {
+                        alert("Payment window closed.");
+                    }
+                });
+                handler.openIframe();
+            </script>';
+    }
+    ?>
     <div class="container">
         <div class="row">
             <div class="col-lg-2"></div>
@@ -143,7 +225,7 @@
                         <p class="text-left" style="margin-top: 0px; padding-bottom: 25px;"><b>Fields with <span>*</span> are compulsory</b></p>
                     </div>
                 </div>
-                <form action="process/processopencategories.php" method="post">
+                <form action="" method="post">
                     <!--Email Here-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
@@ -154,17 +236,15 @@
                     <!--Full Name-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                         <div class="col-lg-12">
-                            <label>First Name
-                                <span>*</span></label> <br>
-                            <input type="text" class="input-one" placeholder="Your answer" name="full_name" required>
+                            <label>First Name<span>*</span></label> <br>
+                            <input type="text" class="input-one" placeholder="Your answer" name="first_name" required>
                         </div>
                     </div>
                     <!--Email Here-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                         <div class="col-lg-12">
-                            <label>Last Name
-                                <span>*</span></label> <br>
-                            <input type="text" class="input-one" placeholder="Your answer" name="email" required>
+                            <label>Last Name<span>*</span></label> <br>
+                            <input type="text" class="input-one" placeholder="Your answer" name="last_name" required>
                         </div>
                     </div>
                     <!--Gender-->
@@ -193,25 +273,27 @@
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                         <div class="col-lg-12">
                             <label>FIDE ID (IF ANY YES OR NO)<span> *</span></label> <br>
-                            <input type="text" class="input-one" placeholder="Your answer" name="telephone_number" required>
+                            <input type="text" class="input-one" placeholder="Your answer" name="fide" required>
                         </div>
                     </div>
                     <!--Which Chess Club Do You Belong?-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
-                            <label>Which Chess Club Do You Belong?</label> <br>
+                            <label>Which Chess Club Do You Belong?<span> *</span></label> <br>
                             <input type="text" class="input-one" name="chess_club" placeholder="Your answer" required>
                         </div>
                     </div>
                     <!--Tournament Category-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
-                            <label>Tournament Category</label> <br>
-                            <input type="radio" class="input-radio" value="Master (FIDE rating above 2000)" name="tournament_category" required> Masters (2000) **<b>₦11,000.00 Note</b>
+                            <label>Tournament Category<span> *</span></label> <br>
+                            <input type="radio" class="input-radio" value="Master (2000)" name="tournament_category" required> Masters (2000) **<b>₦11,000.00 Note</b>
                             <br>
-                            <input type="radio" class="input-radio" value="Open (FIDE rating below 2000)" name="tournament_category" required> Open (Under 20, Under 14, Under 10) ** <b>
-                                U20: ₦8,000 | U-14: ₦8,000 |U-10: ₦8,000 Note
-                            </b>
+                            <input type="radio" class="input-radio" value="Open (Under 20)" name="tournament_category" required> Open (Under 20) **<b>U-20: ₦8,000 Note</b>
+                            <br>
+                            <input type="radio" class="input-radio" value="Open (Under 14)" name="tournament_category" required> Open (Under 14) **<b>U-14: ₦8,000 Note</b>
+                            <br>
+                            <input type="radio" class="input-radio" value="Open (Under 10)" name="tournament_category" required> Open (Under 10) ** <b>U-10: ₦8,000 Note</b>
                         </div>
                     </div>
                     <!--I agree-->
@@ -224,7 +306,7 @@
                     <!--Submit & Reset-->
                     <div class="row py-3" style="margin-left: 6px;">
                         <div style="margin-right: 20px;">
-                            <input type="submit" onclick="paywithPaystack()" class="input-submit" name="submit" value="Submit">
+                            <input type="submit" class="input-submit" name="submit" value="Submit">
                         </div>
                         <div class="text-right">
                             <input type="reset" class="input-submit" value="Clear Form">
@@ -236,5 +318,4 @@
         </div>
     </div>
 </body>
-
 </html>

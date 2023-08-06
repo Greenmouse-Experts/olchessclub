@@ -82,6 +82,8 @@
           <li><a href="junior_tournament.php"><i class="fa fa-circle-o"></i>Junior Tournament</a></li>
           <li><a href="junior_tournament_july_edition.php"><i class="fa fa-circle-o"></i>Junior Tournament (July Edition)</a></li>
           <li><a href="blitz.php"><i class="fa fa-circle-o"></i>Blitz</a></li>
+          <li><a href="open_section_2023.php"><i class="fa fa-circle-o"></i>Open Section 2023</a></li>
+          <li><a href="junior_tournament_2023.php"><i class="fa fa-circle-o"></i>Junior Tournament 2023</a></li>
         </ul>
       </li>
 

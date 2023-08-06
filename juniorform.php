@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="Chess Club Form">
         <link rel="icon" href="assetss/images/logo (2).png">
-        <title>Open Categories</title>
+        <title>Junior Tournament</title>
         <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--Scroll In Animation-->
@@ -141,13 +141,13 @@
                         <p class="text-left" style="margin-top: 0px; padding-bottom: 25px;"><b>Fields with <span>*</span> are compulsory</b></p>
                     </div>
                 </div>
-                    <form action="form-respond.php">
+                    <form action="form-respond.php" method="get">
                         <!--Full Name-->
                         <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                             <div class="col-lg-12">
                                 <label>First Name
                                     <span>*</span></label> <br>
-                                <input type="text" class="input-one" placeholder="Your answer" name="full_name" required>
+                                <input type="text" class="input-one" placeholder="Your answer" name="first_name" required>
                             </div>
                         </div>
                         <!--Email Here-->
@@ -155,7 +155,7 @@
                             <div class="col-lg-12">
                                 <label>Last Name
                                     <span>*</span></label> <br>
-                                <input type="text" class="input-one" placeholder="Your answer" name="email" required>
+                                <input type="text" class="input-one" placeholder="Your answer" name="last_name" required>
                             </div>
                         </div>
                         <!--Gender-->
@@ -178,57 +178,27 @@
                         <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                             <div class="col-lg-12">
                                 <label>What is the name of the school you attend?<span> *</span></label> <br>
-                                <input type="text" class="input-one" placeholder="Your answer" name="telephone_number" required>
+                                <input type="text" class="input-one" placeholder="Your answer" name="school_name" required>
                             </div>
                         </div>
                         <!--FIDE ID (IF ANY)-->
                         <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                             <div class="col-lg-12">
                                 <label>FIDE ID (IF ANY YES OR NO)<span> *</span></label> <br>
-                                <input type="text" class="input-one" placeholder="Your answer" name="telephone_number" required>
+                                <input type="text" class="input-one" placeholder="Your answer" name="fide_id" required>
                             </div>
                         </div>
                         <!--Tournament Category-->
-                    <div class="form-area"  style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
-                        <div class="col-lg-12">
-                            <label style="margin-bottom: 10px;">Tournament Registration Fee</label> <br>
-                            <input type="radio" class="input-radio" value="Open (FIDE rating below 2000)" name="tournament_category" required> (Under 20, Under 14, Under 10) ** <b>
-                                U20: ₦6,000 | U-14: ₦6,000 |U-10: ₦6,000 Note
-                            </b>
+                        <div class="form-area"  style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
+                            <div class="col-lg-12">
+                                <label style="margin-bottom: 10px;">Tournament Registration Fee</label> <br>
+                                <input type="radio" class="input-radio" value="Open (Under 20)" name="tournament_category" required> Open (Under 20) **<b>U-20: ₦6,000 Note</b>
+                                <br>
+                                <input type="radio" class="input-radio" value="Open (Under 14)" name="tournament_category" required> Open (Under 14) **<b>U-14: ₦6,000 Note</b>
+                                <br>
+                                <input type="radio" class="input-radio" value="Open (Under 10)" name="tournament_category" required> Open (Under 10) ** <b>U-10: ₦6,000 Note</b>
+                            </div>
                         </div>
-                    </div>
-                        <!--Dou you have FIDE ID-->
-                        <!-- <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
-                            <div class="col-lg-12">
-                                <label>Do You Have FIDE ID?</label> <br>
-                                <input type="radio" value="Yes" class="input-radio" name="fide" required> Yes
-                                <br>
-                                <input type="radio" value="No" class="input-radio" name="fide" required> No
-                            </div>
-                        </div> -->
-                        <!--What Is Your FIDE ID?-->
-                        <!-- <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
-                            <div class="col-lg-12">
-                                <label>What Is Your FIDE ID?</label> <br>
-                                <input type="text" class="input-one" name="fi_de" placeholder="Your answer">
-                            </div>
-                        </div> -->
-                        <!--Which Chess Club Do You Belong?-->
-                        <!-- <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
-                            <div class="col-lg-12">
-                                <label>Which Chess Club Do You Belong?</label> <br>
-                                <input type="text" class="input-one" name="chess_club" placeholder="Your answer" required>
-                            </div>
-                        </div> -->
-                        <!--Tournament Category-->
-                        <!-- <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
-                            <div class="col-lg-12">
-                                <label>Tournament Category</label> <br>
-                                <input type="radio" class="input-radio" value="Master (FIDE rating above 2000)" name="tournament_category" required> Master (FIDE rating above 2000)
-                                <br>
-                                <input type="radio" class="input-radio" value="Open (FIDE rating below 2000)" name="tournament_category" required> Open (FIDE rating below 2000)
-                            </div>
-                        </div> -->
                         <!--I agree-->
                         <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                             <div class="col-lg-12">
@@ -239,9 +209,7 @@
                         <!--Submit & Reset-->
                         <div class="row py-3" style="margin-left: 6px;">
                             <div style="margin-right: 20px;">
-                                <a href="form-respond.php">
-                                    <input type="submit" class="input-submit" name="" value="Next">
-                                </a>
+                                <input type="submit" class="input-submit" name="" value="Next">
                                 <input type="submit" style="float: right;" class="input-submit" name="" value="Clear Form">
                             </div>
                         </div>

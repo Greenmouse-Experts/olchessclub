@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="Chess Club Form">
     <link rel="icon" href="assetss/images/logo (2).png">
-    <title>Form Respond</title>
+    <title>Junior Tournament</title>
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--Scroll In Animation-->
@@ -122,6 +122,101 @@
 </style>
 
 <body style="background-color: #FFE2E2;">
+    <?php 
+    session_start();
+    // Set your Paystack public key here
+    $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
+
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['complete'])) {
+        if($_POST['tournament_category'] == 'Open (Under 20)') 
+        {
+            $amount_payable = 6000;
+        } 
+        elseif($_POST['tournament_category'] == 'Open (Under 14)') 
+        {
+            $amount_payable = 6000;
+        } 
+        else 
+        {
+            $amount_payable = 6000;
+        }
+
+        $dateTime = new DateTime();
+        $registration_id =  1;
+        $amount = $amount_payable * 100; // Paystack requires the amount in kobo (1 Naira = 100 kobo)
+        $first_name = $_GET['first_name']; 
+        $last_name = $_GET['last_name']; 
+        $gender = $_GET['gender']; 
+        $date_of_birth = $_GET['date_of_birth']; 
+        $school_name = $_GET['school_name']; 
+        $fide_id = $_GET['fide_id']; 
+        $tournament_category = $_GET['tournament_category']; 
+        $I_agree = $_GET['I_agree']; 
+        $p_g_name = $_POST['p_g_name']; 
+        $p_g_phone_number = $_POST['p_g_phone_number']; 
+        $p_g_email = $_POST['p_g_email']; 
+        $consent_agreement = $_POST['consent_agreement']; 
+        $payment = 'Paid';
+        $paid_at = $dateTime->format('F j, Y g:i:s A');
+        $reference = "JT_" . uniqid(); // Generate a unique payment reference
+
+        // Save the payment details to your database or session for verification after payment
+
+        // Redirect to the payment page
+        echo '<script src="https://js.paystack.co/v1/inline.js"></script>';
+        echo '<script>
+                var handler = PaystackPop.setup({
+                    key: "' . $public_key . '",
+                    email: "' . $p_g_email . '",
+                    amount: ' . $amount . ',
+                    currency: "NGN",
+                    ref: "' . $reference . '",
+                    callback: function(response) {
+                        // This function executes after a successful payment
+                        // You can handle the payment verification here
+                        // For example, you can make an AJAX call to your server to verify the payment
+                        // and process the order if the payment is successful.
+                        
+                        // Send the payment reference to process_payment.php for verification
+                        var xhr = new XMLHttpRequest();
+                        xhr.open("POST", "process/junior_tournament_2023.php", true);
+                        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                        xhr.onreadystatechange = function() {
+                            if (xhr.readyState === XMLHttpRequest.DONE) {
+                                var result = JSON.parse(xhr.responseText);
+                                if (result.status === "success") {
+                                    // Redirect the user to a success page
+                                    window.location.href = "success/junior_form_success.php";
+                                } else {
+                                    alert("Payment verification failed. Please try again later.");
+                                }
+                            }
+                        };
+                        xhr.send("reference=" + encodeURIComponent(response.reference) + 
+                        "&registration_id=" + "' . $registration_id . '" + 
+                        "&first_name=" + "' . $first_name . '" + 
+                        "&last_name=" +  "' . $last_name . '" + 
+                        "&gender=" +  "' . $gender . '" + 
+                        "&date_of_birth=" +  "' . $date_of_birth . '" + 
+                        "&school_name=" +  "' . $school_name . '" + 
+                        "&fide_id=" +  "' . $fide_id . '" + 
+                        "&tournament_category=" +  "' . $tournament_category . '" + 
+                        "&I_agree=" +  "' . $I_agree . '" + 
+                        "&p_g_name=" +  "' . $p_g_name . '" + 
+                        "&p_g_phone_number=" +  "' . $p_g_phone_number . '" + 
+                        "&p_g_email=" +  "' . $p_g_email . '" + 
+                        "&consent_agreement=" +  "' . $consent_agreement . '" + 
+                        "&payment=" +  "' . $payment . '" + 
+                        "&paid_at=" +  "' . $paid_at . '");
+                    },
+                    onClose: function() {
+                        alert("Payment window closed.");
+                    }
+                });
+                handler.openIframe();
+            </script>';
+    }
+    ?>
     <div class="container">
         <div class="row">
             <div class="col-lg-2"></div>
@@ -133,13 +228,13 @@
                         </a>
                     </div>
                 </div>
-                <form>
+                <form action="" method="post">
                     <!--Parent/Guardian Details-->
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                         <div class="col-lg-12">
-                            <label>Parent/Guardian Details
+                            <label>Parent/Guardian Name
                                 <span>*</span></label> <br>
-                            <input type="text" class="input-one" placeholder="Your answer" name="full_name" required>
+                            <input type="text" class="input-one" placeholder="Your answer" name="p_g_name" required>
                         </div>
                     </div>
                     <!--Parent/Guardian's Phone Number-->
@@ -147,7 +242,7 @@
                         <div class="col-lg-12">
                             <label>Parent/Guardian's Phone Number
                                 <span>*</span></label> <br>
-                            <input type="text" class="input-one" placeholder="Your answer" name="email" required>
+                            <input type="number" class="input-one" placeholder="Your answer" name="p_g_phone_number" required>
                         </div>
                     </div>
                     <!--Parent/ Guardian Email Address-->
@@ -155,7 +250,7 @@
                         <div class="col-lg-12">
                             <label>Parent/ Guardian Email Address
                                 <span>*</span></label> <br>
-                            <input type="text" class="input-one" placeholder="Your answer" name="email" required>
+                            <input type="email" class="input-one" placeholder="Your answer" name="p_g_email" required>
                         </div>
                     </div>
                     <!--Gender-->
@@ -164,19 +259,16 @@
                         <div class="col-lg-12">
                             <label>I HEREBY GIVE MY CONSENT TO MY CHILD/WARD TO PARTICIPATE IN THE TOURNAMENT.
                                 <span>*</span></label> <br>
-                            <input type="checkbox" class="input-check" name="I_agree" required> I Agree
+                            <input type="checkbox" class="input-check" name="consent_agreement" required> I Agree
                         </div>
                     </div>
                     <!--Submit & Reset-->
                     <div class="row py-3">
                         <div class="col-lg-6">
                             <div style="margin-right: 20px;">
-                                <a href="#">
-                                    <button type="submit" class="input-submit">
-                                        Submit
-                                    </button>
-                                    <!-- <input type="submit" class="input-submit" name="submit" value="Submit"> -->
-                                </a>
+                                <button type="submit" name="complete" class="input-submit">
+                                    Submit
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -184,7 +276,7 @@
                 <div class="col-lg-12">
                     <div style="margin-right: 20px;">
                         <a href="juniorform.php">
-                            <button class="input-submit" style="float: right;">
+                            <button class="input-submit"  style="float: right;">
                                 Back
                             </button>
                         </a>
