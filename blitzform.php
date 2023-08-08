@@ -129,6 +129,8 @@
         if($_POST['tournament_category'] == 'Blitz') 
         {
             $amount_payable = 6000;
+        } else {
+            $amount_payable = 6000;
         }
 
         $dateTime = new DateTime();
@@ -146,7 +148,7 @@
         $I_agree = $_POST['I_agree']; 
         $payment = 'Paid';
         $paid_at = $dateTime->format('F j, Y g:i:s A');
-        $reference = "OLCC_" . uniqid(); // Generate a unique payment reference
+        $reference = "BC_" . uniqid(); // Generate a unique payment reference
 
         // Save the payment details to your database or session for verification after payment
 
@@ -167,14 +169,14 @@
                         
                         // Send the payment reference to process_payment.php for verification
                         var xhr = new XMLHttpRequest();
-                        xhr.open("POST", "process/open_section_2023.php", true);
+                        xhr.open("POST", "process/blitz_category_2023.php", true);
                         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                         xhr.onreadystatechange = function() {
                             if (xhr.readyState === XMLHttpRequest.DONE) {
                                 var result = JSON.parse(xhr.responseText);
                                 if (result.status === "success") {
                                     // Redirect the user to a success page
-                                    window.location.href = "success/open_section_success.php";
+                                    window.location.href = "success/blitz_category_success.php";
                                 } else {
                                     alert("Payment verification failed. Please try again later.");
                                 }

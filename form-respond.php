@@ -128,11 +128,11 @@
     $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['complete'])) {
-        if($_POST['tournament_category'] == 'Open (Under 20)') 
+        if($_POST['tournament_category'] == 'Junior (Under 20)') 
         {
             $amount_payable = 6000;
         } 
-        elseif($_POST['tournament_category'] == 'Open (Under 14)') 
+        elseif($_POST['tournament_category'] == 'Junior (Under 14)') 
         {
             $amount_payable = 6000;
         } 

@@ -129,15 +129,7 @@
         if($_POST['tournament_category'] == 'Master (2000)') 
         {
             $amount_payable = 11000;
-        } 
-        elseif($_POST['tournament_category'] == 'Open (Under 20)') 
-        {
-            $amount_payable = 8000;
-        } 
-        elseif($_POST['tournament_category'] == 'Open (Under 14)') 
-        {
-            $amount_payable = 8000;
-        } 
+        }
         else 
         {
             $amount_payable = 8000;
@@ -158,7 +150,7 @@
         $I_agree = $_POST['I_agree']; 
         $payment = 'Paid';
         $paid_at = $dateTime->format('F j, Y g:i:s A');
-        $reference = "OLCC_" . uniqid(); // Generate a unique payment reference
+        $reference = "OC_" . uniqid(); // Generate a unique payment reference
 
         // Save the payment details to your database or session for verification after payment
 
