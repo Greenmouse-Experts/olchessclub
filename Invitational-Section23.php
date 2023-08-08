@@ -223,7 +223,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            2nd - 9 th October, 2023
+                            2nd - 9th October, 2023
                         </td>
                     </tr>
                     <tr>
@@ -291,7 +291,7 @@ include "includes/dbconnection.php";
                             5. Won Games <br>
                             If two or more Players are <b> tied for first </b>, a playoff shall be held to
                             determine final standings among all tied players. See
-                            <code> Playoff Procedures</code> for details.
+                            <b> Playoff Procedures</b> for details.
                             <br>
                             <b> No Draws: </b>A “no draw” rule will be in effect throughout the event,
                             including any playoff games. Player may not mutually agree to a draw.
@@ -517,7 +517,7 @@ include "includes/dbconnection.php";
                             5. Won Games <br>
                             If two or more Players are <b> tied for first </b>, a playoff shall be held to
                             determine final standings among all tied players. See
-                            <code> Playoff Procedures</code> for details.
+                            <b> Playoff Procedures</b> for details.
                             <br>
                             <b> No Draws: </b>Draws: A “no draw” rule will be in effect throughout the Event,
                             including any playoff games. Player may not mutually agree to a draw.
@@ -660,7 +660,7 @@ include "includes/dbconnection.php";
                 </h4>
             </div>
             <p>
-                1. <code>Playoff Procedures:</code> The following tie-breaks will be used for the purposes of the
+                1. <b>Playoff Procedures:</b> The following tie-breaks will be used for the purposes of the
                 crosstable and any special prizes or trophies:
             </p>
             <p>
@@ -671,24 +671,24 @@ include "includes/dbconnection.php";
                 V. Won Games. <br>
             </p>
             <p>
-                2. <code> If Two or More Players Are Tied for First,</code> a playoff shall be held to determine
+                2. <b> If Two or More Players Are Tied for First,</b> a playoff shall be held to determine
                 final standings among all tied players. An Armageddon Game is defined as
                 follows: White shall start with 5 minutes and black shall start with 4 minutes.
                 Black shall be declared the winner if the game ends in a draw.
             </p>
             <p>
-            3. <code>Two Players:</code> The tie will be broken with a two-game rapid match (G/10 +2
+            3. <b>Two Players:</b> The tie will be broken with a two-game rapid match (G/10 +2
             increment). If the contest is still undecided, the match will be decided by an
             Armageddon Game.
             </p>
-            4. <code>Three or Four Players:</code> If there are three or four players tied for first, the players
+            4. <b>Three or Four Players:</b> If there are three or four players tied for first, the players
             shall contest a rapid round robin (G/10 +2 increment). If no clear winner is
             produced, the remaining tied players shall contest a blitz (G/3 +2 increment) a)
             round robin (if three or four players remain tied) or b) 2-game match (if two
             players remain tied). If the contest is still undecided, the match will be decided by
             a series of Armageddon Games.
             </p>
-            5. <code>More Than Four Players:</code> If more than four players are tied for first place, a
+            5. <b>More Than Four Players:</b> If more than four players are tied for first place, a
             combination of match tie-breaks and playoffs will be used to determine the
             winner. The format if more than four players are tied for first will be determined
             by the chief arbiter and the tournament organizers.

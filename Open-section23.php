@@ -227,149 +227,6 @@ include "includes/dbconnection.php";
             <div class="the schedule">
                 <h4>
                     <b>
-                        REGULATIONS (BLITZ)
-                    </b>
-                </h4>
-            </div>
-            <table class="table-lent">
-                <!-- <thead>
-                      <th>Date</th>
-                      <th>Time</th>
-                      <th>Event</th>
-                    </thead> -->
-                <tbody>
-                    <tr>
-                        <td>
-                            <b>
-                                Date:
-                            </b>
-                        </td>
-                        <td>
-                            2nd October, 2023
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>
-                                Venue
-                            </b>
-                        </td>
-                        <td>
-                            Orchid-Lekki Chess Club Orchid Road, near Chevron Toll Gate, Lekki-Epe Expressway, Lagos.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>
-                                Format
-                            </b>
-                        </td>
-                        <td>
-                            Swiss System (Dutch); 11 Rounds (Rated)
-                        </td>
-                    </tr>
-                    <!-- <tr>
-                            <td>
-                                <b>
-                                    Section
-                                </b>
-                            </td>
-                            <td>
-                                Open
-                            </td>
-                        </tr> -->
-                    <tr>
-                        <td>
-                            <b>
-                                Time Control
-                            </b>
-                        </td>
-                        <td>
-                            (G/3 +2): 3 minutes for the game with an addition of 2 seconds (increment) per move starting from move one.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>
-                                Tie- Breaks
-                            </b>
-                        </td>
-                        <td>
-                            <b>
-                                <u>Tie-break Criteria</u> <br>
-                            </b>
-
-                            1. Direct Encounter <br>
-                            2. Greater number of victories <br>
-                            3. Buchholz <br>
-                            4. Sonneborn Berger <br>
-                            <p style="margin-top: 25px; margin-bottom: 0;">
-                                <b>
-                                    *FIDE Fair Play & Anti-cheating Rules Apply
-                                </b>
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>
-                                Start Time
-                            </b>
-                        </td>
-                        <td>
-                            8am – 10am: Accreditation of players 12 (Noon): Round 1
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>
-                                Registration Fee
-                            </b>
-                        </td>
-                        <td>
-                            ₦ 6,000.00
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>
-                                Prize Categories
-                            </b>
-                        </td>
-                        <td>
-                            1 st – 10 th
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>
-                                Total Prize Fund
-                            </b>
-                        </td>
-                        <td>₦374,000.00</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="btn-div">
-                <a href="registerform.php" class="btn-register">To Register</a>
-            </div>
-        </div>
-        <div class="col-md-12">
-            <div class="the schedule">
-                <h4>
-                    <b>
-                        BLITZ PRIZES
-                    </b>
-                </h4>
-            </div>
-            <div class="graph">
-                <img src="Picture4.png" draggable="false">
-            </div>
-        </div>
-        <div class="col-md-12">
-            <div class="the schedule">
-                <h4>
-                    <b>
                         REGULATIONS (MASTERS AND OPENS)
                     </b>
                 </h4>
@@ -507,7 +364,7 @@ include "includes/dbconnection.php";
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="border-bottom: 1px solid #fff;">5rd October</td>
+                        <td style="border-bottom: 1px solid #fff;">5th October</td>
                         <td>10am</td>
                         <td>Round 1</td>
                     </tr>
@@ -517,7 +374,7 @@ include "includes/dbconnection.php";
                         <td>Round 2</td>
                     </tr>
                     <tr>
-                        <td style="border-bottom: 1px solid #fff;">6rd October</td>
+                        <td style="border-bottom: 1px solid #fff;">6th October</td>
                         <td>10am</td>
                         <td>Round 3</td>
                     </tr>
@@ -717,7 +574,7 @@ include "includes/dbconnection.php";
                 </h4>
             </div>
             <p>
-                1. <code>Playoff Procedures:</code> The following tie-breaks will be used for the purposes of the
+                1. <b>Playoff Procedures:</b> The following tie-breaks will be used for the purposes of the
                 crosstable and any special prizes or trophies:
             </p>
             <p>
@@ -728,34 +585,34 @@ include "includes/dbconnection.php";
                 V. Won Games. <br>
             </p>
             <p>
-                2. <code> If Two or More Players Are Tied for First,</code> a playoff shall be held to determine
+                2. <b> If Two or More Players Are Tied for First,</b> a playoff shall be held to determine
                 final standings among all tied players. An Armageddon Game is defined as
                 follows: White shall start with 5 minutes and black shall start with 4 minutes.
                 Black shall be declared the winner if the game ends in a draw.
             </p>
             <p>
-                3. <code>Two Players:</code> The tie will be broken with a two-game rapid match (G/10 +2
+                3. <b>Two Players:</b> The tie will be broken with a two-game rapid match (G/10 +2
                 increment). If the contest is still undecided, the match will be decided by an
                 Armageddon Game.
             </p>
-            4. <code>Three or Four Players:</code> If there are three or four players tied for first, the players
+            4. <b>Three or Four Players:</b> If there are three or four players tied for first, the players
             shall contest a rapid round robin (G/10 +2 increment). If no clear winner is
             produced, the remaining tied players shall contest a blitz (G/3 +2 increment) a)
             round robin (if three or four players remain tied) or b) 2-game match (if two
             players remain tied). If the contest is still undecided, the match will be decided by
             a series of Armageddon Games.
             </p>
-            5. <code>More Than Four Players:</code> If more than four players are tied for first place, a
+            5. <b>More Than Four Players:</b> If more than four players are tied for first place, a
             combination of match tie-breaks and playoffs will be used to determine the
             winner. The format if more than four players are tied for first will be determined
             by the chief arbiter and the tournament organizers.
             </p>
         </div> -->
         <div class="col-md-6 text-left py-4 schedule">
-            <a href="junior-tournament23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW JUNIOR CATEGORY</a>
+            <a href="junior-tournament23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW JUNIOR SECTION</a>
         </div>
         <div class="col-md-6 text-right py-4 schedule">
-            <a href="Invitational-Section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW INVITATIONAL SECTION</a>
+            <a href="blitz-section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW BLITZ SECTION</a>
         </div>
     </div>
 </div>

@@ -470,7 +470,7 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
-                                            <a href="all.php">
+                                            <a href="ncc23.php">
                                                 <img src="mmm.jpeg" alt="img">
                                             </a>
                                         </div>
@@ -498,8 +498,19 @@
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
-                                            <a href="octo.php">
+                                            <a href="ncc23.php">
                                                 <img src="august.jpeg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-12">
+                                        <div class="calling">
+                                            <a href="ncc23.php">
+                                                <img src="augustt.jpeg" alt="img">
                                             </a>
                                         </div>
                                     </div>
@@ -621,16 +632,16 @@
                 <p> Conversation with Nigeria's Chess Queen, Perpetual Ogbiyoyo</p>
             </a>
         </div>
-        <div class="col-md-2 py-2">
+        <!-- <div class="col-md-2 py-2">
             <a href="sponsor.php">
                 <img src="chess22.jpg" alt="image">
                 <p>National Chess Champion 2022 - Explore Pictures</p>
             </a>
-        </div>
+        </div> -->
         <div class="col-md-2 py-2">
-            <a href="sponsor.php">
-                <img src="august.jpeg" alt="image">
-                <p>OLCC Junior Tournament (June Edition 2023)</p>
+            <a href="junior-tournament23.php">
+                <img src="augustt.jpeg" alt="image">
+                <p>OLCC Junior Tournament (August Edition 2023)</p>
             </a>
         </div>
         <div class="col-md-2 py-2">

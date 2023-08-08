@@ -190,24 +190,24 @@
                 <div class="text-center col-md-12 Platinum">
                     <h2 style="padding-bottom: 15px; padding-top: 30px;"><b>Other Sponsors</b></h2>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="square-holder">
                         <img alt="logo" src="tru.png" />
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="square-holder">
                         <img alt="logo" src="pt5.png" />
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="square-holder">
                         <img alt="logo" src="pt4.png" />
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-12">
                     <div class="square-holder">
-                        <img alt="logo" src="air.png" />
+                        <img alt="logo" src="photo.jpeg" />
                     </div>
                 </div>
                 <!-- <div class="text-center col-md-12">

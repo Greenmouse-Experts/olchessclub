@@ -183,8 +183,8 @@ include "includes/dbconnection.php";
 </style>
 
 <div class="container-fluid mem-banner">
-    <h1 style="font-size: 40px;" class="desk-text">TOURNAMENT REGULATIONS FOR JUNIOR SECTION</h1>
-    <h1 style="font-size: 35px;" class="mobile-text">TOURNAMENT REGULATIONS FOR JUNIOR SECTION</h1>
+    <h1 style="font-size: 40px;" class="desk-text">TOURNAMENT REGULATIONS FOR BLITZ SECTION</h1>
+    <h1 style="font-size: 35px;" class="mobile-text">TOURNAMENT REGULATIONS FOR BLITZ SECTION</h1>
 </div>
 
 <div class="container details-sect py-4">
@@ -193,7 +193,7 @@ include "includes/dbconnection.php";
             <div class="kulture">
                 <h3>
                     <b>
-                        TOURNAMENT REGULATIONS FOR ( JUNIOR SECTION )
+                        TOURNAMENT REGULATIONS FOR ( BLITZ SECTION )
                     </b>
                 </h3>
             </div>
@@ -223,7 +223,7 @@ include "includes/dbconnection.php";
             <div class="the schedule">
                 <h4>
                     <b>
-                        REGULATIONS (JUNIOR CATEGORY)
+                        REGULATIONS (BLITZ)
                     </b>
                 </h4>
             </div>
@@ -241,7 +241,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            3rd – 4th of October, 2023
+                            2nd October, 2023
                         </td>
                     </tr>
                     <tr>
@@ -261,7 +261,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            Swiss System (Dutch); 6 Rounds (Rated)
+                            Swiss System (Dutch); 11 Rounds (Rated)
                         </td>
                     </tr>
                     <!-- <tr>
@@ -281,8 +281,16 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            (G/45 +15): 45 minutes for the game with an addition of 15 seconds
-                            (increment) per move starting from move one.
+                            (3+2): 3 minutes for the game with an addition of 2 seconds (increment) per move starting from move one.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
+                                Tie- Breaks
+                            </b>
+                        </td>
+                        <td>
                             <b>
                                 <u>Tie-break Criteria</u> <br>
                             </b>
@@ -297,7 +305,17 @@ include "includes/dbconnection.php";
                                 </b>
                             </p>
                         </td>
-
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
+                                Start Time
+                            </b>
+                        </td>
+                        <td>
+                        <b>Accreditation: </b>	8:00am – 10:00am <br>
+                        <b>Round 1 Starts:</b> 12:00pm
+                        </td>
                     </tr>
                     <tr>
                         <td>
@@ -306,7 +324,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            U20: ₦6,000.00 | U14: ₦6,000.00 | U10: ₦6,000.00
+                            ₦ 6,000.00
                         </td>
                     </tr>
                     <tr>
@@ -316,9 +334,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            U20 1 st – 5 th <br>
-                            U14 1 st – 5 th <br>
-                            U10 1 st – 5 th
+                        1st – 9th & Best Female
                         </td>
                     </tr>
                     <tr>
@@ -327,116 +343,24 @@ include "includes/dbconnection.php";
                                 Total Prize Fund
                             </b>
                         </td>
-                        <td>₦ 549,000.00</td>
+                        <td>₦374,000.00</td>
                     </tr>
                 </tbody>
             </table>
             <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
+                <a href="blitzform.php" class="btn-register">To Register</a>
             </div>
         </div>
-        <div class="col-md-12 py-4">
+        <div class="col-md-12">
             <div class="the schedule">
                 <h4>
                     <b>
-                        PLAYING SCHEDULE ( JUNIORS )
-                    </b>
-                </h4>
-            </div>
-            <table class="table">
-                <thead>
-                    <th>DATE </th>
-                    <th>TIME </th>
-                    <th>EVENT </th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="border-bottom: 1px solid #fff;"></td>
-                        <td>10am</td>
-                        <td>Round 1</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 1px solid #fff; "></td>
-                        <td>12:30pm</td>
-                        <td>Round 2</td>
-                    </tr>
-                    <tr>
-                        <td>3rd October</td>
-                        <td>3pm</td>
-                        <td>Round 3</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 1px solid #fff;"></td>
-                        <td>10am</td>
-                        <td>Round 4</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 1px solid #fff;"></td>
-                        <td>12:30pm</td>
-                        <td>Round 5</td>
-                    </tr>
-                    <tr>
-                        <td >4rd October</td>
-                        <td>3pm</td>
-                        <td>Round 6</td>
-                    </tr>
-                    <tr>
-                        <td>9th October</td>
-                        <td>6pm</td>
-                        <td>Closing Ceremony</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
-            </div>
-        </div>
-
-        <div class="col-md-12 py-4">
-            <div class="the schedule">
-                <h4>
-                    <b>
-                        PRIZE SCHEDULE (UNDER-20)
+                        BLITZ PRIZES
                     </b>
                 </h4>
             </div>
             <div class="graph">
-                <img src="Picture8.png" draggable="false">
-            </div>
-            <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
-            </div>
-        </div>
-
-        <div class="col-md-12 py-4">
-            <div class="the schedule">
-                <h4>
-                    <b>
-                        PRIZE SCHEDULE (UNDER-14)
-                    </b>
-                </h4>
-            </div>
-            <div class="graph">
-                <img src="Picture9.png" draggable="false">
-            </div>
-            <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
-            </div>
-        </div>
-
-        <div class="col-md-12 py-4">
-            <div class="the schedule">
-                <h4>
-                    <b>
-                        PRIZE SCHEDULE (UNDER-10)
-                    </b>
-                </h4>
-            </div>
-            <div class="graph">
-                <img src="Picture10.png" draggable="false">
-            </div>
-            <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
+                <img src="Picture4.png" draggable="false">
             </div>
         </div>
         <!-- <div class="col-md-12">
@@ -483,7 +407,7 @@ include "includes/dbconnection.php";
             </p>
         </div> -->
         <div class="col-md-6 text-left py-4 schedule">
-            <a href="Open-Section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW OPEN SECTION</a>
+            <a href="junior-tournament23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW JUNIOR SECTION</a>
         </div>
         <div class="col-md-6 text-right py-4 schedule">
             <a href="Invitational-Section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW INVITATIONAL SECTION</a>

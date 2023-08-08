@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Categories</title>
+    <title>Blitz Categories</title>
     <script src="https://kit.fontawesome.com/427654d872.js" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -126,22 +126,10 @@
     $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
-        if($_POST['tournament_category'] == 'Master (2000)') 
+        if($_POST['tournament_category'] == 'Blitz') 
         {
-            $amount_payable = 11000;
-        } 
-        elseif($_POST['tournament_category'] == 'Open (Under 20)') 
-        {
-            $amount_payable = 8000;
-        } 
-        elseif($_POST['tournament_category'] == 'Open (Under 14)') 
-        {
-            $amount_payable = 8000;
-        } 
-        else 
-        {
-            $amount_payable = 8000;
-        } 
+            $amount_payable = 6000;
+        }
 
         $dateTime = new DateTime();
         $registration_id =  1;
@@ -215,7 +203,7 @@
                 </div>
                 <div class="form-area" style="border-top: 6px solid #C9383D; margin-top: 10px; margin-bottom: 10px;">
                     <div class="col-lg-12 text-center">
-                        <h2>Open Categories Registration Form</h2>
+                        <h2>Blitz Categories Registration Form</h2>
                         <p class="text-left"></p>
                         <p class="text-left" style="margin-top: 10px;">
                             <b>
@@ -287,9 +275,7 @@
                     <div class="form-area" style="margin-top: 10px; margin-bottom: 10px; padding: 40px 10px;">
                         <div class="col-lg-12">
                             <label>Tournament Category<span> *</span></label> <br>
-                            <input type="radio" class="input-radio" value="Master (2000)" name="tournament_category" required> Masters (O2000 FIDE Rating) : **<b> ₦11,000.00 Note</b>
-                            <br>
-                            <input type="radio" class="input-radio" value="Open (Under 20)" name="tournament_category" required> Open (U2000 FIDE Rating) : **<b> ₦8,000 Note</b>
+                            <input type="radio" class="input-radio" value="Blitz" name="tournament_category" required> Blitz : **<b> ₦6,000.00 Note</b>
                         </div>
                     </div>
                     <!--I agree-->

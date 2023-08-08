@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="images/x-icon" href="img/logo.png">
     <script src="https://kit.fontawesome.com/427654d872.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- jQuery and JS bundle w/ Popper.js -->
@@ -262,11 +262,6 @@
                 <li class="desk-li desk-dropdown">
                     <a class="desk-dropbtn" href="ncc.php">NCC <i class="fas fa-angle-down"></i></a>
                     <div class="desk-dropdown-content">
-                        <!-- <a href="NCCMain.php">NCC Main Event</a>
-                            <a href="NCCOpen.php">NCC Open Section</a>
-                            <a href="liveGames.php">Watch Live Games</a>
-                            <a href="results.php">Results</a>
-                            <a href="archivedGames.php">Archived Games</a> -->
                         <a href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a>
                         <a href="sponsor.php">National Chess Championship 2022</a>
                         <a href="ncc23.php">National Chess Championship 2023</a>

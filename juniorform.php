@@ -192,11 +192,11 @@
                         <div class="form-area"  style="margin-top: 10px; margin-bottom: 10px; padding: 30px 10px 30px 20px;">
                             <div class="col-lg-12">
                                 <label style="margin-bottom: 10px;">Tournament Registration Fee</label> <br>
-                                <input type="radio" class="input-radio" value="Open (Under 20)" name="tournament_category" required> Open (Under 20) **<b>U-20: ₦6,000 Note</b>
+                                <input type="radio" class="input-radio" value="Junior (Under 20)" name="tournament_category" required> Junior (Under 20) **<b>: ₦6,000 Note</b>
                                 <br>
-                                <input type="radio" class="input-radio" value="Open (Under 14)" name="tournament_category" required> Open (Under 14) **<b>U-14: ₦6,000 Note</b>
+                                <input type="radio" class="input-radio" value="Junior (Under 14)" name="tournament_category" required> Junior (Under 14) **<b>: ₦6,000 Note</b>
                                 <br>
-                                <input type="radio" class="input-radio" value="Open (Under 10)" name="tournament_category" required> Open (Under 10) ** <b>U-10: ₦6,000 Note</b>
+                                <input type="radio" class="input-radio" value="Junior (Under 10)" name="tournament_category" required> Junior (Under 10) ** <b>: ₦6,000 Note</b>
                             </div>
                         </div>
                         <!--I agree-->

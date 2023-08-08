@@ -267,7 +267,7 @@
                         <div class="col-lg-6">
                             <div style="margin-right: 20px;">
                                 <button type="submit" name="complete" class="input-submit">
-                                    Submit
+                                Proceed to Payment
                                 </button>
                             </div>
                         </div>

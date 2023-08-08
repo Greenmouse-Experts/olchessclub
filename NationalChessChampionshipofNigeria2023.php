@@ -97,11 +97,11 @@
     .register .box h4 {
         font-weight: 700;
         margin-bottom: 15px;
-        font-size: 25px
+        font-size: 15px
     }
 
     .register .btn-div {
-        margin-top: 30px
+        margin-top: 30px;
     }
 
     .register .btn-register {
@@ -109,11 +109,12 @@
         padding: 10px 20px;
         color: #fff;
         text-decoration: none;
-        border-radius: 10px
+        border-radius: 5px;
+        font-size: 14px;
     }
 
     .register .btn-register:hover {
-        background-color: #c94a4a
+        background-color: #000;
     }
 
     /* NEWSLETTER */
@@ -210,7 +211,7 @@
                 </h2>
                 <div class="line-hr"></div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="box">
                     <h4>INVITATIONAL SECTION </h4>
                     <div class="btn-div">
@@ -218,7 +219,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="box">
                     <h4>OPEN SECTION</h4>
                     <div class="btn-div">
@@ -226,11 +227,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="box">
-                    <h4>JUNIOR CATEGORY</h4>
+                    <h4>JUNIOR SECTION</h4>
                     <div class="btn-div">
                         <a href="junior-tournament23.php" class="btn-register">Enter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="box">
+                    <h4>BLITZ SECTION </h4>
+                    <div class="btn-div">
+                        <a href="blitz-section23.php" class="btn-register">Enter</a>
                     </div>
                 </div>
             </div>
