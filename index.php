@@ -471,7 +471,7 @@
                                     <div class="col-lg-12">
                                         <div class="calling">
                                             <a href="all.php">
-                                                <img src="KK.jpeg" alt="img">
+                                                <img src="mmm.jpeg" alt="img">
                                             </a>
                                         </div>
                                     </div>
@@ -499,7 +499,7 @@
                                     <div class="col-lg-12">
                                         <div class="calling">
                                             <a href="octo.php">
-                                                <img src="mmm.jpeg" alt="img">
+                                                <img src="august.jpeg" alt="img">
                                             </a>
                                         </div>
                                     </div>
@@ -629,12 +629,12 @@
         </div>
         <div class="col-md-2 py-2">
             <a href="sponsor.php">
-                <img src="KK.jpeg" alt="image">
+                <img src="august.jpeg" alt="image">
                 <p>OLCC Junior Tournament (June Edition 2023)</p>
             </a>
         </div>
         <div class="col-md-2 py-2">
-            <a href="sponsor.php">
+            <a href="ncc23.php">
                 <img src="mmm.jpeg" alt="image">
                 <p>Nigeria National Chess Championship (October Edition 2023)</p>
             </a>

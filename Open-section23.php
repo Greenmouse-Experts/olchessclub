@@ -245,7 +245,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            2 nd October, 2023
+                            2nd October, 2023
                         </td>
                     </tr>
                     <tr>
@@ -388,7 +388,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            6 th – 9 th October, 2023
+                            6th – 9th October, 2023
                         </td>
                     </tr>
                     <tr>

@@ -244,7 +244,7 @@ the author of the book, ‘Grandmaster Mindset’
 History, a feat he achieved at 18 years of age. He is also the
 youngest International Master in Africa. In 2019, he became the West African Chess Champion and won
 the title of ‘National Chess Champion of Nigeria’ in
-2020. Daniel is a two-time chess Olympian (Baku,
+2023. Daniel is a two-time chess Olympian (Baku,
 Azerbaijan 2016 & Batumi, Georgia 2018).
 He represented West Africa at the FIDE Chess World
 Cup in Russia in 2019.

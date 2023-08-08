@@ -381,7 +381,7 @@ include "includes/dbconnection.php";
                         <td>Round 6</td>
                     </tr>
                     <tr>
-                        <td style="border-bottom: 1px solid #fff;">9rd October</td>
+                        <td style="border-bottom: 1px solid #fff;">9th October</td>
                         <td>6pm</td>
                         <td>Closing Ceremony</td>
                     </tr>

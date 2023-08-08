@@ -142,7 +142,7 @@ include "includes/dbconnection.php";
         </div>
         <hr>
         <div class="copy-right">
-            <p>© 2020 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+            <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
         </div>
     </div>
     -->
