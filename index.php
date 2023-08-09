@@ -494,7 +494,7 @@
                                     </div> -->
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <!-- <div class="carousel-item">
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
@@ -504,7 +504,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="carousel-item">
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">

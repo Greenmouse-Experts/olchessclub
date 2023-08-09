@@ -483,7 +483,6 @@ include "includes/dbconnection.php";
             </p>
         </div> -->
         <div class="col-md-6 text-left py-4 schedule">
-            <a href="Open-Section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW OPEN SECTION</a>
         </div>
         <div class="col-md-6 text-right py-4 schedule">
             <a href="Invitational-Section23.php" style="padding:10px 25px; color: #fff; background-color: #B6393B">VIEW INVITATIONAL SECTION</a>
