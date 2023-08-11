@@ -70,6 +70,22 @@
         transition: all .3s
     }
 
+    .square-holdering {
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        background-color: #ffffff73;
+        box-shadow: 0 0 15px rgba(54, 54, 54, .26);
+        border-radius: 10px
+    }
+
+    .square-holdering img {
+        max-width: 100%;
+        transition: all .3s
+    }
+
     .register .line-hr {
         width: 50px;
         height: 2px;
@@ -180,8 +196,8 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <div class="square-holder" style="padding: 50px 10px 40px 10px;">
-                        <img alt="logo" src="download.png" />
+                    <div class="square-holder">
+                        <img alt="logo" src="pt4.png" />
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -201,15 +217,28 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="square-holder">
-                        <img alt="logo" src="pt4.png" />
+                <div class="square-holder" style="padding: 50px 10px 40px 10px;">
+                        <img alt="logo" src="download.png" />
                     </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-6">
                     <div class="square-holder">
                         <img alt="logo" src="photo.jpeg" />
                     </div>
                 </div>
+                <div class="col-lg-4">
+                    <div class="square-holdering">
+                        <img alt="logo" src="liquid.jpeg" />
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                   
+                </div>
+                <!-- <div class="col-lg-12">
+                    <div class="square-holdering">
+                        <img alt="logo" src="photo.jpeg" />
+                    </div>
+                </div> -->
                 <!-- <div class="text-center col-md-12">
                 <h2 style="padding-bottom: 15px; padding-top: 30px;"><b>Supported By</b></h2>
             </div>

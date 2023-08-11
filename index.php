@@ -306,6 +306,7 @@
     .Click .btn-cure {
         color: #fff;
         text-align: center;
+        padding: 15px 20px;
     }
 
     .Click .btn-cure a {
@@ -322,6 +323,7 @@
         color: #fff;
         text-align: center;
         padding: 10px 0px 0px 0px;
+        padding: 15px 20px;
     }
 
     .Click .btn-curee a {
@@ -385,37 +387,37 @@
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
 <!-- CLICK -->
-<!-- <section class="Click">
-            <div class="container-fuild g-0">
-                <div class="row">
-                    <div class="col-lg-2">
-                    <div class="btn-curee">
-                            <a href="">
-                                TOP NEWS
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div>
-                            <marquee>
-                                <h2>
-                                   REGISTER FOR NATIONAL CHESS CHAMPIONSHIP (NCC) 2022. <a href="sponsor.php">
-                                   CLICK HERE TO REGISTER 
-                                   </a>
-                                </h2>
-                            </marquee>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="btn-cure">
-                            <a href="NationalChessChampionshipofNigeria2022.php">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
+<section class="Click">
+    <div class="container-fuild g-0">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="btn-curee">
+                    <a href="">
+                        TOP NEWS
+                    </a>
                 </div>
             </div>
-        </section> -->
+            <div class="col-lg-8">
+                <div>
+                    <marquee>
+                        <h2>
+                            REGISTER FOR NATIONAL CHESS CHAMPIONSHIP (NCC) 2023. <a href="ncc23.php">
+                                CLICK HERE TO ENTER
+                            </a>
+                        </h2>
+                    </marquee>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="btn-cure">
+                    <a href="ncc23.php">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- CLICK ENDS -->
 <!-- .caro1 {
     background-image: url('./');
@@ -475,7 +477,6 @@
                                             </a>
                                         </div>
                                     </div>
-
                                     <!-- <div class="col-lg-7 card-section">
                                         <div class="card-body">
                                             <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, PERPETUAL OGBIYOYO</h5>
@@ -494,22 +495,22 @@
                                     </div> -->
                                 </div>
                             </div>
-                            <!-- <div class="carousel-item">
+                            <div class="carousel-item">
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
-                                            <a href="ncc23.php">
+                                            <a href="cappa.php">
                                                 <img src="august.jpeg" alt="img">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="carousel-item">
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="calling">
-                                            <a href="ncc23.php">
+                                            <a href="august-tour.php">
                                                 <img src="augustt.jpeg" alt="img">
                                             </a>
                                         </div>
@@ -639,7 +640,7 @@
             </a>
         </div> -->
         <div class="col-md-2 py-2">
-            <a href="junior-tournament23.php">
+            <a href="august-tour.php">
                 <img src="augustt.jpeg" alt="image">
                 <p>OLCC Junior Tournament (August Edition 2023)</p>
             </a>
@@ -1184,4 +1185,5 @@
 </script>
 <script src="js/index.js"></script>
 </body>
+
 </html>

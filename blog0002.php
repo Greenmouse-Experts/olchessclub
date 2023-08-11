@@ -89,8 +89,6 @@
                             <li><a href="register.php">Register Now</a></li>
                             <li><a href="team.php">Our Team</a></li>
                             <li><a href="vacancy.php">Openings</a></li>
-                            <li><a href="https://twitter.com/orchidchessclub?t=eAihKuFSH8q5rdKoGy3lwQ&s=08"><i class="fab fa-twitter"></i> Twitter</a></li>
-                            <li><a href="https://www.instagram.com/invites/contact/?i=fz6kyiomfsk0&utm_content=msr3cra"><i class="fab fa-instagram"></i> Instagram</a></li>
                         </ul>
                     </div>
                 </div>

@@ -376,7 +376,7 @@ include "includes/dbconnection.php";
                         <td>Round 5</td>
                     </tr>
                     <tr>
-                        <td >4rd October</td>
+                        <td >4th October</td>
                         <td>3pm</td>
                         <td>Round 6</td>
                     </tr>

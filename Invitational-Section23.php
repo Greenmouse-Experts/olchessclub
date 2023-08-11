@@ -330,7 +330,7 @@ include "includes/dbconnection.php";
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="border-bottom: 1px solid #fff;">2rd October</td>
+                        <td style="border-bottom: 1px solid #fff;">2nd October</td>
                         <td>2pm</td>
                         <td>Arrival &amp; Check-in</td>
                     </tr>
@@ -556,7 +556,7 @@ include "includes/dbconnection.php";
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="border-bottom: 1px solid #fff;">2rd October</td>
+                        <td style="border-bottom: 1px solid #fff;">2nd October</td>
                         <td>2pm</td>
                         <td>Arrival &amp; Check-in</td>
                     </tr>
