@@ -2253,7 +2253,6 @@ h6 {
 }
 
 /*Team Page*/
-
 .team-banner {
     height: 250px;
     background: url('../images/gal-banner.jpg');
@@ -2261,7 +2260,6 @@ h6 {
     background-color: #1d08089c;
     background-blend-mode: overlay;
 }
-
 .team-banner h1 {
     text-align: center;
     padding-top: 70px;
