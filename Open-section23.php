@@ -345,7 +345,7 @@ include "includes/dbconnection.php";
                 </tbody>
             </table>
             <div class="btn-div">
-                <a href="registerform.php" class="btn-register">To Register</a>
+                 <a href="registerform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
         <div class="col-md-12 py-4">
@@ -416,7 +416,7 @@ include "includes/dbconnection.php";
                 </tbody>
             </table>
             <div class="btn-div">
-                <a href="registerform.php" class="btn-register">To Register</a>
+                 <a href="registerform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
         <!-- <div class="col-md-12 py-4">
@@ -530,7 +530,7 @@ include "includes/dbconnection.php";
                 <img src="Picture5.png" draggable="false">
             </div>
             <div class="btn-div">
-                <a href="registerform.php" class="btn-register">To Register</a>
+                 <a href="registerform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
 
@@ -546,7 +546,7 @@ include "includes/dbconnection.php";
                 <img src="Picture6.png" draggable="false">
             </div>
             <div class="btn-div">
-                <a href="registerform.php" class="btn-register">To Register</a>
+                 <a href="registerform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
 
@@ -562,7 +562,7 @@ include "includes/dbconnection.php";
                 <img src="Picture7.png" draggable="false">
             </div>
             <div class="btn-div">
-                <a href="registerform.php" class="btn-register">To Register</a>
+                 <a href="registerform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
         <!-- <div class="col-md-12">

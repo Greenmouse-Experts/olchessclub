@@ -81,20 +81,21 @@ include "includes/dbconnection.php";
     }
 
     .btn-div {
-    margin-top: 40px;
-    margin-bottom: 30px
-  }
+        margin-top: 40px;
+        margin-bottom: 30px
+    }
 
-  .btn-div .btn-register {
-    padding: 10px 30px;
-    background-color: #b6393b;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px
-  }
-  .btn-div .btn-register:hover{
-    background-color: #000;
-  }
+    .btn-div .btn-register {
+        padding: 10px 30px;
+        background-color: #b6393b;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px
+    }
+
+    .btn-div .btn-register:hover {
+        background-color: #000;
+    }
 
     .table-lent td,
     .table-lent th {
@@ -332,7 +333,7 @@ include "includes/dbconnection.php";
                 </tbody>
             </table>
             <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
+                <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
         <div class="col-md-12 py-4">
@@ -376,7 +377,7 @@ include "includes/dbconnection.php";
                         <td>Round 5</td>
                     </tr>
                     <tr>
-                        <td >4th October</td>
+                        <td>4th October</td>
                         <td>3pm</td>
                         <td>Round 6</td>
                     </tr>
@@ -388,7 +389,7 @@ include "includes/dbconnection.php";
                 </tbody>
             </table>
             <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
+                <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
 
@@ -404,7 +405,7 @@ include "includes/dbconnection.php";
                 <img src="Picture8.png" draggable="false">
             </div>
             <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
+                <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
 
@@ -420,7 +421,7 @@ include "includes/dbconnection.php";
                 <img src="Picture9.png" draggable="false">
             </div>
             <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
+                <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
 
@@ -436,7 +437,7 @@ include "includes/dbconnection.php";
                 <img src="Picture10.png" draggable="false">
             </div>
             <div class="btn-div">
-                <a href="juniorform.php" class="btn-register">To Register</a>
+                <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
             </div>
         </div>
         <!-- <div class="col-md-12">
