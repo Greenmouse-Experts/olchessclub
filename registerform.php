@@ -201,7 +201,7 @@
                 <div class="form-area">
                     <div class="col-lg-12 text-center">
                         <a href="index.php">
-                            <img src="image.png" width="70%">
+                            <img src="image.png" draggable="false" width="70%">
                         </a>
                     </div>
                 </div>

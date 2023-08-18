@@ -228,11 +228,6 @@ include "includes/dbconnection.php";
                 </h4>
             </div>
             <table class="table-lent">
-                <!-- <thead>
-                      <th>Date</th>
-                      <th>Time</th>
-                      <th>Event</th>
-                    </thead> -->
                 <tbody>
                     <tr>
                         <td>
