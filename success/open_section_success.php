@@ -33,7 +33,7 @@
                 <div class="form-area" style="border-top: 6px solid #C9383D; margin-top: 10px; margin-bottom: 10px;">
                     <div class="col-lg-12">
                         <h2>REGISTRATION FORM</h2>
-                        <p class="text-left">Your response has been recorded.</p>
+                        <p class="text-left">Your response has been recorded. An email has been sent to you.</p>
                         <button class="input-submit">
                             <a href="../registerform.php" class="text-white">
                                 Submit another response

@@ -124,6 +124,7 @@
     <?php
     // Set your Paystack public key here
     $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
+    // $public_key = 'pk_test_b186c94463b3edfc082e19cf169e37b25f583fea';
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
         if($_POST['tournament_category'] == 'Master (2000)') 
@@ -281,7 +282,7 @@
                             <label>Tournament Category<span> *</span></label> <br>
                             <input type="radio" class="input-radio" value="Master (2000)" name="tournament_category" required> Masters (O2000 FIDE Rating) : **<b> ₦11,000.00 Note</b>
                             <br>
-                            <input type="radio" class="input-radio" value="Open (Under 20)" name="tournament_category" required> Open (U2000 FIDE Rating) : **<b> ₦8,000 Note</b>
+                            <input type="radio" class="input-radio" value="Open (Under 2000)" name="tournament_category" required> Open (U2000 FIDE Rating) : **<b> ₦8,000 Note</b>
                         </div>
                     </div>
                     <!--I agree-->
