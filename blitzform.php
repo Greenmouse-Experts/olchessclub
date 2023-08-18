@@ -120,14 +120,13 @@
 </head>
 
 <body>
-    <?php session_start();?>
+    <?php session_start(); ?>
     <?php
     // Set your Paystack public key here
     $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
 
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
-        if($_POST['tournament_category'] == 'Blitz') 
-        {
+        if ($_POST['tournament_category'] == 'Blitz') {
             $amount_payable = 6000;
         } else {
             $amount_payable = 6000;
@@ -137,15 +136,15 @@
         $registration_id =  1;
         $amount = $amount_payable * 100; // Paystack requires the amount in kobo (1 Naira = 100 kobo)
         $email = $_POST['email'];
-        $first_name = $_POST['first_name']; 
-        $last_name = $_POST['last_name']; 
-        $gender = $_POST['gender']; 
-        $telephone_number = $_POST['telephone_number']; 
-        $date_of_birth = $_POST['date_of_birth']; 
-        $fide = $_POST['fide']; 
-        $chess_club = $_POST['chess_club']; 
-        $tournament_category = $_POST['tournament_category']; 
-        $I_agree = $_POST['I_agree']; 
+        $first_name = $_POST['first_name'];
+        $last_name = $_POST['last_name'];
+        $gender = $_POST['gender'];
+        $telephone_number = $_POST['telephone_number'];
+        $date_of_birth = $_POST['date_of_birth'];
+        $fide = $_POST['fide'];
+        $chess_club = $_POST['chess_club'];
+        $tournament_category = $_POST['tournament_category'];
+        $I_agree = $_POST['I_agree'];
         $payment = 'Paid';
         $paid_at = $dateTime->format('F j, Y g:i:s A');
         $reference = "BC_" . uniqid(); // Generate a unique payment reference
@@ -302,4 +301,5 @@
         </div>
     </div>
 </body>
+
 </html>
