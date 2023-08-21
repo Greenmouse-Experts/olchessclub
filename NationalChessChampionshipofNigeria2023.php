@@ -170,9 +170,6 @@
                         The championship has two main sections: The Invitational Section and the Opens Section. The Invitational Section is a closed section that will feature some of the top-rated Nigerian chess players who will battle for the coveted national titles. The Opens Section is where players of different categories, playing strengths and ages can compete. It includes masters, open, blitz and junior categories.
                     </p>
                     <p>
-                        The championship has two main sections: The Invitational Section and the Opens Section. The Invitational Section is a closed section that will feature some of the top-rated Nigerian chess players who will battle for the coveted national titles. The Opens Section is where players of different categories, playing strengths and ages can compete. It includes masters, open, blitz and junior categories.
-                    </p>
-                    <p>
                         The total prize money for NCC 2023 is about <b>
                             ₦15,000,000.00
                         </b>
