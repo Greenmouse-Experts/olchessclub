@@ -119,44 +119,168 @@
         border: none;
         padding-top: 8px
     }
+
+    /* Absolute Center Spinner */
+    .loading {
+        position: fixed;
+        z-index: 999;
+        height: 2em;
+        width: 2em;
+        overflow: show;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    /* Transparent Overlay */
+    .loading:before {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(rgba(20, 20, 20, .8), rgba(0, 0, 0, .8));
+
+        background: -webkit-radial-gradient(rgba(20, 20, 20, .8), rgba(0, 0, 0, .8));
+    }
+
+    /* :not(:required) hides these rules from IE9 and below */
+    .loading:not(:required) {
+        /* hide "loading..." text */
+        font: 0/0 a;
+        color: transparent;
+        text-shadow: none;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .loading:not(:required):after {
+        content: '';
+        display: block;
+        font-size: 10px;
+        width: 1em;
+        height: 1em;
+        margin-top: -0.5em;
+        -webkit-animation: spinner 150ms infinite linear;
+        -moz-animation: spinner 150ms infinite linear;
+        -ms-animation: spinner 150ms infinite linear;
+        -o-animation: spinner 150ms infinite linear;
+        animation: spinner 150ms infinite linear;
+        border-radius: 0.5em;
+        -webkit-box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+        box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0;
+    }
+
+    /* Animation */
+
+    @-webkit-keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @-o-keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spinner {
+        0% {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
 </style>
 
 <body style="background-color: #FFE2E2;">
-    <?php 
+    <?php
     session_start();
     // Set your Paystack public key here
-    $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
-    // $public_key = 'pk_test_b186c94463b3edfc082e19cf169e37b25f583fea';
+    // $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
+    $public_key = 'pk_test_e70dd8d884e77ece55cd721591fe3e223698691e';
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['complete'])) {
-        if($_POST['tournament_category'] == 'Junior (Under 20)') 
-        {
+        if ($_POST['tournament_category'] == 'Junior (Under 20)') {
             $amount_payable = 6000;
-        } 
-        elseif($_POST['tournament_category'] == 'Junior (Under 14)') 
-        {
+        } elseif ($_POST['tournament_category'] == 'Junior (Under 14)') {
             $amount_payable = 6000;
-        } 
-        else 
-        {
+        } else {
             $amount_payable = 6000;
         }
 
         $dateTime = new DateTime();
         $registration_id =  1;
         $amount = $amount_payable * 100; // Paystack requires the amount in kobo (1 Naira = 100 kobo)
-        $first_name = $_GET['first_name']; 
-        $last_name = $_GET['last_name']; 
-        $gender = $_GET['gender']; 
-        $date_of_birth = $_GET['date_of_birth']; 
-        $school_name = $_GET['school_name']; 
-        $fide_id = $_GET['fide_id']; 
-        $tournament_category = $_GET['tournament_category']; 
-        $I_agree = $_GET['I_agree']; 
-        $p_g_name = $_POST['p_g_name']; 
-        $p_g_phone_number = $_POST['p_g_phone_number']; 
-        $p_g_email = $_POST['p_g_email']; 
-        $consent_agreement = $_POST['consent_agreement']; 
+        $first_name = $_GET['first_name'];
+        $last_name = $_GET['last_name'];
+        $gender = $_GET['gender'];
+        $date_of_birth = $_GET['date_of_birth'];
+        $school_name = $_GET['school_name'];
+        $fide_id = $_GET['fide_id'];
+        $tournament_category = $_GET['tournament_category'];
+        $I_agree = $_GET['I_agree'];
+        $p_g_name = $_POST['p_g_name'];
+        $p_g_phone_number = $_POST['p_g_phone_number'];
+        $p_g_email = $_POST['p_g_email'];
+        $consent_agreement = $_POST['consent_agreement'];
         $payment = 'Paid';
         $paid_at = $dateTime->format('F j, Y g:i:s A');
         $reference = "JT_" . uniqid(); // Generate a unique payment reference
@@ -166,58 +290,64 @@
         // Redirect to the payment page
         echo '<script src="https://js.paystack.co/v1/inline.js"></script>';
         echo '<script>
-                var handler = PaystackPop.setup({
-                    key: "' . $public_key . '",
-                    email: "' . $p_g_email . '",
-                    amount: ' . $amount . ',
-                    currency: "NGN",
-                    ref: "' . $reference . '",
-                    callback: function(response) {
-                        // This function executes after a successful payment
-                        // You can handle the payment verification here
-                        // For example, you can make an AJAX call to your server to verify the payment
-                        // and process the order if the payment is successful.
-                        
-                        // Send the payment reference to process_payment.php for verification
-                        var xhr = new XMLHttpRequest();
-                        xhr.open("POST", "process/junior_tournament_2023.php", true);
-                        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                        xhr.onreadystatechange = function() {
-                            if (xhr.readyState === XMLHttpRequest.DONE) {
-                                var result = JSON.parse(xhr.responseText);
-                                if (result.status === "success") {
-                                    // Redirect the user to a success page
-                                    window.location.href = "success/junior_form_success.php";
-                                } else {
-                                    alert("Payment verification failed. Please try again later.");
+                document.addEventListener("DOMContentLoaded", function() {
+                    var loader = document.querySelector(".loader");
+                    var handler = PaystackPop.setup({
+                        key: "' . $public_key . '",
+                        email: "' . $p_g_email . '",
+                        amount: ' . $amount . ',
+                        currency: "NGN",
+                        ref: "' . $reference . '",
+                        callback: function(response) {
+                            // This function executes after a successful payment
+                            // You can handle the payment verification here
+                            // For example, you can make an AJAX call to your server to verify the payment
+                            // and process the order if the payment is successful.
+                            
+                            // Send the payment reference to process_payment.php for verification
+                            var xhr = new XMLHttpRequest();
+                            xhr.open("POST", "process/junior_tournament_2023.php", true);
+                            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                            xhr.onreadystatechange = function() {
+                                if (xhr.readyState === XMLHttpRequest.DONE) {
+                                    var result = JSON.parse(xhr.responseText);
+                                    if (result.status === "success") {
+                                        // Redirect the user to a success page
+                                        window.location.href = "success/junior_form_success.php";
+                                    } else {
+                                        alert("Payment verification failed. Please try again later.");
+                                    }
                                 }
-                            }
-                        };
-                        xhr.send("reference=" + encodeURIComponent(response.reference) + 
-                        "&registration_id=" + "' . $registration_id . '" + 
-                        "&first_name=" + "' . $first_name . '" + 
-                        "&last_name=" +  "' . $last_name . '" + 
-                        "&gender=" +  "' . $gender . '" + 
-                        "&date_of_birth=" +  "' . $date_of_birth . '" + 
-                        "&school_name=" +  "' . $school_name . '" + 
-                        "&fide_id=" +  "' . $fide_id . '" + 
-                        "&tournament_category=" +  "' . $tournament_category . '" + 
-                        "&I_agree=" +  "' . $I_agree . '" + 
-                        "&p_g_name=" +  "' . $p_g_name . '" + 
-                        "&p_g_phone_number=" +  "' . $p_g_phone_number . '" + 
-                        "&p_g_email=" +  "' . $p_g_email . '" + 
-                        "&consent_agreement=" +  "' . $consent_agreement . '" + 
-                        "&payment=" +  "' . $payment . '" + 
-                        "&paid_at=" +  "' . $paid_at . '");
-                    },
-                    onClose: function() {
-                        alert("Payment window closed.");
-                    }
+                            };
+                            // Hide loader
+                            loader.style.display = "inline-block";
+                            xhr.send("reference=" + encodeURIComponent(response.reference) + 
+                            "&registration_id=" + "' . $registration_id . '" + 
+                            "&first_name=" + "' . $first_name . '" + 
+                            "&last_name=" +  "' . $last_name . '" + 
+                            "&gender=" +  "' . $gender . '" + 
+                            "&date_of_birth=" +  "' . $date_of_birth . '" + 
+                            "&school_name=" +  "' . $school_name . '" + 
+                            "&fide_id=" +  "' . $fide_id . '" + 
+                            "&tournament_category=" +  "' . $tournament_category . '" + 
+                            "&I_agree=" +  "' . $I_agree . '" + 
+                            "&p_g_name=" +  "' . $p_g_name . '" + 
+                            "&p_g_phone_number=" +  "' . $p_g_phone_number . '" + 
+                            "&p_g_email=" +  "' . $p_g_email . '" + 
+                            "&consent_agreement=" +  "' . $consent_agreement . '" + 
+                            "&payment=" +  "' . $payment . '" + 
+                            "&paid_at=" +  "' . $paid_at . '");
+                        },
+                        onClose: function() {
+                            alert("Payment window closed.");
+                        }
+                    });
+                    handler.openIframe();
                 });
-                handler.openIframe();
             </script>';
     }
     ?>
+    <div class="loading loader" style="display: none;">Loading</div>
     <div class="container">
         <div class="row">
             <div class="col-lg-2"></div>
@@ -268,7 +398,7 @@
                         <div class="col-lg-6">
                             <div style="margin-right: 20px;">
                                 <button type="submit" name="complete" class="input-submit">
-                                Proceed to Payment
+                                    Proceed to Payment
                                 </button>
                             </div>
                         </div>
@@ -277,7 +407,7 @@
                 <div class="col-lg-12">
                     <div style="margin-right: 20px;">
                         <a href="juniorform.php">
-                            <button class="input-submit"  style="float: right;">
+                            <button class="input-submit" style="float: right;">
                                 Back
                             </button>
                         </a>
