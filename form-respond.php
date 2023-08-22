@@ -254,8 +254,8 @@
     <?php
     session_start();
     // Set your Paystack public key here
-    // $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
-    $public_key = 'pk_test_e70dd8d884e77ece55cd721591fe3e223698691e';
+    $public_key = 'pk_live_3d2d203e69d23399e23ea211098081d8ac1bb8eb';
+    // $public_key = 'pk_test_e70dd8d884e77ece55cd721591fe3e223698691e';
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['complete'])) {
         if ($_POST['tournament_category'] == 'Junior (Under 20)') {
