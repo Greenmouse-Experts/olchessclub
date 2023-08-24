@@ -319,7 +319,8 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            ₦ 6,000.00
+                            ₦ 6,000.00 <br>
+                            <b>Deadline:</b> 1st October, 2023.
                         </td>
                     </tr>
                     <tr>

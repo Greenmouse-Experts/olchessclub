@@ -307,7 +307,8 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            U20: ₦6,000.00 | U14: ₦6,000.00 | U10: ₦6,000.00
+                            U20: ₦6,000.00 | U14: ₦6,000.00 | U10: ₦6,000.00 <br>
+                            <b>Deadline:</b> 1st October, 2023.
                         </td>
                     </tr>
                     <tr>

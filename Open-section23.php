@@ -245,7 +245,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                            6th – 9th October, 2023
+                            5th – 9th October, 2023
                         </td>
                     </tr>
                     <tr>
@@ -295,6 +295,8 @@ include "includes/dbconnection.php";
                             Opens category - ₦8,000.00 <br>
                             <b> Late registration ₦13,000.00 <br>
                             </b>
+                            <br>
+                            <b>Deadline:</b> 1st October, 2023.
                         </td>
                     </tr>
                     <tr>
