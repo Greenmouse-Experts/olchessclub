@@ -61,6 +61,7 @@ if(!isset($_SESSION['adminlogged'])){
                                                 <th>Transaction Reference ID</th>
                                                 <th>Status</th>
                                                 <th>Paid At</th>
+                                                <th>Action</th>
                                             </thead>
                                             <tbody>
                                             <?php 
@@ -68,23 +69,28 @@ if(!isset($_SESSION['adminlogged'])){
                                                 $date=date('Y-m-d');
 
                                                 $n=1;
-                                                foreach($openSectionData as $openSection) { ?>
+                                                foreach($openSectionData as $blitzcategory) { ?>
                                                 <tr>
                                                 <td><?php echo $n;?></td>
-                                                <td><?php echo $openSection ['registration_id']; ?></td>
-                                                <td><?php echo $openSection ['first_name']; ?></td>
-                                                <td><?php echo $openSection ['last_name']; ?></td>
-                                                <td><?php echo $openSection ['gender']; ?></td>
-                                                <td><?php echo $openSection ['email']; ?></td>
-                                                <td><?php echo $openSection ['date_of_birth']; ?></td>  
-                                                <td><?php echo $openSection ['telephone_number']; ?></td>			   
-                                                <td><?php echo $openSection ['fide']; ?></td>		   
-                                                <td><?php echo $openSection ['chess_club']; ?></td>
-                                                <td><?php echo $openSection ['tournament_category']; ?></td>
-                                                <td><?php echo $openSection ['I_agree']; ?></td>  	   
-                                                <td><?php echo $openSection ['ref_id']; ?></td>
-                                                <td><span style="color: green"><?php echo $openSection ['payment']; ?></span></td>
-                                                <td><?php echo $openSection ['paid_at']; ?></td>	
+                                                <td><?php echo $blitzcategory ['registration_id']; ?></td>
+                                                <td><?php echo $blitzcategory ['first_name']; ?></td>
+                                                <td><?php echo $blitzcategory ['last_name']; ?></td>
+                                                <td><?php echo $blitzcategory ['gender']; ?></td>
+                                                <td><?php echo $blitzcategory ['email']; ?></td>
+                                                <td><?php echo $blitzcategory ['date_of_birth']; ?></td>  
+                                                <td><?php echo $blitzcategory ['telephone_number']; ?></td>			   
+                                                <td><?php echo $blitzcategory ['fide']; ?></td>		   
+                                                <td><?php echo $blitzcategory ['chess_club']; ?></td>
+                                                <td><?php echo $blitzcategory ['tournament_category']; ?></td>
+                                                <td><?php echo $blitzcategory ['I_agree']; ?></td>  	   
+                                                <td><?php echo $blitzcategory ['ref_id']; ?></td>
+                                                <td><span style="color: green"><?php echo $blitzcategory ['payment']; ?></span></td>
+                                                <td><?php echo $blitzcategory ['paid_at']; ?></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger" onclick="confirmDelete(<?php echo $blitzcategory['id']; ?>)">
+                                                        Delete
+                                                    </button>
+                                                </td>	
                                                 </tr>
                                                 
                                                 <?php $n++;   } ?>
@@ -100,5 +106,15 @@ if(!isset($_SESSION['adminlogged'])){
             </div>
         </div>
     </section>
+
+    <script>
+        function confirmDelete(id) {
+            var confirmDelete = confirm("Are you sure you want to delete this record?");
+            if (confirmDelete) {
+                // Redirect to the delete script with the record ID
+                window.location.href = "../process/delete_blitz_category_2023.php?id=" + id;
+            }
+        }
+    </script>
 
     <?php include "../includes/footer.php";?>

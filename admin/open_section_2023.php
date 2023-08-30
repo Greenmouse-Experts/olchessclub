@@ -85,6 +85,11 @@ if(!isset($_SESSION['adminlogged'])){
                                                 <td><?php echo $openSection ['ref_id']; ?></td>
                                                 <td><span style="color: green"><?php echo $openSection ['payment']; ?></span></td>
                                                 <td><?php echo $openSection ['paid_at']; ?></td>	
+                                                <td>
+                                                    <button type="button" class="btn btn-danger" onclick="confirmDelete(<?php echo $openSection['id']; ?>)">
+                                                        Delete
+                                                    </button>
+                                                </td>	
                                                 </tr>
                                                 
                                                 <?php $n++;   } ?>
@@ -100,5 +105,15 @@ if(!isset($_SESSION['adminlogged'])){
             </div>
         </div>
     </section>
+
+    <script>
+        function confirmDelete(id) {
+            var confirmDelete = confirm("Are you sure you want to delete this record?");
+            if (confirmDelete) {
+                // Redirect to the delete script with the record ID
+                window.location.href = "../process/delete_open_section_2023.php?id=" + id;
+            }
+        }
+    </script>
 
     <?php include "../includes/footer.php";?>
