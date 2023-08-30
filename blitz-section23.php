@@ -81,20 +81,21 @@ include "includes/dbconnection.php";
     }
 
     .btn-div {
-    margin-top: 40px;
-    margin-bottom: 30px
-  }
+        margin-top: 40px;
+        margin-bottom: 30px
+    }
 
-  .btn-div .btn-register {
-    padding: 10px 30px;
-    background-color: #b6393b;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px
-  }
-  .btn-div .btn-register:hover{
-    background-color: #000;
-  }
+    .btn-div .btn-register {
+        padding: 10px 30px;
+        background-color: #b6393b;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px
+    }
+
+    .btn-div .btn-register:hover {
+        background-color: #000;
+    }
 
     .table-lent td,
     .table-lent th {
@@ -308,8 +309,8 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                        <b>Accreditation: </b>	8:00am – 10:00am <br>
-                        <b>Round 1 Starts:</b> 12:00pm
+                            <b>Accreditation: </b> 8:00am – 10:00am <br>
+                            <b>Round 1 Starts:</b> 12:00pm
                         </td>
                     </tr>
                     <tr>
@@ -330,7 +331,7 @@ include "includes/dbconnection.php";
                             </b>
                         </td>
                         <td>
-                        1st – 9th & Best Female
+                            1st – 9th & Best Female
                         </td>
                     </tr>
                     <tr>
@@ -481,5 +482,4 @@ include "includes/dbconnection.php";
 </script>
 <script src="js/index.js"></script>
 </body>
-
 </html>
