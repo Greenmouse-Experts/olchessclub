@@ -199,7 +199,7 @@ include "includes/dbconnection.php";
                 </h3>
             </div>
             <p>
-                <!-- The Championship (Invitational) Section of NCC 2022, applies only to players invited to vie for the titles of National Chess Champion and National Women Chess Champion of Nigeria.  They are players with FIDE Ratings that place them among the best 10 players in Nigeria as at September 1, 2022 and players chosen as Wild Cards at the discretion of the Nigeria Chess Federation (NCF). -->
+                
             </p>
         </div>
         <div class="col-md-12">
