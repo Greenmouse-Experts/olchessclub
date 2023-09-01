@@ -198,9 +198,6 @@ include "includes/dbconnection.php";
                     </b>
                 </h3>
             </div>
-            <p>
-                
-            </p>
         </div>
         <div class="col-md-12">
             <div class="the">
