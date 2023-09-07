@@ -19,6 +19,7 @@ body {
 .text-brand {
     color:rgba(182,57,59,0.8) !important;
 }
+
 .btn-brand {
     background-color:rgba(182,57,59,0.8) !important;
     color:#f7f7f7 !important;
@@ -26,9 +27,6 @@ body {
 .text-red {
     color:red !important;
 }
-
-
-
 /* sidenav and topnav section */
 .sidenav {
     padding:35px 10px 25px 10px;
