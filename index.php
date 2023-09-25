@@ -387,6 +387,7 @@
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
 <!-- CLICK -->
+<marquee behavior="" direction=""></marquee>
 <section class="Click">
     <div class="container-fuild g-0">
         <div class="row">
