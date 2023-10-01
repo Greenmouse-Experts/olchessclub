@@ -331,13 +331,13 @@ include "includes/dbconnection.php";
                 <tbody>
                     <tr>
                         <td style="border-bottom: 1px solid #fff;">2nd October</td>
-                        <td>2pm</td>
-                        <td>Arrival &amp; Check-in</td>
+                        <td>11am</td>
+                        <td>Opening Ceremony</td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>5:30pm</td>
-                        <td>Opening Ceremony</td>
+                        <td>2pm</td>
+                        <td>Arrival &amp; Check-in</td>
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px solid #fff;">3rd October</td>
@@ -557,13 +557,13 @@ include "includes/dbconnection.php";
                 <tbody>
                     <tr>
                         <td style="border-bottom: 1px solid #fff;">2nd October</td>
-                        <td>2pm</td>
-                        <td>Arrival &amp; Check-in</td>
+                        <td>11am</td>
+                        <td>Opening Ceremony</td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>5:30pm</td>
-                        <td>Opening Ceremony</td>
+                        <td>2pm</td>
+                        <td>Arrival &amp; Check-in</td>
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px solid #fff;">3rd October</td>

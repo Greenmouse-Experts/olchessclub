@@ -135,6 +135,7 @@ include "includes/dbconnection.php";
 
   .master p {
     margin-top: 0;
+
     margin-bottom: 0;
     line-height: 2;
   }
