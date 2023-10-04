@@ -341,9 +341,9 @@ include "includes/dbconnection.php";
                     </tr>
                 </tbody>
             </table>
-            <div class="btn-div">
+            <!-- <div class="btn-div">
                 <a href="blitzform.php" target="_blank" class="btn-register">To Register</a>
-            </div>
+            </div> -->
         </div>
         <div class="col-md-12">
             <div class="the schedule">

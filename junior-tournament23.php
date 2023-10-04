@@ -333,9 +333,9 @@ include "includes/dbconnection.php";
                     </tr>
                 </tbody>
             </table>
-            <div class="btn-div">
+            <!-- <div class="btn-div">
                 <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
-            </div>
+            </div> -->
         </div>
         <div class="col-md-12 py-4">
             <div class="the schedule">
@@ -389,9 +389,9 @@ include "includes/dbconnection.php";
                     </tr>
                 </tbody>
             </table>
-            <div class="btn-div">
+            <!-- <div class="btn-div">
                 <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
-            </div>
+            </div> -->
         </div>
 
         <div class="col-md-12 py-4">
@@ -405,9 +405,9 @@ include "includes/dbconnection.php";
             <div class="graph">
                 <img src="Picture8.png" draggable="false">
             </div>
-            <div class="btn-div">
+            <!-- <div class="btn-div">
                 <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
-            </div>
+            </div> -->
         </div>
 
         <div class="col-md-12 py-4">
@@ -421,9 +421,9 @@ include "includes/dbconnection.php";
             <div class="graph">
                 <img src="Picture9.png" draggable="false">
             </div>
-            <div class="btn-div">
+            <!-- <div class="btn-div">
                 <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
-            </div>
+            </div> -->
         </div>
 
         <div class="col-md-12 py-4">
@@ -437,9 +437,9 @@ include "includes/dbconnection.php";
             <div class="graph">
                 <img src="Picture10.png" draggable="false">
             </div>
-            <div class="btn-div">
+            <!-- <div class="btn-div">
                 <a href="juniorform.php" target="_blank" class="btn-register">To Register</a>
-            </div>
+            </div> -->
         </div>
         <!-- <div class="col-md-12">
             <div class="the schedule">
