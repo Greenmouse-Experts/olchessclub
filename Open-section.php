@@ -135,7 +135,6 @@ include "includes/dbconnection.php";
 
   .master p {
     margin-top: 0;
-
     margin-bottom: 0;
     line-height: 2;
   }
@@ -297,10 +296,9 @@ include "includes/dbconnection.php";
             Total Prize Fund: ₦ 2,910,000.00
           </b>
         </p>
-        <div class="btn-div">
+        <!-- <div class="btn-div">
           <a href="https://www.olchessclub.com/ocr/form.php" class="btn-register">To Register</a>
-
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="col-md-12">
@@ -409,10 +407,10 @@ include "includes/dbconnection.php";
           </tr>
         </tbody>
       </table>
-      <div class="btn-div">
+      <!-- <div class="btn-div">
         <a href="https://www.olchessclub.com/ocr/form.php" class="btn-register">To Register</a>
 
-      </div>
+      </div> -->
     </div>
     <div class="col-md-12">
       <h5 class="text-center py-3">
@@ -459,10 +457,10 @@ include "includes/dbconnection.php";
           </tr>
         </tbody>
       </table>
-      <div class="btn-div">
+      <!-- <div class="btn-div">
         <a href="https://www.olchessclub.com/ocr/form.php" class="btn-register">To Register</a>
 
-      </div>
+      </div> -->
     </div>
     <div class="col-md-12">
       <h5 class="text-center py-3">
