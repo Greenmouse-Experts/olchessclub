@@ -547,9 +547,9 @@ include "includes/dbconnection.php";
             <div class="graph">
                 <img src="Picture6.jpeg" draggable="false">
             </div>
-            <div class="btn-div">
+            <!-- <div class="btn-div">
                  <a href="registerform.php" target="_blank" class="btn-register">To Register</a>
-            </div>
+            </div> -->
         </div>
 
         <div class="col-md-12 py-4">
