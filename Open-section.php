@@ -487,10 +487,10 @@ include "includes/dbconnection.php";
           </tr>
         </tbody>
       </table>
-      <div class="btn-div">
+      <!-- <div class="btn-div">
         <a href="https://www.olchessclub.com/ocr/form.php" class="btn-register">To Register</a>
 
-      </div>
+      </div> -->
     </div>
     <div class="col-md-12" style="padding-top: 30px;">
       <h5 class="text-center py-3">
@@ -545,10 +545,10 @@ include "includes/dbconnection.php";
           U-10 1st- 5th |
         </p>
         <p><b>Sections:</b> Under-20 | Under-14 | Under-10</p>
-        <div class="btn-div">
+        <!-- <div class="btn-div">
           <a href="junior-tournament.php" class="btn-register">To Register</a>
 
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="col-md-12">
