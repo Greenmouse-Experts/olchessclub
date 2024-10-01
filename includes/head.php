@@ -13,4 +13,3 @@
     <link rel="stylesheet" href="../css/sidebar-menu.css">
     <link rel="icon" href="../img/logo.png" type="image/png" sizes="16x16"> 
     <link rel="stylesheet" href="../css/modal.css">
-</head>

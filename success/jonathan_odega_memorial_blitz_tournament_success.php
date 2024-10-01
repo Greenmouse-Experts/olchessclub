@@ -25,8 +25,8 @@
             <div class="col-lg-8">
                 <div class="form-area">
                     <div class="col-lg-12 text-center">
-                        <a href="../blitzTournament.php">
-                            <img src="../image.png" width="60%">
+                        <a href="../registerform2024.php">
+                            <img src="../ncc2024.jpg" width="60%">
                         </a>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         <h2>REGISTRATION FORM</h2>
                         <p class="text-left">Your response has been recorded. An email has been sent to you.</p>
                         <button class="input-submit">
-                            <a href="../blitzTournament.php" class="text-white">
+                            <a href="../registerform2024.php" class="text-white">
                                 Submit another response
                             </a>
                         </button>

@@ -95,7 +95,17 @@
           <li><a href="blitz_category_2023.php"><i class="fa fa-circle-o"></i>Blitz Category 2023</a></li>
         </ul>
       </li>
-
+      <li>
+        <a href="#">
+          <i class="fa fa-calendar"></i> <span> NCC 2024 </span>
+          <i class="fa fa-angle-down pull-right"></i>
+        </a>
+        <ul class="sidebar-submenu">
+          <li><a href="masters_open_2024.php"><i class="fa fa-circle-o"></i>Masters and Open U-2000 2024</a></li>
+          <li><a href="junior_category_2024.php"><i class="fa fa-circle-o"></i>Junior Category 2024</a></li>
+          <li><a href="jonathan_odega_memorial_blitz_tournament_2024.php"><i class="fa fa-circle-o"></i>Jonathan Odega Memorial Blitz Tournament 2024</a></li>
+        </ul>
+      </li>
       <li>
         <a href="trainings.php">
           <i class="fa fa-sort-amount-asc"></i><span>Trainings</span>

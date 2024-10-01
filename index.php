@@ -1,371 +1,373 @@
 <?php include "header.php" ?>
 <title>Orchid-Lekki Chess Club</title>
 <style>
+.card-image {
+    background-image: url(chesss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-image h2,
+.card-image h4,
+.card-image p {
+    color: #4d0005 !important;
+}
+
+.card-image h2 {
+    font-weight: bolder !important;
+}
+
+.note-text-jumb {
+    font-size: 18px !important;
+}
+
+.venue {
+    margin-top: -10px !important;
+    margin-bottom: 20px !important;
+}
+
+.btn-download {
+    padding: 10px 25px 10px 25px !important;
+    background-color: #c9383d !important;
+    color: #fff !important;
+    margin-top: 20px !important;
+    border-radius: 10px;
+}
+
+.btn-download:hover {
+    background-color: #008f4f !important;
+    transition: 0.5s !important;
+    text-decoration: none;
+}
+
+@media (max-width: 400px) {
     .card-image {
-        background-image: url(chesss.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
-    .card-image h2,
-    .card-image h4,
-    .card-image p {
-        color: #4d0005 !important;
-    }
-
-    .card-image h2 {
-        font-weight: bolder !important;
-    }
-
-    .note-text-jumb {
-        font-size: 18px !important;
-    }
-
-    .venue {
-        margin-top: -10px !important;
-        margin-bottom: 20px !important;
-    }
-
-    .btn-download {
-        padding: 10px 25px 10px 25px !important;
-        background-color: #c9383d !important;
-        color: #fff !important;
-        margin-top: 20px !important;
-        border-radius: 10px;
-    }
-
-    .btn-download:hover {
-        background-color: #008f4f !important;
-        transition: 0.5s !important;
-        text-decoration: none;
-    }
-
-    @media (max-width: 400px) {
-        .card-image {
-            margin-top: -50px !important;
-        }
-
-        .home-btn {
-            margin-top: -20px !important;
-        }
-
-        .banner-cont {
-            padding-top: 20px !important;
-        }
-    }
-
-    .banner-caro {
-        margin-top: -6px !important;
-    }
-
-    marquee {
-        background-color: #bc494b !important;
-    }
-
-    marquee h5 {
-        color: #fff !important;
-    }
-
-    .logo-two {
-        margin-left: 20px !important;
-    }
-
-    .marquee-link {
-        color: #000 !important;
-    }
-
-    .big-chess {
-        margin-top: 20px;
-    }
-
-
-    .video-section .video-div {
-        margin: 10px
-    }
-
-    .video-section .container-fluid {
-        padding: 50px 50px
-    }
-
-    .video-section .video-div video {
-        width: 100%;
-        border-radius: 10px;
-        box-shadow: 0 0 30px rgba(0, 0, 0, .246)
-    }
-
-    .video-section .video-bg {
-        background-color: #b6393b;
-        height: 250px;
-        margin-top: -180px;
-        padding-top: 170px;
-        text-align: center
-    }
-
-    .video-section .video-bg a {
-        background-color: #fff;
-        color: #b6393b;
-        border-radius: 5px;
-        padding: 15px 30px;
-        font-size: 16px
-    }
-
-    .video-section .video-bg a:hover {
-        background-color: #ffdbdc;
-    }
-
-    @media (max-width:767px) {
-        .video-section .container-fluid {
-            padding: 50px 10px
-        }
-    }
-
-    .container-download {
-        padding-top: 90px;
-        padding-bottom: 90px;
-        background-image: url(download-bg.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat
-    }
-
-    .container-download h2 {
-        color: #f9e9d5;
-        font-weight: 700
-    }
-
-    .book {
-        margin-top: -120px
-    }
-
-    .btn-download {
-        padding: 10px 25px 10px 25px !important;
-        background-color: #fff !important;
-        color: #560e12 !important;
-        margin-top: 20px !important;
-        border-radius: 10px
-    }
-
-    .btn-download:hover {
-        background-color: #f9e9d5 !important;
-        transition: .5s !important;
-        text-decoration: none
-    }
-
-    .home-news {
-        margin-top: 30px
-    }
-
-    .home-news .card {
-        border: none !important
-    }
-
-    .home-news .card img {
-        border-radius: 10px 0 0 10px;
-        width: 100%;
-    }
-
-    .home-news .card .card-section {
-        background-color: #fee;
-        border-radius: 0 10px 10px 0;
-    }
-
-    .home-news .card .card-body {
-        padding-top: 20px !important;
-        padding-bottom: 20px !important
-    }
-
-    .home-news .card .card-title {
-        color: #b6393b;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-size: 25px;
-        line-height: 33px;
-    }
-
-    .home-news .card .card-text {
-        font-size: 17px;
-        line-height: 2;
-    }
-
-    @media (max-width:1300px) {
-        .home-news .card .card-text {
-            font-size: 16px;
-            line-height: 1.7;
-        }
-
-        .home-news .card .btn-div a {
-            padding: 13px 25px !important;
-            background-color: #b6393b !important;
-            border-radius: 5px;
-            font-size: 15px !important;
-            color: #fff;
-            transition: .6s;
-        }
-    }
-
-    .home-news .card .btn-div {
-        margin-top: 30px
-    }
-
-    .home-news .card .btn-div a {
-        padding: 13px 35px;
-        background-color: #b6393b;
-        border-radius: 5px;
-        font-size: 15px;
-        color: #fff;
-        transition: .6s
-    }
-
-    .home-news .card .btn-div a:hover {
-        background-color: #611c1d;
-        text-decoration: none
-    }
-
-    .home-news .other-news-below {
-        margin-top: 15px;
-        margin-bottom: 15px
-    }
-
-    .home-news .other-news-below a {
-        text-decoration: none
-    }
-
-    .home-news .other-news-below img {
-        width: 100%;
-        margin-bottom: 5px;
-        border-radius: 10px;
-        border: 1px solid #d6d6d6
-    }
-
-    .home-news .other-news-below p {
-        font-size: 15px;
-        color: #000;
-        font-weight: 600
-    }
-
-
-    @media(max-width:1182px) {
-        .home-news .card img {
-            width: 670px
-        }
-    }
-
-    @media(max-width:991px) {
-        .home-news .card img {
-            width: 100%;
-            border-radius: 10px 10px 0 0
-        }
-
-        .home-news .card .card-section {
-            border-radius: 0 0 10px 10px
-        }
-    }
-
-    @media(max-width:991px) {
-        .home-news {
-            margin-top: 60px
-        }
-    }
-
-    /* CLICK */
-    body {
-        overflow-x: hidden !important;
-    }
-
-    .Click {
-        background-color: #BC494B;
-    }
-
-    .Click marquee h2 {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 20px;
-        font-weight: 600;
-        color: #fff;
-        padding: 10px 0px 0px 0px;
-    }
-
-    .main {
-        width: 100% !important;
-        display: block;
-        margin: auto;
-        border-radius: 10px !important;
-    }
-
-    .Click marquee a {
-        text-decoration: underline;
-        color: #fff;
-    }
-
-    .Click marquee a:hover {
-        text-decoration: underline;
-        color: #fff;
-    }
-
-    .Click .btn-cure {
-        color: #fff;
-        text-align: center;
-        padding: 15px 20px;
-    }
-
-    .Click .btn-cure a {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    .Click .btn-cure a:hover {
-        text-decoration: underline;
-        color: #fff;
-    }
-
-    .Click .btn-curee {
-        color: #fff;
-        text-align: center;
-        padding: 10px 0px 0px 0px;
-        padding: 15px 20px;
-    }
-
-    .Click .btn-curee a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: 600;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 17px;
+        margin-top: -50px !important;
     }
 
     .home-btn {
         margin-top: -20px !important;
     }
 
-    @media (max-width:1000px) {
-        .home-btn {
-            margin-top: -20px !important;
-        }
+    .banner-cont {
+        padding-top: 20px !important;
+    }
+}
+
+.banner-caro {
+    margin-top: -6px !important;
+    position: relative;
+    top: -15px;
+}
+
+marquee {
+    background-color: #bc494b !important;
+}
+
+marquee h5 {
+    color: #fff !important;
+}
+
+.logo-two {
+    margin-left: 20px !important;
+}
+
+.marquee-link {
+    color: #000 !important;
+}
+
+.big-chess {
+    margin-top: 20px;
+}
+
+
+.video-section .video-div {
+    margin: 10px
+}
+
+.video-section .container-fluid {
+    padding: 50px 50px
+}
+
+.video-section .video-div video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .246)
+}
+
+.video-section .video-bg {
+    background-color: #b6393b;
+    height: 250px;
+    margin-top: -180px;
+    padding-top: 170px;
+    text-align: center
+}
+
+.video-section .video-bg a {
+    background-color: #fff;
+    color: #b6393b;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px
+}
+
+.video-section .video-bg a:hover {
+    background-color: #ffdbdc;
+}
+
+@media (max-width:767px) {
+    .video-section .container-fluid {
+        padding: 50px 10px
+    }
+}
+
+.container-download {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url(download-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.container-download h2 {
+    color: #f9e9d5;
+    font-weight: 700
+}
+
+.book {
+    margin-top: -120px
+}
+
+.btn-download {
+    padding: 10px 25px 10px 25px !important;
+    background-color: #fff !important;
+    color: #560e12 !important;
+    margin-top: 20px !important;
+    border-radius: 10px
+}
+
+.btn-download:hover {
+    background-color: #f9e9d5 !important;
+    transition: .5s !important;
+    text-decoration: none
+}
+
+.home-news {
+    margin-top: 30px
+}
+
+.home-news .card {
+    border: none !important
+}
+
+.home-news .card img {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+}
+
+.home-news .card .card-section {
+    background-color: #fee;
+    border-radius: 0 10px 10px 0;
+}
+
+.home-news .card .card-body {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important
+}
+
+.home-news .card .card-title {
+    color: #b6393b;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.home-news .card .card-text {
+    font-size: 17px;
+    line-height: 2;
+}
+
+@media (max-width:1300px) {
+    .home-news .card .card-text {
+        font-size: 16px;
+        line-height: 1.7;
     }
 
-    .amin {
-        width: 750px !important;
+    .home-news .card .btn-div a {
+        padding: 13px 25px !important;
+        background-color: #b6393b !important;
+        border-radius: 5px;
+        font-size: 15px !important;
+        color: #fff;
+        transition: .6s;
     }
+}
 
-    .desk-menu-cont ul {
-        padding-left: 100px !important;
+.home-news .card .btn-div {
+    margin-top: 30px
+}
+
+.home-news .card .btn-div a {
+    padding: 13px 35px;
+    background-color: #b6393b;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    transition: .6s
+}
+
+.home-news .card .btn-div a:hover {
+    background-color: #611c1d;
+    text-decoration: none
+}
+
+.home-news .other-news-below {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.home-news .other-news-below a {
+    text-decoration: none
+}
+
+.home-news .other-news-below img {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6
+}
+
+.home-news .other-news-below p {
+    font-size: 15px;
+    color: #000;
+    font-weight: 600
+}
+
+
+@media(max-width:1182px) {
+    .home-news .card img {
+        width: 670px
     }
+}
 
-    .moving {
+@media(max-width:991px) {
+    .home-news .card img {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        border-radius: 10px 10px 0 0
     }
 
-    .size {
-        width: 300px !important;
-        display: block;
-        margin: auto;
+    .home-news .card .card-section {
+        border-radius: 0 0 10px 10px
     }
+}
 
-    /* .calling{
+@media(max-width:991px) {
+    .home-news {
+        margin-top: 60px
+    }
+}
+
+/* CLICK */
+body {
+    overflow-x: hidden !important;
+}
+
+.Click {
+    background-color: #BC494B;
+}
+
+.Click marquee h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 0px 0px 0px;
+}
+
+.main {
+    width: 100% !important;
+    display: block;
+    margin: auto;
+    border-radius: 10px !important;
+}
+
+.Click marquee a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Click marquee a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Click .btn-cure {
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.Click .btn-cure a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Click .btn-cure a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Click .btn-curee {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    padding: 15px 20px;
+}
+
+.Click .btn-curee a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+.home-btn {
+    margin-top: -20px !important;
+}
+
+@media (max-width:1000px) {
+    .home-btn {
+        margin-top: -20px !important;
+    }
+}
+
+.amin {
+    width: 750px !important;
+}
+
+.desk-menu-cont ul {
+    padding-left: 100px !important;
+}
+
+.moving {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.size {
+    width: 300px !important;
+    display: block;
+    margin: auto;
+}
+
+/* .calling{
         background-image: url(./KK.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -373,22 +375,76 @@
         width: 100%;
         object-fit: cover;
     } */
-    /* .calling{
+/* .calling{
         height: 350px;
         width: 100%;
     } */
-    .calling img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
+.calling img {
+    width: 100%;
+    object-fit: cover;
+}
 
-    /* CLICK ENDS */
+.caro1 {
+    background-image: url('./new-1.jpg');
+    background-size: cover;
+    padding: 100px 10px 100px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+}
+
+.caro2 {
+    background: url('./new-2.jpg');
+    background-size: cover;
+    padding: 100px 10px 100px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+
+}
+
+.caro3 {
+    background: url('./new-3.jpg');
+    background-size: cover;
+    padding: 100px 10px 100px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+}
+
+.caro4 {
+    background: url('./lastesn.jpg');
+    background-size: cover;
+    padding: 100px 10px 100px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+}
+
+.caro5 {
+    background: url('./new-7.jpg');
+    background-size: cover;
+    padding: 100px 10px 100px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+}
+
+/* CLICK ENDS */
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
 <!-- CLICK -->
 <marquee behavior="" direction=""></marquee>
+<<<<<<< HEAD
 <section class="Click">
+=======
+<!-- <section class="Click">
+>>>>>>> 89e86ad (updated)
     <div class="container-fuild g-0">
         <div class="row">
             <div class="col-lg-2">
@@ -418,42 +474,109 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- CLICK ENDS -->
-<!-- .caro1 {
-    background-image: url('./');
-    background-size: 100%;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-.caro2 {
-    background: url('../images/banner-images/2.png');
-    background-size: 100%;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.caro3 {
-    background: url('../images/banner-images/3.png');
-    background-size: 100%;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-} -->
-<!-- <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-interval="2900" data-pause="false">
+<div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-pause="false">
     <div class="carousel-inner">
         <div class="carousel-item active caro1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                        <div class="banner-cont">
+                            <h1>Nigeria National Chess Champion 2024 Opens Section</h1>
+                            <p>Apart from the National Chess Championship (NCC) Invitational, NCC 2024 will also have an
+                                Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories
+                                in
+                                order to enable more players participate.</p>
+                            <div class="ban-bec-btn">
+                                <a href="ncc24.php"><button>Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="carousel-item caro2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                        <div class="banner-cont">
+                            <h1>Deborah Quickpen, Nigeria National Women's Chess Champion</h1>
+                            <p>Apart from the National Chess Championship (NCC) Invitational, NCC 2023 will also have an
+                                Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories
+                                in
+                                order to enable more players participate.</p>
+                            <div class="ban-bec-btn">
+                                <a href="ncc23.php"><button>Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="carousel-item caro3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                        <div class="banner-cont">
+                            <h1>FM Bomo Kigigha, Nigeria National Chess Champion 2023</h1>
+                            <p>Apart from the National Chess Championship (NCC) Invitational, NCC 2023 will also have an
+                                Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories
+                                in
+                                order to enable more players participate.</p>
+                            <div class="ban-bec-btn">
+                                <a href="ncc23.php"><button>Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item caro4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                        <div class="banner-cont">
+                            <h1>Some Young Players at the Junior Tournament Section of NCC 2023</h1>
+                            <p>Apart from the National Chess Championship (NCC) Invitational, NCC 2023 will also have an
+                                Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories
+                                in
+                                order to enable more players participate.</p>
+                            <div class="ban-bec-btn">
+                                <a href="ncc23.php"><button>Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item caro5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                        <div class="banner-cont">
+                            <h1>International Master Dapo Adu at NCC 2023 Invitational Section</h1>
+                            <p>Apart from the National Chess Championship (NCC) Invitational, NCC 2023 will also have an
+                                Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories
+                                in
+                                order to enable more players participate.</p>
+                            <div class="ban-bec-btn">
+                                <a href="ncc23.php"><button>Learn More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="container-fluid banner-cont">
+<!-- <div class="container-fluid banner-cont">
     <h1>Orchid-Lekki Chess Club (OLCC)</h1>
     <p>Nigeria's leading Chess club</p>
     <div class="ban-bec-btn">
@@ -462,10 +585,9 @@
 </div> -->
 
 <section class="home-news">
-    <div class="container-fluid">
+    <!-- <div class="container">
         <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
+            <div class="col-lg-12">
                 <div class="card">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-pause="true">
                         <div class="carousel-inner">
@@ -474,11 +596,11 @@
                                     <div class="col-lg-12">
                                         <div class="calling">
                                             <a href="ncc23.php">
-                                                <img src="mmm.jpeg" alt="img">
+                                                <img src="1 - NCC 2023 - Opens Section.jpg" alt="img">
                                             </a>
                                         </div>
                                     </div>
-                                    <!-- <div class="col-lg-7 card-section">
+                                    <div class="col-lg-7 card-section">
                                         <div class="card-body">
                                             <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, PERPETUAL OGBIYOYO</h5>
                                             <p class="card-text">Perpetual Ogbiyoyo is Nigeria’s National Women Chess Champion. That’s a title she has
@@ -493,7 +615,7 @@
                                                 <a href="article0003.php">Read More</a>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -501,7 +623,7 @@
                                     <div class="col-lg-12">
                                         <div class="calling">
                                             <a href="cappa.php">
-                                                <img src="august.jpeg" alt="img">
+                                                <img src="7 - International Master Dapo Adu at NCC 2023.jpg" alt="img">
                                             </a>
                                         </div>
                                     </div>
@@ -512,7 +634,7 @@
                                     <div class="col-lg-12">
                                         <div class="calling">
                                             <a href="august-tour.php">
-                                                <img src="augustt.jpeg" alt="img">
+                                                <img src="5 - Opens Section.jpg" alt="img">
                                             </a>
                                         </div>
                                     </div>
@@ -525,10 +647,18 @@
                                     </div>
                                     <div class="col-lg-7 card-section">
                                         <div class="card-body">
-                                            <h5 class="card-title">THE 2023 NIGERIA NATIONAL CHESS CHAMPIONSHIPS: A PURPOSE DRIVEN EVENT!</h5>
-                                            <p class="card-text">According to former world chess champion, Grandmaster Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
-                                                To understand this statement, is to understand what guides the hosts of the Nigeria National Chess Championships, Orchid-Lekki Chess Club (OLCC).
-                                                OLCC was founded in 2019, by a team of like-minds seeking to change the landscape of the Nigeria Chess Industry. Chaired by the extremely devout and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made a bid to host the National Chess Championships in the aftermath of COVID-19.
+                                            <h5 class="card-title">THE 2023 NIGERIA NATIONAL CHESS CHAMPIONSHIPS: A
+                                                PURPOSE DRIVEN EVENT!</h5>
+                                            <p class="card-text">According to former world chess champion, Grandmaster
+                                                Anatoly Karpov, ‘Chess is Everything: art, science and sport’.
+                                                To understand this statement, is to understand what guides the hosts of
+                                                the Nigeria National Chess Championships, Orchid-Lekki Chess Club
+                                                (OLCC).
+                                                OLCC was founded in 2019, by a team of like-minds seeking to change the
+                                                landscape of the Nigeria Chess Industry. Chaired by the extremely devout
+                                                and supportive Engineer Jonathan Odega, the Orchid-Lekki Chess Club made
+                                                a bid to host the National Chess Championships in the aftermath of
+                                                COVID-19.
                                             </p>
                                             <div class="btn-div mb-4">
                                                 <a href="article.php">Read</a>
@@ -544,13 +674,20 @@
                                     </div>
                                     <div class="col-lg-7 card-section">
                                         <div class="card-body">
-                                            <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM PERPETUAL OGBIYOYO</h5>
-                                            <p class="card-text">Perpetual Ogbiyoyo is Nigeria’s National Women Chess Champion. That’s a title she has
-                                                won back-to-back in the last two years after brilliant performances at the 2021 and 2022
-                                                National Chess Championships of Nigeria. In this interview with Kunle Kasumu, President of
-                                                Orchid-Lekki Chess Club (OLCC), the usually private FIDE Master, offers glimpses into her
-                                                personal life, her love for chess, her journey to becoming Nigeria’s best female player, her
-                                                thoughts on the development of chess in Nigeria and the impact of the National Chess
+                                            <h5 class="card-title">A CONVERSATION WITH NIGERIA’S CHESS QUEEN, WFM
+                                                PERPETUAL OGBIYOYO</h5>
+                                            <p class="card-text">Perpetual Ogbiyoyo is Nigeria’s National Women Chess
+                                                Champion. That’s a title she has
+                                                won back-to-back in the last two years after brilliant performances at
+                                                the 2021 and 2022
+                                                National Chess Championships of Nigeria. In this interview with Kunle
+                                                Kasumu, President of
+                                                Orchid-Lekki Chess Club (OLCC), the usually private FIDE Master, offers
+                                                glimpses into her
+                                                personal life, her love for chess, her journey to becoming Nigeria’s
+                                                best female player, her
+                                                thoughts on the development of chess in Nigeria and the impact of the
+                                                National Chess
                                                 Championship of Nigeria.
                                             </p>
                                             <div class="btn-div mb-4">
@@ -565,22 +702,73 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-            <!-- <div class="card">
-                        <div class="row no-gutters">
-                          <div class="col-lg-12">
-                            <div class="home-btn">
-                                <a href="sponsor.php">
-                                    <img src="rice.jpg" class="main" alt="img">
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-                    </div> -->
-        </div>
-        <div class="col-lg-1"></div>
+    </div> -->
+    <div class="container-fluid ">
+        <!-- <div class="row other-news-below">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2">
+                <a href="Open-section23.php">
+                    <img src="1 - NCC 2023 - Opens Section.jpg" height="200px" alt="image">
+                    <p>NCC 2023: Opens Section</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc23.php">
+                    <img src="./2 - Deborah Quickpen - National Women's Chess Champions.jpg" alt="image">
+                    <p>Deborah Quickpen, Nigeria National Women's Chess Champion</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc23.php">
+                    <img src="./3 - Bomo Kigigha - National Chess Champion.jpg" alt="image">
+                    <p>FM Bomo Kigigha, Nigeria National Chess Champion</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc23.php">
+                    <img src="./lastesn.jpg" alt="image">
+                    <p>Some young players at the Junior Section of NCC 2023</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc23.php">
+                    <img src="./5 - Opens Section.jpg" alt="image">
+                    <p>Nigeria National Chess Championships 2023</p>
+                </a>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2">
+                <a href="ncc23.php">
+                    <img src="./6 - Dr  Ebigwei.jpg" alt="image">
+                    <p>Dr Sylvanus Ebigwei at the Nigeria Chess Hall of Fame Event at NCC 2023 </p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc23.php">
+                    <img src="./7 - International Master Dapo Adu at NCC 2023.jpg" alt="image">
+                    <p>International Master Dapo Adu at NCC 2023 Invitational Section </p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc23.php">
+                    <img src="./8 - Twelve Year Old Goodness Ekunke at NCC 2023.jpg" alt="image">
+                    <p>12 Year Old Sensation Goodness Ekunke at NCC 2023 Invitational Section</p>
+                </a>
+            </div>
+            <div class="col-md-2 py-2">
+                <a href="blog0001.php">
+                    <img src="left.jpeg" alt="image">
+                    <p>Adegboyega & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</p>
+                </a>
+            </div>
+            <div class="col-md-2 py-2">
+                <a href="blog0002.php">
+                    <img src="news-thumbnails1.jpg" alt="image">
+                    <p>Balogun and Ogbiyoyo are National Chess Champions of Nigeria</p>
+                </a>
+            </div>
+        </div> -->
     </div>
     <div class="row other-news-below">
         <div class="col-md-1"></div>
@@ -616,16 +804,22 @@
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-1"></div>
-        <!-- <div class="col-md-2 py-2">
-            <a href="gallery.php">
-                <img src="news-thumbnails5.jpg" alt="image">
-                <p>National Chess Champion 2021 - Explore Pictures</p>
-            </a>
-        </div> -->
         <div class="col-md-2 py-2">
-            <a href="article.php">
-                <img src="oll.jpeg" alt="image">
-                <p>The National Chess Championship of Nigeria: Model Sporting Event</p>
+            <a href="ncc23.php">
+                <img src="./8 - Twelve Year Old Goodness Ekunke at NCC 2023.jpg" alt="image">
+                <p>12 Year Old Sensation Goodness Ekunke at NCC 2023 Invitational Section</p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="ncc23.php">
+                <img src="./new-7.jpg" alt="image">
+                <p>International Master Dapo Adu at NCC 2023 Invitational Section </p>
+            </a>
+        </div>
+        <div class="col-md-2 py-2">
+            <a href="ncc23.php">
+                <img src="./5 - Opens Section.jpg" alt="image">
+                <p>Nigeria National Chess Championships 2023</p>
             </a>
         </div>
         <div class="col-md-2 py-2">
@@ -635,21 +829,15 @@
             </a>
         </div>
         <!-- <div class="col-md-2 py-2">
-            <a href="sponsor.php">
-                <img src="chess22.jpg" alt="image">
-                <p>National Chess Champion 2022 - Explore Pictures</p>
-            </a>
-        </div> -->
-        <div class="col-md-2 py-2">
             <a href="august-tour.php">
                 <img src="augustt.jpeg" alt="image">
                 <p>OLCC Junior Tournament (August Edition 2023)</p>
             </a>
-        </div>
+        </div> -->
         <div class="col-md-2 py-2">
             <a href="ncc23.php">
-                <img src="mmm.jpeg" alt="image">
-                <p>Nigeria National Chess Championship (October Edition 2023)</p>
+                <img src="./6 - Dr  Ebigwei.jpg" alt="image">
+                <p>Dr Sylvanus Ebigwei at the Nigeria Chess Hall of Fame Event at NCC 2023 </p>
             </a>
         </div>
         <div class="col-md-1"></div>
@@ -706,8 +894,9 @@
 
 
 <div class="container-fluid body1">
-    <div class="container">
-        <div class="body1-flex-cont">
+    <div class="row body1-flex-cont">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
             <div data-aos="fade-right" class="item1">
                 <h3>The <span class="body1-color">Orchid-Lekki Chess Club (OLCC),</span><br> Nigeria's
                     Leading Chess Club.</h3>
@@ -727,8 +916,11 @@
                 </p>
                 <a href="about-us.php">Read more</a>
             </div>
+        </div>
+        <div class="col-lg-5">
             <div data-aos="fade-left" class="item2">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"
+                    data-pause="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-interval="2000">
                             <img src="images/Femi vs Carlsen.jpg">
@@ -744,6 +936,7 @@
             </div>
         </div>
     </div>
+
 </div>
 <div class="container-fluid body1-mobile">
     <div class="container">
@@ -1114,6 +1307,34 @@
 </div>
 <!-- News Section Ends -->
 
+<!-- modal for 2024 registration -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="registration2024Modal" tabindex="-1" aria-labelledby="registration2024ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registration2024ModalLabel">National Chess Championship of Nigeria 2024</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <img src="images/banner-images/4.jpeg" class="w-100"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       <a href="ncc24.php"> <button type="button" class="btn btn-primary" style="background-color: #B6393B;
+    color: white; border-color: #B6393B;">Learn More</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="foot-banner">
     <div class="footer">
         <div class="container">
@@ -1178,13 +1399,20 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-    AOS.init({
-        offset: 100, // offset (in px) from the original trigger point
-        duration: 1500,
-        once: true
-    });
+AOS.init({
+    offset: 100, // offset (in px) from the original trigger point
+    duration: 1500,
+    once: true
+});
 </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
+<script>
+$(document).ready(function() {
+    $('#registration2024Modal').modal('show');
+});
+</script>
 </body>
 
 </html>
