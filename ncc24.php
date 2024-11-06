@@ -181,29 +181,29 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="square-holder">
-                        <img alt="logo" src="pt12.png" />
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="square-holder">
                         <img alt="logo" src="pt10.png" />
                     </div>
                 </div>
-                <div class="text-center col-md-12 Platinum">
-                    <h2 style="padding-bottom: 15px;"><b>Platinum Sponsor</b></h2>
+                <div class="col-lg-6">
+                    <div class="square-holder">
+                    <img alt="logo" src="pt4.png" />
+                    </div>
                 </div>
+                <!-- <div class="text-center col-md-12 Platinum">
+                    <h2 style="padding-bottom: 15px;"><b>Platinum Sponsor</b></h2>
+                </div> -->
                 <div class="col-lg-3">
-
+                    
                 </div>
                 <div class="col-lg-6">
                     <div class="square-holder">
-                        <img alt="logo" src="pt4.png" />
+                    <img alt="logo" src="photo.jpeg" />
                     </div>
                 </div>
                 <div class="col-lg-3">
 
                 </div>
-                <div class="text-center col-md-12 Platinum">
+                <!-- <div class="text-center col-md-12 Platinum">
                     <h2 style="padding-bottom: 15px; padding-top: 30px;"><b>Other Sponsors</b></h2>
                 </div>
                 <div class="col-lg-4">
@@ -230,7 +230,7 @@
                     <div class="square-holdering">
                         <img alt="logo" src="liquid.jpeg" />
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-2">
                    
                 </div>

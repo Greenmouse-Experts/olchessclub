@@ -209,6 +209,7 @@
                         <a class="dropdown-item" href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a>
                         <a class="dropdown-item" href="sponsor.php">National Chess Championship 2022</a>
                         <a class="dropdown-item" href="ncc23.php">National Chess Championship 2023</a>
+                        <a class="dropdown-item" href="ncc24.php">National Chess Championship 2024</a>
                     </div>
                 </li>
                 <a href="member/login.php" class="mob-link">SIGN IN</a>
@@ -265,6 +266,7 @@
                         <a href="NationalChessChampionshipofNigeria2021.php">National Chess Championship 2021</a>
                         <a href="sponsor.php">National Chess Championship 2022</a>
                         <a href="ncc23.php">National Chess Championship 2023</a>
+                        <a class="dropdown-item" href="ncc24.php">National Chess Championship 2024</a>
                     </div>
                 </li>
             </ul>

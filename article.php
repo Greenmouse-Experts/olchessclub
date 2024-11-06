@@ -37,7 +37,8 @@
         background-color: #611c1d;
         text-decoration: none
     }
-    .by{
+
+    .by {
         font-size: 11px !important;
     }
 </style>
@@ -47,9 +48,58 @@
 <section class="article-section">
     <div class="container">
         <div class="row">
+            <div class="col-md-7">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">2024 Nigeria National Chess Championships! A Unique Evolution!</h5>
+                        <p class="card-text">Four (4) years on, the Orchid-Lekki Chess Club continues to break boundaries to bring to life, this major event that determines the National Open and Women’s Chess Champions for Nigeria.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="card-title">
+                                    Titles in Global Chess:
+                                </p>
+                                <p>
+                                    Grandmaster – GM
+                                    International Master – IM
+                                    Fide Master – FM
+                                    Candidate Master – CM
+                                    National Master – NM
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="card-title">
+                                    Women’s Titles:
+                                </p>
+                                <p>
+                                    Woman Grandmaster – WGM
+                                    Woman International Master – WIM
+                                    Woman Fide Master – WFM
+                                    Woman Candidate Master – WCM
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn-div" style="float: left;">
+                        
+                            <a href="evolution.php">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-5 py-3">
                 <div class="card">
-                    <img src="all.jpeg" class="card-img-top" height="30%" alt="article img">
+                    <img src="let.jpeg" class="card-img-top" height="30%" alt="article img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="article-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 py-3">
+                <div class="card">
+                    <img src="alll.jpeg" class="card-img-top" height="30%" alt="article img">
                 </div>
             </div>
             <div class="col-md-7">
@@ -70,6 +120,7 @@
         </div>
     </div>
 </section>
+
 <section class="article-section">
     <div class="container">
         <div class="row">

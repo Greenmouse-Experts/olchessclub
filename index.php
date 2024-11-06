@@ -58,7 +58,7 @@
 .banner-caro {
     margin-top: -6px !important;
     position: relative;
-    top: -15px;
+    top: -24px;
 }
 
 marquee {
@@ -384,6 +384,11 @@ body {
     object-fit: cover;
 }
 
+.carousel-item{
+    height: 600px !important;
+    overflow: hidden;
+}
+
 .caro1 {
     background-image: url('./new-1.jpg');
     background-size: cover;
@@ -434,17 +439,45 @@ body {
     background-position: top center;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
 }
+.scroll-container {
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+    overflow: hidden; /* Hides the text that overflows the container */
+    background-color: #c9383d; /* Background color for the scrolling area */
+    color: #fff; /* Text color */
+    white-space: nowrap; /* Prevents text wrapping */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow */
+}
+
+.scroll-text {
+    /* min-width: 90vw;
+    display: inline-block; */
+    padding: 15px 0 8px 0;
+    /* animation: scroll 21s linear infinite;  */
+}
+
+@media(max-width:991px) {
+    .scroll-text {
+        animation: scroll 31s linear infinite;
+    }
+}
+
+/* Keyframes for scrolling effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%); /* Start off the right side */
+    }
+    100% {
+        transform: translateX(100%); /* End off the left side */
+    }
+}
 
 /* CLICK ENDS */
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
 <!-- CLICK -->
-<marquee behavior="" direction=""></marquee>
-<<<<<<< HEAD
-<section class="Click">
-=======
+<!-- <marquee behavior="" direction=""></marquee> -->
 <!-- <section class="Click">
->>>>>>> 89e86ad (updated)
     <div class="container-fuild g-0">
         <div class="row">
             <div class="col-lg-2">
@@ -476,6 +509,12 @@ body {
     </div>
 </section> -->
 <!-- CLICK ENDS -->
+ <!-- scrolling text -->
+<div class="scroll-container">
+    <marquee behavior="" direction=""><div class="scroll-text">Nigeria National Chess Championship 2024. <a href="ncc24.php" class="text-white underline">Learn more.</a></div></marquee>
+       
+    </div>
+    <!-- Carousel -->
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade banner-caro" data-ride="carousel" data-pause="false">
     <div class="carousel-inner">
@@ -504,7 +543,7 @@ body {
                     <div class="col-lg-1"></div>
                     <div class="col-lg-6">
                         <div class="banner-cont">
-                            <h1>Deborah Quickpen, Nigeria National Women's Chess Champion</h1>
+                            <h2>Deborah Quickpen, Nigeria National Women's Chess Champion</h2>
                             <p>Apart from the National Chess Championship (NCC) Invitational, NCC 2023 will also have an
                                 Open Section which will include: FIDE rated Blitz, Masters, Opens, and Junior categories
                                 in
@@ -576,6 +615,7 @@ body {
         </div>
     </div>
 </div>
+
 <!-- <div class="container-fluid banner-cont">
     <h1>Orchid-Lekki Chess Club (OLCC)</h1>
     <p>Nigeria's leading Chess club</p>
