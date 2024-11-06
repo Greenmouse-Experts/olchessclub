@@ -48,33 +48,33 @@
 <section class="article-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">2024 Nigeria National Chess Championships! A Unique Evolution!</h5>
                         <p class="card-text">Four (4) years on, the Orchid-Lekki Chess Club continues to break boundaries to bring to life, this major event that determines the National Open and Women’s Chess Champions for Nigeria.
                         </p>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-5">
                                 <p class="card-title">
                                     Titles in Global Chess:
                                 </p>
                                 <p>
-                                    Grandmaster – GM
-                                    International Master – IM
-                                    Fide Master – FM
-                                    Candidate Master – CM
+                                    Grandmaster – GM<br>
+                                    International Master – IM<br>
+                                    Fide Master – FM<br>
+                                    Candidate Master – CM<br>
                                     National Master – NM
                                 </p>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-5">
                                 <p class="card-title">
                                     Women’s Titles:
                                 </p>
                                 <p>
-                                    Woman Grandmaster – WGM
-                                    Woman International Master – WIM
-                                    Woman Fide Master – WFM
+                                    Woman Grandmaster – WGM<br>
+                                    Woman International Master – WIM<br>
+                                    Woman Fide Master – WFM<br>
                                     Woman Candidate Master – WCM
                                 </p>
                             </div>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 py-3">
+            <div class="col-md-4 py-3">
                 <div class="card">
                     <img src="let.jpeg" class="card-img-top" height="30%" alt="article img">
                 </div>
