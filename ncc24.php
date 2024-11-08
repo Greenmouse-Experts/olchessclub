@@ -203,34 +203,41 @@
                 <div class="col-lg-3">
 
                 </div>
-                <!-- <div class="text-center col-md-12 Platinum">
+                <div class="text-center col-md-12 Platinum">
                     <h2 style="padding-bottom: 15px; padding-top: 30px;"><b>Other Sponsors</b></h2>
                 </div>
+                
                 <div class="col-lg-4">
-                    <div class="square-holder">
-                        <img alt="logo" src="tru.png" />
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="square-holder">
-                        <img alt="logo" src="pt5.png" />
+                    <div class="square-holder"  style="padding: 50px 10px 40px 10px;">
+                        <img alt="logo" src="la.png" />
                     </div>
                 </div>
                 <div class="col-lg-4">
                 <div class="square-holder" style="padding: 50px 10px 40px 10px;">
-                        <img alt="logo" src="download.png" />
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="square-holder">
-                        <img alt="logo" src="photo.jpeg" />
+                        <img alt="logo" src="ind.png" />
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="square-holdering">
-                        <img alt="logo" src="liquid.jpeg" />
+                    <div class="square-holder" style="padding: 10px 10px 0px 10px;">
+                        <img alt="logo" src="ri.png" />
                     </div>
-                </div> -->
+                </div>
+                <div class="col-lg-4">
+                    
+                </div>
+                <div class="col-lg-4">
+                <div class="square-holder">
+                        <img alt="logo" src="in.png" />
+                    </div>
+                    <!-- <div class="square-holdering">
+                        <img alt="logo" src="liquid.jpeg" />
+                    </div> -->
+                </div>
+                <div class="col-lg-4">
+                    <!-- <div class="square-holdering">
+                        <img alt="logo" src="liquid.jpeg" />
+                    </div> -->
+                </div>
                 <div class="col-lg-2">
                    
                 </div>
