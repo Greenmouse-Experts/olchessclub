@@ -192,15 +192,15 @@
                 <!-- <div class="text-center col-md-12 Platinum">
                     <h2 style="padding-bottom: 15px;"><b>Platinum Sponsor</b></h2>
                 </div> -->
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <div class="square-holder">
-                    <img alt="logo" src="photo.jpeg" />
+                    <img alt="logo" src="ind.png" />
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
 
                 </div>
                 <div class="text-center col-md-12 Platinum">
@@ -214,7 +214,7 @@
                 </div>
                 <div class="col-lg-4">
                 <div class="square-holder" style="padding: 50px 10px 40px 10px;">
-                        <img alt="logo" src="ind.png" />
+                <img alt="logo" src="You.png" />
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -222,24 +222,19 @@
                         <img alt="logo" src="ri.png" />
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     
                 </div>
-                <div class="col-lg-4">
-                <div class="square-holder">
-                        <img alt="logo" src="in.png" />
+                <div class="col-lg-6">
+                    <div class="square-holder">
+                    <img alt="logo" src="photo.jpeg" />
                     </div>
-                    <!-- <div class="square-holdering">
-                        <img alt="logo" src="liquid.jpeg" />
-                    </div> -->
                 </div>
-                <div class="col-lg-4">
-                    <!-- <div class="square-holdering">
-                        <img alt="logo" src="liquid.jpeg" />
-                    </div> -->
+                <div class="col-lg-3">
+
                 </div>
                 <div class="col-lg-2">
-                   
+                
                 </div>
                 <!-- <div class="col-lg-12">
                     <div class="square-holdering">
