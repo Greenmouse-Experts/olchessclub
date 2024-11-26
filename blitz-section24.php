@@ -244,7 +244,7 @@
                             </b>
                         </td>
                         <td>
-                            4<sup>th</sup> December, 2024
+                            6<sup>th</sup> December, 2024
                         </td>
                     </tr>
                     <tr>
