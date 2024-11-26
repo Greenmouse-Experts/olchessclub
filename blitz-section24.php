@@ -293,6 +293,16 @@
                     <tr>
                         <td>
                             <b>
+                                Deadline
+                            </b>
+                        </td>
+                        <td>
+                        Registration Deadline is <b>4th December, 2024</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
                                 Tie- Breaks
                             </b>
                         </td>
