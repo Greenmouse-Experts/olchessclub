@@ -189,20 +189,23 @@
                     <img alt="logo" src="pt4.png" />
                     </div>
                 </div>
-                <!-- <div class="text-center col-md-12 Platinum">
-                    <h2 style="padding-bottom: 15px;"><b>Platinum Sponsor</b></h2>
-                </div> -->
-                <div class="col-lg-4">
-                    
-                </div>
-                <div class="col-lg-4">
-                    <div class="square-holder">
+                <div class="col-lg-6">
+                <div class="square-holder">
                     <img alt="logo" src="ind.png" />
                     </div>
                 </div>
-                <div class="col-lg-4">
-
+                <div class="col-lg-6">
+                    
+                    <div class="square-holder">
+                    <img alt="FIDE" src="FIDE.png" />
+                    </div>
+                    <p style="font-size:18px;">
+                        <b>
+                            “Tournament is financially supported by FIDE Open Aid Project”
+                        </b>
+                    </p>w
                 </div>
+                
                 <div class="text-center col-md-12 Platinum">
                     <h2 style="padding-bottom: 15px; padding-top: 30px;"><b>Other Sponsors</b></h2>
                 </div>

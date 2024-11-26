@@ -241,7 +241,7 @@
                             </b>
                         </td>
                         <td>
-                            6th - 13th of December, 2024
+                            7th - 13th of December, 2024
                         </td>
                     </tr>
                     <tr>

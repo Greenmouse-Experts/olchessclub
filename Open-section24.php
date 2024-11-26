@@ -255,7 +255,7 @@
                             </b>
                         </td>
                         <td>
-                            5<sup>th</sup> – 9<sup>th</sup> December, 2024
+                            9<sup>th</sup> – 13<sup>th</sup> December, 2024
                         </td>
                     </tr>
                     <tr>
