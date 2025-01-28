@@ -389,7 +389,7 @@ body {
     overflow: hidden;
 }
 
-.caro1 {
+.caro3 {
     background-image: url('./new-1.jpg');
     background-size: cover;
     padding: 100px 10px 100px 10px;
@@ -410,8 +410,8 @@ body {
 
 }
 
-.caro3 {
-    background: url('./new-3.jpg');
+.caro1 {
+    background: url('./New2.jpg');
     background-size: cover;
     padding: 100px 10px 100px 10px;
     background-position: center;
@@ -511,7 +511,7 @@ body {
 <!-- CLICK ENDS -->
  <!-- scrolling text -->
 <div class="scroll-container">
-    <marquee behavior="" direction=""><div class="scroll-text">Nigeria National Chess Championship 2024. <a href="ncc24.php" class="text-white underline">Learn more.</a></div></marquee>
+    <marquee behavior="" direction=""><div class="scroll-text">NEW NATIONAL CHESS CHAMPIONS EMERGE IN NIGERIA! <a href="new-nigeria.php" class="text-white underline">Learn more.</a></div></marquee>
        
     </div>
     <!-- Carousel -->
@@ -743,74 +743,31 @@ body {
             </div>
         </div>
     </div> -->
-    <div class="container-fluid ">
-        <!-- <div class="row other-news-below">
+    <div class="container-fuild">
+        <div class="row other-news-below">
             <div class="col-lg-1"></div>
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <a href="Open-section23.php">
-                    <img src="1 - NCC 2023 - Opens Section.jpg" height="200px" alt="image">
-                    <p>NCC 2023: Opens Section</p>
+                    <img src="New1.jpg" height="400px" alt="image">
+                    <p>NCC 2024: Winner</p>
                 </a>
             </div>
-            <div class="col-lg-2">
-                <a href="ncc23.php">
-                    <img src="./2 - Deborah Quickpen - National Women's Chess Champions.jpg" alt="image">
-                    <p>Deborah Quickpen, Nigeria National Women's Chess Champion</p>
+            <div class="col-lg-3">
+                <a href="ncc24.php">
+                    <img src="New2.jpg" alt="image">
+                    <p>NCC 2024: Winner</p>
                 </a>
             </div>
-            <div class="col-lg-2">
-                <a href="ncc23.php">
-                    <img src="./3 - Bomo Kigigha - National Chess Champion.jpg" alt="image">
-                    <p>FM Bomo Kigigha, Nigeria National Chess Champion</p>
+            <div class="col-lg-4">
+                <a href="ncc24.php">
+                    <img src="New3.jpg" alt="image">
+                    <p>NCC 2024: Winner</p>
                 </a>
             </div>
-            <div class="col-lg-2">
-                <a href="ncc23.php">
-                    <img src="./lastesn.jpg" alt="image">
-                    <p>Some young players at the Junior Section of NCC 2023</p>
-                </a>
-            </div>
-            <div class="col-lg-2">
-                <a href="ncc23.php">
-                    <img src="./5 - Opens Section.jpg" alt="image">
-                    <p>Nigeria National Chess Championships 2023</p>
-                </a>
-            </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-2">
-                <a href="ncc23.php">
-                    <img src="./6 - Dr  Ebigwei.jpg" alt="image">
-                    <p>Dr Sylvanus Ebigwei at the Nigeria Chess Hall of Fame Event at NCC 2023 </p>
-                </a>
-            </div>
-            <div class="col-lg-2">
-                <a href="ncc23.php">
-                    <img src="./7 - International Master Dapo Adu at NCC 2023.jpg" alt="image">
-                    <p>International Master Dapo Adu at NCC 2023 Invitational Section </p>
-                </a>
-            </div>
-            <div class="col-lg-2">
-                <a href="ncc23.php">
-                    <img src="./8 - Twelve Year Old Goodness Ekunke at NCC 2023.jpg" alt="image">
-                    <p>12 Year Old Sensation Goodness Ekunke at NCC 2023 Invitational Section</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="blog0001.php">
-                    <img src="left.jpeg" alt="image">
-                    <p>Adegboyega & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</p>
-                </a>
-            </div>
-            <div class="col-md-2 py-2">
-                <a href="blog0002.php">
-                    <img src="news-thumbnails1.jpg" alt="image">
-                    <p>Balogun and Ogbiyoyo are National Chess Champions of Nigeria</p>
-                </a>
-            </div>
-        </div> -->
+        </div>
     </div>
     <div class="row other-news-below">
+
         <div class="col-md-1"></div>
         <div class="col-md-2 py-2">
             <a href="blog0001.php">
@@ -1433,7 +1390,7 @@ body {
     </div>
     <hr>
     <div class="copy-right">
-        <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+        <p>© 2025 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
     </div>
 </div>
 
