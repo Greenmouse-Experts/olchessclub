@@ -411,7 +411,7 @@ body {
 }
 
 .caro1 {
-    background: url('./New2.jpg');
+    background: url('./new-1.jpg');
     background-size: cover;
     padding: 100px 10px 100px 10px;
     background-position: center;
@@ -748,33 +748,81 @@ body {
             <div class="col-lg-1"></div>
             <div class="col-lg-3">
                 <a href="Open-section23.php">
-                    <img src="New1.jpg" height="400px" alt="image">
-                    <p>NCC 2024: Winner</p>
+                    <img src="./New1.jpg" height="400px" alt="image">
+                    <p>National Women's Champion and National Women's Blitz Champion - Toritsemuwa Ofowino</p>
                 </a>
             </div>
             <div class="col-lg-3">
                 <a href="ncc24.php">
-                    <img src="New2.jpg" alt="image">
-                    <p>NCC 2024: Winner</p>
+                    <img src="./as.jpeg" alt="image">
+                    <p>National Chess Champion of Nigeria 2024  - Ferdinand Tersee Nyuima</p>
                 </a>
             </div>
             <div class="col-lg-4">
                 <a href="ncc24.php">
-                    <img src="New3.jpg" alt="image">
-                    <p>NCC 2024: Winner</p>
+                    <img src="./New2.jpg" height="400px" alt="image">
+                    <p>Winner, Master Category (NCC 2024)- Bartholomew Okhipo</p>
                 </a>
             </div>
+            
+            <!-- <div class="col-lg-4">
+                <a href="ncc24.php">
+                    <img src="New3.jpg" draggable="false">
+                    <p>NCC 2024: Winner</p>
+                </a>
+            </div> -->
+        </div>
+        <div class="row other-news-below">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2">
+                <a href="Open-section23.php">
+                    <img src="./ass.jpeg" alt="image">
+                    <p>U10 Champion(NCC2024) - Nwankwo Jason Somtochukwu</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc24.php">
+                    <img src="./asss.jpeg" height="250px" alt="image">
+                    <p>Winner, Under-2000 Category  (NCC2024) - Izuogwu Michael</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc24.php">
+                    <img src="./assss.jpeg" alt="image">
+                    <p>Winner, Under-14 Junior Category (NCC2024) - Oyeinkeperemo Pere Bayefa</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc24.php">
+                    <img src="./asssss.jpeg" alt="image">
+                    <p>National Blitz Champion and Coach of Tem Bayelsa - FM Bomo Kigigha</p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <a href="ncc24.php">
+                    <img src="./assssss.jpeg" alt="image">
+                    <p>Winner, Under-20 Junior Category (NCC2024) -Goodness Ekunke</p>
+                </a>
+            </div>
+            
+            
+            <!-- <div class="col-lg-4">
+                <a href="ncc24.php">
+                    <img src="New3.jpg" draggable="false">
+                    <p>NCC 2024: Winner</p>
+                </a>
+            </div> -->
         </div>
     </div>
     <div class="row other-news-below">
 
         <div class="col-md-1"></div>
-        <div class="col-md-2 py-2">
-            <a href="blog0001.php">
-                <img src="left.jpeg" alt="image">
-                <p>Adegboyega & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</p>
-            </a>
-        </div>
+        <div class="col-lg-2">
+                <a href="ncc24.php">
+                    <img src="./asssssss.jpeg" alt="image">
+                    <p>Team Bayelsa Claims Most of The Junior Trophies (U14 Girls, U14, U20)</p>
+                </a>
+            </div>
         <div class="col-md-2 py-2">
             <a href="blog0002.php">
                 <img src="news-thumbnails1.jpg" alt="image">
@@ -832,9 +880,9 @@ body {
             </a>
         </div> -->
         <div class="col-md-2 py-2">
-            <a href="ncc23.php">
-                <img src="./6 - Dr  Ebigwei.jpg" alt="image">
-                <p>Dr Sylvanus Ebigwei at the Nigeria Chess Hall of Fame Event at NCC 2023 </p>
+        <a href="blog0001.php">
+                <img src="left.jpeg" alt="image">
+                <p>Adegboyega & Ogbiyoyo Win the 2022 Nigeria National Chess Championships</p>
             </a>
         </div>
         <div class="col-md-1"></div>
@@ -1311,7 +1359,7 @@ body {
 </button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="registration2024Modal" tabindex="-1" aria-labelledby="registration2024ModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="registration2024Modal" tabindex="-1" aria-labelledby="registration2024ModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -1330,7 +1378,7 @@ body {
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="foot-banner">
     <div class="footer">

@@ -82,7 +82,7 @@ rated ones; monthly ladder games, seminars and workshops
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <div class="card">
                     <div class="card-body">
                         <img class="medal" src="medalsilver.png">
@@ -111,8 +111,8 @@ rated ones; monthly ladder games, seminars and workshops
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
+            </div> -->
+            <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
                         <img class="medal" src="medalfamily.png">
@@ -127,7 +127,7 @@ rated ones; monthly ladder games, seminars and workshops
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
                         <img class="medal" src="medalstudent.png">
@@ -137,8 +137,8 @@ rated ones; monthly ladder games, seminars and workshops
                         <p>Walk-In per club day rate for students is N2,500</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
+            </div> -->
+            <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
                         <img class="medal" src="medalwalk.png">
@@ -147,7 +147,7 @@ rated ones; monthly ladder games, seminars and workshops
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
                         <img class="medal" src="medalnon.png">
@@ -193,7 +193,7 @@ rated ones; monthly ladder games, seminars and workshops
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
                         <img class="medal" src="medalsilver.png">
@@ -222,7 +222,7 @@ rated ones; monthly ladder games, seminars and workshops
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -242,34 +242,34 @@ rated ones; monthly ladder games, seminars and workshops
                         <h1>Payment Type</h1>
                     </div>
                     <div class="mem-flex-cont1">
-                        <div class="item1">
+                        <!-- <div class="item1">
                             <h4>STANDARD MEMBERSHIP</h4>
                             <h3>₦50,000 per annum</h3>
-                            <!--
+                            
                             <ul>
                                 <li>Adult Members ( > 21 yrs) - N15,000</li>
                                 <li>Junior Members (=<21 yrs) - N12,000</li>
                                 <li>Titled Members (FIDE) - 12,000</li>
                             </ul>
-                            -->
+                           
                             <div class="plan-btn-cont">
                                 <a href="register.php"><button>Choose Plan</button></a>
                             </div>
-                        </div>
-                        <div class="item2">
+                        </div> -->
+                        <!-- <div class="item2">
                             <h4>SILVER MEMBERSHIP</h4>
                             <h3>₦80,000 per annum</h3>
-                            <!--
+                            
                             <ul>
                                 <li>Adult Members ( > 21 yrs) - ₦27,500</li>
                                 <li>Jnr Members (=< 21 yrs) - ₦22,000</li>
                                 <li>Titled Members (FIDE) - ₦22,000</li>
                             </ul>
-                            -->
+                           
                             <div class="plan-btn-cont">
                                 <a href="register.php"><button>Choose Plan</button></a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="item3">
                             <h4>GOLD MEMBERSHIP</h4>
                             <h3>₦100,000 per annum</h3>
@@ -422,7 +422,7 @@ rated ones; monthly ladder games, seminars and workshops
         </div>
         <hr>
         <div class="copy-right">
-            <p>© 2023 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
+            <p>© 2025 Orchid Lekki Chess Club (OLCC). All Rights Reserved.</p>
         </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
