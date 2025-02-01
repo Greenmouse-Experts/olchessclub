@@ -269,7 +269,6 @@ marquee h5 {
         margin-top: 60px
     }
 }
-
 /* CLICK */
 body {
     overflow-x: hidden !important;
