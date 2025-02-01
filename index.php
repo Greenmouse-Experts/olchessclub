@@ -512,7 +512,6 @@ body {
  <!-- scrolling text -->
 <div class="scroll-container">
     <marquee behavior="" direction=""><div class="scroll-text">NEW NATIONAL CHESS CHAMPIONS EMERGE IN NIGERIA! <a href="new-nigeria.php" class="text-white underline">Learn more.</a></div></marquee>
-       
     </div>
     <!-- Carousel -->
 
