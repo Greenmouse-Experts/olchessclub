@@ -277,7 +277,6 @@ body {
 .Click {
     background-color: #BC494B;
 }
-
 .Click marquee h2 {
     margin-top: 0;
     margin-bottom: 0;
